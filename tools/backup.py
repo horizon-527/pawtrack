@@ -27,6 +27,9 @@ def backup_once(database, directory, keep_days=7, now=None):
             target = sqlite3.connect(pending)
             try:
                 source.backup(target)
+                # A backup is a closed standalone file, including on a read-only mount.
+                # Keeping the source WAL flag would require writable -wal/-shm files.
+                target.execute('PRAGMA journal_mode=DELETE')
                 if target.execute('PRAGMA integrity_check').fetchone()[0] != 'ok':
                     raise RuntimeError('backup integrity check failed')
             finally:

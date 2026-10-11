@@ -1,4 +1,4 @@
-import importlib.util
+from contextlib import closing
 import os
 from pathlib import Path
 import sqlite3
@@ -26,7 +26,12 @@ class Operations(unittest.TestCase):
             self.assertFalse(old.exists()); self.assertTrue(unrelated.exists())
             self.assertEqual(backup.stat().st_mode & 0o777, 0o600)
             self.assertEqual(folder.stat().st_mode & 0o777, 0o700)
+            with closing(sqlite3.connect(backup.as_uri()+'?mode=ro',uri=True)) as readonly:
+                self.assertEqual(readonly.execute('PRAGMA journal_mode').fetchone()[0],'delete')
+            folder.chmod(0o500)
             restored = root / 'restored.sqlite3'; restore(backup, restored)
+            self.assertEqual(list(folder.glob('*.sqlite3-*')),[])
+            folder.chmod(0o700)
             self.assertEqual(Store(restored).owned(owner, 'real-test')['name'], '宠物')
             self.assertEqual(Store(restored).device(credentials['deviceToken']), 'real-test')
     def test_invalid_restore_leaves_destination_unchanged(self):

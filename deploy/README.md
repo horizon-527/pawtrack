@@ -32,6 +32,8 @@ docker compose --env-file .env -f deploy/compose.yaml exec api python tools/mana
 ## 备份、恢复和删除
 `python tools/manage.py backup backups/日期.sqlite3` 使用 SQLite 一致性备份接口；不可用复制活动数据库单文件的方式备份。
 Compose中的backup服务每天执行一次一致性备份，校验完整性后才清理超过7天的PawTrack备份；失败60秒后重试。备份文件0600，目录700，backup容器无网络。SQLite连接只读，但数据卷须可创建WAL辅助文件，不能简单改为只读挂载。维护restore服务默认不启动。
+输出备份转换为DELETE日志模式，是可在只读备份卷直接验证和恢复的独立文件；运行中的在线数据库保持WAL。
+生产镜像将SQLite固定为3.53.0并校验官方源码SHA3；此版本包含[官方WAL-reset并发问题修复](https://www.sqlite.org/releaselog/3_53_0.html)。本地实测也是3.53.0；本地联调时使用已修复版本，正式运行建议使用仓库Docker镜像。
 位置默认保留 30 天，应用启动后每小时清理；账号删除即时删除在线库轨迹与会话，备份在保留周期到期后销毁。
 
 ## 已验证与未验证

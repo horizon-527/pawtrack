@@ -50,6 +50,7 @@ def main():
         destination=sqlite3.connect(target)
         try:
             with store.connection() as source: source.backup(destination)
+            destination.execute('PRAGMA journal_mode=DELETE')
         finally: destination.close()
         print('Consistent SQLite backup created.')
     elif args.command=='cleanup': print('Expired positions removed:',store.cleanup())
