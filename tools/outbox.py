@@ -47,3 +47,5 @@ def upload(payload, endpoint, token):
         result = json.load(response)
         if response.status not in (200, 201) or result.get('accepted') is not True:
             raise ValueError('server did not acknowledge telemetry')
+        if result.get('bootId') != payload.get('bootId', 'legacy') or result.get('sequence') != payload['sequence']:
+            raise ValueError('acknowledgement does not match queued point')

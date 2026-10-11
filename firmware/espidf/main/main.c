@@ -144,7 +144,10 @@ void app_main(void) {
                 cJSON_AddNumberToObject(point,"latitude",fix.latitude);cJSON_AddNumberToObject(point,"longitude",fix.longitude);
                 cJSON_AddStringToObject(point,"coordinateSystem","wgs84");cJSON_AddNullToObject(point,"battery");
                 reply=post("/v1/device/positions",point);cJSON_Delete(point);
-                bool accepted=reply&&cJSON_IsTrue(cJSON_GetObjectItemCaseSensitive(reply,"accepted"));cJSON_Delete(reply);
+                cJSON *ack_boot=cJSON_GetObjectItemCaseSensitive(reply,"bootId");
+                cJSON *ack_sequence=cJSON_GetObjectItemCaseSensitive(reply,"sequence");
+                bool accepted=reply&&cJSON_IsTrue(cJSON_GetObjectItemCaseSensitive(reply,"accepted"))&&cJSON_IsString(ack_boot)&&strcmp(ack_boot->valuestring,fix.boot_id)==0&&cJSON_IsNumber(ack_sequence)&&ack_sequence->valuedouble==fix.sequence;
+                cJSON_Delete(reply);
                 if(!accepted) break;
                 pop();
             }

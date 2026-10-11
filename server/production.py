@@ -196,7 +196,7 @@ def create_app(path=None, login_exchange=None):
         if result=='unbound': raise HTTPException(409,'设备尚未绑定，不接收位置')
         if result=='conflict': raise HTTPException(409,'消息序号冲突')
         response.status_code=201 if result=='inserted' else 200
-        return {'accepted':True,'duplicate':result=='duplicate'}
+        return {'accepted':True,'duplicate':result=='duplicate','bootId':body.bootId,'sequence':body.sequence}
     @app.post('/v1/device/heartbeat')
     def heartbeat(body:Heartbeat,device_id=Depends(device)):
         with store.connection() as con:

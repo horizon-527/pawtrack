@@ -118,7 +118,7 @@ class Handler(BaseHTTPRequestHandler):
                 existing = con.execute('SELECT * FROM telemetry WHERE bootId=? AND sequence=?', (data['bootId'], data['sequence'])).fetchone()
             if any(existing[key] != data[key] for key in ('capturedAt', 'latitude', 'longitude', 'battery', 'coordinateSystem')):
                 return self.reply(409, {'error': 'sequence reused with different telemetry'})
-        self.reply(201 if inserted else 200, {'accepted': True, 'duplicate': not inserted})
+        self.reply(201 if inserted else 200, {'accepted': True, 'duplicate': not inserted, 'bootId': data['bootId'], 'sequence': data['sequence']})
 
 if __name__ == '__main__':
     print('PawTrack local API: http://127.0.0.1:8787')
