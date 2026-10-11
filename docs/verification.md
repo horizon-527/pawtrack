@@ -11,10 +11,15 @@
 
 ## 仍待外部验收
 真实微信登录与手机预览、真实GNSS与运营商4G、证书主机名验证、断网与重启功耗、项圈佩戴。
-Docker CLI已安装，但本机无运行中的Docker服务；已下载工作目录内的Compose工具并通过配置校验，当前未声称容器运行通过。配置已准备，需在具备Docker Compose的部署机启动验收。
+Docker CLI已安装，但本机无运行中的Docker服务；已下载工作目录内的Compose工具并通过配置校验，GitHub CI 已构建部署镜像，并验证容器启动、健康接口和未配置微信时拒绝登录。Caddy真实域名/证书与持久卷运维仍需部署机验收。
 项目未使用任何其他项目账号，也未部署到公网。
 
 ## 重跑
 `work/venv/bin/python tools/check.py`
 固件：ESP-IDF环境中 `idf.py -C firmware/espidf build`。
 CI包含软件测试与ESP-IDF容器构建；代码已推送至 horizon-527/pawtrack；远程CI结果以仓库 Actions 页面为准，本机通过不代表远程通过。
+
+## 远程验证结果
+提交 `b2a98d5` 的软件测试、ESP32-S3固件构建和部署容器检查全部成功：
+https://github.com/horizon-527/pawtrack/actions/runs/38108339131
+后续仅更新此验证文档，未修改已测试程序。
