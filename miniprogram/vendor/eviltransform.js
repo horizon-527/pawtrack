@@ -1,11 +1,8 @@
 "use strict";
 
-var exports;
-if (typeof module === "object" && exports) {
-	exports = module.exports;
-} else if (typeof window !== "undefined") {
-	exports = window["eviltransform"] = {};
-}
+// PawTrack adaptation: WeChat's module loader supplies module but no exports binding.
+// Use its explicit CommonJS target; upstream coordinate algorithms are unchanged.
+var exports = module.exports;
 
 var earthR = 6378137.0;
 

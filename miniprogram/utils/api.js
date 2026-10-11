@@ -1,5 +1,10 @@
 const config = require('../config');
-function session() { return wx.getStorageSync('pawtrack-session') || null; }
+function session() {
+  const stored = wx.getStorageSync('pawtrack-session');
+  if (!stored || !stored.token) return null;
+  if (stored.expiresAt && stored.expiresAt <= Date.now() / 1000) { clear(); return null; }
+  return stored;
+}
 function clear() { wx.removeStorageSync('pawtrack-session'); }
 function request(path, {method = 'GET', data, anonymous = false} = {}) {
   const stored = session();
@@ -9,9 +14,12 @@ function request(path, {method = 'GET', data, anonymous = false} = {}) {
     url: config.apiBase + path, method, data, header, timeout: 10000,
     success(response) {
       if (response.statusCode >= 200 && response.statusCode < 300) return resolve(response.data);
-      if (response.statusCode === 401 && !anonymous) clear();
+      const current = session();
+      const staleSession = !anonymous && current && stored && current.token !== stored.token;
+      if (response.statusCode === 401 && !anonymous && !staleSession) clear();
       const error = new Error(response.data && typeof response.data.detail === 'string' ? response.data.detail : '请求失败，请稍后重试');
       error.status = response.statusCode;
+      error.staleSession = !!staleSession;
       reject(error);
     }, fail: () => reject(new Error('连接失败，请检查网络'))
   }));

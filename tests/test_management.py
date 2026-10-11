@@ -9,6 +9,13 @@ import unittest
 from server.storage import Store
 
 class Management(unittest.TestCase):
+    def test_delivery_failure_rolls_back_device_creation(self):
+        with tempfile.TemporaryDirectory() as directory:
+            store=Store(Path(directory)/'db.sqlite3')
+            def failing(data): raise OSError('output unavailable')
+            with self.assertRaises(OSError): store.provision('pet-undelivered',deliver=failing)
+            with store.connection() as con:
+                self.assertEqual(con.execute('SELECT count(*) FROM devices').fetchone()[0],0)
     def test_private_provision_and_backup_restore(self):
         with tempfile.TemporaryDirectory() as directory:
             base=Path(directory); db=base/'db.sqlite3'; output=base/'device.json'; backup=base/'backup.sqlite3'

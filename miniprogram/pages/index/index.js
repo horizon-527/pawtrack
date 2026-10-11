@@ -12,7 +12,7 @@ Page({
     battery: '--', updated: '--', count: 0, status: '模拟演示 · 并非宠物真实位置',
     loggedIn: false, devices: [], deviceIndex: 0, deviceId: '', petName: '演示宠物',
     bindingCode: '', bindingName: '', date: today(), maxDate: today(), online: false,
-    desiredMode: 'normal', appliedMode: '', modeText: '尚未收到设备确认', busy: false},
+    desiredMode: 'normal', appliedMode: '', modeText: '尚未收到设备确认', busy: false, addingDevice: false},
   onShow() {
     this.active = true;
     this.setData({maxDate: today(), loggedIn: config.apiMode === 'prototype' || !!api.session()});
@@ -22,7 +22,7 @@ Page({
   },
   onHide() { this.stop(); }, onUnload() { this.stop(); },
   stop() { this.active = false; clearInterval(this.timer); this.invalidate(); },
-  invalidate() { this.revision = (this.revision || 0) + 1; },
+  invalidate() { this.revision = (this.revision || 0) + 1; this.trackCache = null; },
   resetMap() { this.setData({markers: [], polyline: [], count: 0, battery: '--', updated: '--', online: false}); },
   toggleDemo(e) {
     this.invalidate(); this.resetMap();
@@ -53,6 +53,7 @@ Page({
   },
   bindingInput(e) { this.setData({bindingCode: e.detail.value}); },
   nameInput(e) { this.setData({bindingName: e.detail.value}); },
+  toggleAdding() { this.setData({addingDevice: !this.data.addingDevice, bindingCode: '', bindingName: ''}); },
   async bindDevice() {
     if (this.data.busy) return;
     const code = this.data.bindingCode.trim();
@@ -61,7 +62,7 @@ Page({
     try {
       const result = await api.request('/v1/devices/bind', {method: 'POST', data: {code, name: this.data.bindingName.trim() || '我的宠物'}});
       this.invalidate(); this.resetMap();
-      this.setData({deviceId: result.deviceId, bindingCode: '', bindingName: ''});
+      this.setData({deviceId: result.deviceId, bindingCode: '', bindingName: '', addingDevice: false});
       await this.loadDevices();
     } catch (error) { this.handleError(error); }
     finally { this.setData({busy: false}); }
@@ -89,7 +90,7 @@ Page({
   async logout() {
     this.invalidate(); api.request('/v1/auth/logout', {method: 'POST'}).catch(() => {});
     api.clear(); this.resetMap();
-    this.setData({loggedIn: false, devices: [], deviceId: '', demo: true, petName: '演示宠物'}); this.refresh();
+    this.setData({loggedIn: false, devices: [], deviceId: '', bindingCode: '', bindingName: '', addingDevice: false, demo: true, petName: '演示宠物'}); this.refresh();
   },
   async deleteAccount() {
     const result = await new Promise(resolve => wx.showModal({title: '删除账户与轨迹',
@@ -99,7 +100,16 @@ Page({
     catch (error) { this.handleError(error); }
   },
   showPrivacy() { wx.navigateTo({url: '/pages/privacy/privacy'}); },
+  refreshNow() { this.invalidate(); return this.refresh(); },
+  async loadTrack(deviceId, date, revision) {
+    const key = deviceId + ':' + date;
+    if (this.trackCache && this.trackCache.key === key && Date.now() - this.trackCache.loadedAt < 30000) return this.trackCache.result;
+    const result = await api.track(deviceId, date);
+    if (this.active && revision === (this.revision || 0)) this.trackCache = {key, result, loadedAt: Date.now()};
+    return result;
+  },
   handleError(error) {
+    if (error.staleSession) return;
     if (error.status === 401) {
       this.invalidate(); this.resetMap();
       this.setData({loggedIn: false, devices: [], deviceId: '', status: '登录已过期，请重新登录'});
@@ -124,7 +134,7 @@ Page({
         [latest, points] = await Promise.all([prototypeRequest('/api/latest'), prototypeRequest('/api/track')]);
       } else {
         const device = encodeURIComponent(this.data.deviceId);
-        const results = await Promise.all([api.request(`/v1/devices/${device}/snapshot`), api.track(this.data.deviceId, this.data.date)]);
+        const results = await Promise.all([api.request(`/v1/devices/${device}/snapshot`), this.loadTrack(this.data.deviceId, this.data.date, revision)]);
         snapshot = results[0]; latest = snapshot.latest; points = results[1].points; truncated = results[1].truncated;
       }
       if (!this.active || revision !== (this.revision || 0)) return;
@@ -134,15 +144,18 @@ Page({
           battery: snapshot.battery === null ? '--' : snapshot.battery});
       }
       if (!latest) { this.setData({status: '尚未收到有效定位', markers: [], polyline: [], count: 0, updated: '--'}); return; }
-      const mapLatest = location.mapPoint(latest), lines = location.segments(points);
+      const historical = !this.data.demo && this.data.date !== today() && points.length > 0;
+      const mapLatest = location.mapPoint(historical ? points[points.length - 1] : latest), lines = location.segments(points);
       const stale = Date.now() / 1000 - latest.capturedAt > 120;
       let status = this.data.demo ? '模拟演示 · 并非宠物真实位置' : stale ? '位置已过期，显示最近有效位置' : '位置已更新';
       if (snapshot && !snapshot.online) status += ' · 设备离线';
       if (snapshot && snapshot.fixValid === false) status += ' · 暂无卫星定位';
       if (truncated) status += ' · 轨迹仅显示前 10000 点';
+      if (historical) status = '查看 ' + this.data.date + ' 的历史轨迹 · ' + status;
       this.setData({latitude: mapLatest.latitude, longitude: mapLatest.longitude,
         markers: [{id: 1, latitude: mapLatest.latitude, longitude: mapLatest.longitude,
-          callout: {content: this.data.petName, display: 'ALWAYS'}}],
+          width: 32, height: 40, iconPath: '/assets/pet-marker.png',
+          callout: {content: historical ? this.data.petName + ' · 当日轨迹终点' : this.data.petName, display: 'ALWAYS'}}],
         polyline: lines.map(points => ({points, color: '#245a3c', width: 4})),
         battery: snapshot ? this.data.battery : (latest.battery === null ? '--' : latest.battery),
         updated: new Date(latest.capturedAt * 1000).toLocaleString(), count: points.length, status});

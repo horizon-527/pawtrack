@@ -47,3 +47,16 @@ bool paw_parse_gpsinfo(const char *response, paw_point *point) {
     return true;
 }
 bool paw_ack_status(int status) { return status==200||status==201; }
+bool paw_http_body(const char *response, size_t declared_length, char *output, size_t capacity) {
+    if (!response || !output || !declared_length || declared_length>=capacity) return false;
+    const char *header=strstr(response,"\r\n+HTTPREAD: ");
+    if (!header) return false;
+    header+=13;
+    char *end;
+    unsigned long length=strtoul(header,&end,10);
+    if (header==end || length!=declared_length || strncmp(end,"\r\n",2)) return false;
+    const char *body=end+2;
+    if (strlen(body)<declared_length || strncmp(body+declared_length,"\r\n+HTTPREAD: 0\r\n",16)) return false;
+    memcpy(output,body,declared_length);output[declared_length]=0;
+    return true;
+}

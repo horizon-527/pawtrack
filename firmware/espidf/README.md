@@ -4,6 +4,7 @@
 目标板：Waveshare ESP32-S3-SIM7670G-4G V2 文档示例默认 RX17、TX18、115200；购买版本不同时必须核对原理图。
 实现：串口 AT 指令读取 CGPSINFO、转换为 WGS84 十进制度与真实 UTC；GNSS 时间设置模块时钟；TLS1.2 服务器认证、SNI、有效期验证；HTTPS JSON 上报；NVS 64 点环形队列；确认 accepted 后出队；心跳获取模式并更新上报间隔。
 不打印密钥或原始坐标。电量未校准，返回 null，不伪造百分比。当前保持 GNSS 开启，无深度休眠，供电测试后才优化。
+上传解析严格要求完整HTTPREAD帧、声明长度和同bootId/sequence的确认；连续心跳失败会重新配置模组。完整串口分帧和GNSS解析有主机C测试，但串口时序和长期掉电恢复仍须实机验证。
 
 ## 配置、构建、烧录
 ESP-IDF v5.4.2，目标 esp32s3：
@@ -22,6 +23,11 @@ idf.py -p 实际串口 flash monitor
 `python3 -m pip install -r requirements-hardware.txt` 后，用 `tools/install_modem_ca.py --port 模块AT串口 --certificate 私有准备的CA.pem` 导入。
 这里需要模块自身的 AT 串口，不是 ESP32 的日志串口；按实际板子的 USB 路由/DIP 开关和厂商指南配置。烧录固件期间不得同时占用串口。
 必须做：正确证书成功、错误CA失败、过期证书失败、错误域名失败。当前模块证书链配置来自 AT 手册，主机名验证行为未经实体固件验证；测试不通过则改用 ESP-IDF PPP + ESP-TLS，不降低验证要求。
+[私有TLS测试服务与四组详细操作](../../docs/acceptance.md)已准备；不发送真实设备密钥到第三方测试网站。
+
+## Mac上的现有开发环境
+本工作目录中已准备ESP-IDF v5.4.2和工具链，均在被Git忽略的work目录。新机器按[Espressif官方安装指南](https://docs.espressif.com/projects/esp-idf/en/v5.4.2/esp32s3/get-started/index.html)安装目标esp32s3并执行export.sh，再运行上述命令。厂商CH343驱动与USB路由按实际板版本设置。
+第一次实体配置：menuconfig → PawTrack hardware configuration →填入自己的HTTPS地址/token/APN/CA文件名 → build →实际ESP串口flash monitor。串口占用时先关闭AT软件或已有monitor。
 
 ## 已知限制与下一轮实测
 - AT HTTPS 调用会阻塞；网络不稳定时实际周期可能超过10秒。

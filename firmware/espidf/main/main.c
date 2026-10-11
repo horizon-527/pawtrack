@@ -30,7 +30,8 @@ static bool wait_for(const char *expected, unsigned timeout) {
             used+=received;response[used]=0;
             if(strstr(response,"\r\nERROR\r\n")||strstr(response,"+CME ERROR:"))return false;
             char *matched=strstr(response,expected);
-            if(matched && (strcmp(expected,"+HTTPACTION:")!=0 || strchr(matched,'\n')))return true;
+            bool line=strncmp(expected,"+HTTPACTION:",12)==0 || strncmp(expected,"+HTTPREAD:",10)==0;
+            if(matched && (!line || strchr(matched,'\n')))return true;
             if(used==sizeof(response)-1)return false;
         }
     }
@@ -75,12 +76,10 @@ static cJSON *post(const char *path,cJSON *payload) {
     if(!action||sscanf(action,"+HTTPACTION: %d,%d,%d",&method,&status,&length)!=3||method!=1||!paw_ack_status(status)||length<=0||length>1500)goto done;
     snprintf(text,sizeof(text),"AT+HTTPREAD=0,%d",length);
     if(!command(text,"+HTTPREAD: 0",20000))goto done;
-    // Parse only the declared JSON body, excluding modem framing.
-    char *header=strstr(response,"+HTTPREAD:");int read_length=0;
-    if(!header||sscanf(header,"+HTTPREAD: %d",&read_length)!=1||read_length!=length)goto done;
-    char *data=strstr(header,"\r\n");if(!data)goto done;data+=2;
-    if(strlen(data)<(size_t)length)goto done;
-    data[length]=0;result=cJSON_Parse(data);
+    // Require a complete frame and exact length; incomplete serial reads stay queued.
+    char data[1501];
+    if(!paw_http_body(response,(size_t)length,data,sizeof(data)))goto done;
+    result=cJSON_Parse(data);
 done:
     free(body);ok("AT+HTTPTERM");return result;
 }
@@ -111,8 +110,11 @@ void app_main(void) {
     ESP_ERROR_CHECK(uart_param_config(UART,&config));
     ESP_ERROR_CHECK(uart_set_pin(UART,CONFIG_PAWTRACK_TX_PIN,CONFIG_PAWTRACK_RX_PIN,UART_PIN_NO_CHANGE,UART_PIN_NO_CHANGE));
     unsigned backoff=5;
-    while(!configure()){vTaskDelay(pdMS_TO_TICKS(backoff*1000));if(backoff<60)backoff*=2;}
-    bool clock_ready=false;double last_capture=0;unsigned interval=60;
+    while(!configure()) {
+        ESP_LOGW("pawtrack","Modem configuration pending; check module power, SIM, APN and CA");
+        vTaskDelay(pdMS_TO_TICKS(backoff*1000));backoff=backoff<30?backoff*2:60;
+    }
+    bool clock_ready=false;double last_capture=0;unsigned interval=60, failures=0;
     for(;;) {
         int64_t started=esp_timer_get_time();paw_point fix={0};
         bool valid=command("AT+CGPSINFO","\r\nOK\r\n",10000)&&paw_parse_gpsinfo(response,&fix);
@@ -134,7 +136,13 @@ void app_main(void) {
             if(reply) {
                 cJSON *mode=cJSON_GetObjectItemCaseSensitive(reply,"desiredMode");
                 if(cJSON_IsString(mode))finding=strcmp(mode->valuestring,"finding")==0;
-                interval=finding?10:60;cJSON_Delete(reply);
+                interval=finding?10:60;failures=0;cJSON_Delete(reply);
+            } else {
+                ESP_LOGW("pawtrack","Heartbeat not acknowledged; buffered points: %lu",(unsigned long)count);
+                if(++failures>=3) {
+                    // Re-establish AT/GNSS/TLS configuration if the modem rebooted independently.
+                    if(configure()){clock_ready=false;failures=0;}
+                }
             }
             // Limit backlog work per loop so fresh GNSS reads and heartbeats continue.
             for(int sent=0;sent<3&&peek(&fix);sent++) {

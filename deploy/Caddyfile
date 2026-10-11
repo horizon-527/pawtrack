@@ -1,4 +1,10 @@
 {$PAWTRACK_DOMAIN} {
+    tls {
+        key_type rsa2048
+        issuer acme {
+            dir https://acme-v02.api.letsencrypt.org/directory
+        }
+    }
     request_body {
         max_size 8KB
     }

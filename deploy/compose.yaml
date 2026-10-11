@@ -13,6 +13,25 @@ services:
     networks: [private]
     security_opt: [no-new-privileges:true]
     cap_drop: [ALL]
+  backup:
+    build:
+      context: ..
+      dockerfile: deploy/Dockerfile
+    restart: unless-stopped
+    command: ["python", "tools/backup.py", "--db", "/data/pawtrack.sqlite3", "--directory", "/backups"]
+    volumes:
+      - pawtrack-data:/data
+      - pawtrack-backups:/backups
+    network_mode: none
+    healthcheck:
+      test: ["CMD", "python", "-c", "import pathlib,time; assert any(time.time()-p.stat().st_mtime<90000 for p in pathlib.Path('/backups').glob('pawtrack-*.sqlite3'))"]
+      interval: 1h
+      start_period: 2m
+    depends_on:
+      api:
+        condition: service_healthy
+    security_opt: [no-new-privileges:true]
+    cap_drop: [ALL]
   gateway:
     image: caddy:2.10.0-alpine
     restart: unless-stopped
@@ -27,8 +46,24 @@ services:
     depends_on:
       api:
         condition: service_healthy
+  restore:
+    profiles: [maintenance]
+    build:
+      context: ..
+      dockerfile: deploy/Dockerfile
+    environment:
+      PAWTRACK_DB: /data/pawtrack.sqlite3
+    volumes:
+      - pawtrack-data:/data
+      - pawtrack-backups:/backups:ro
+    network_mode: none
+    healthcheck:
+      disable: true
+    security_opt: [no-new-privileges:true]
+    cap_drop: [ALL]
 volumes:
   pawtrack-data:
+  pawtrack-backups:
   caddy-data:
   caddy-config:
 networks:

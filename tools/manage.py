@@ -12,9 +12,14 @@ sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
 from server.storage import Store, digest
 
 def private_file(path, data):
-    path=Path(path); path.parent.mkdir(parents=True,exist_ok=True)
+    path=Path(path); path.parent.mkdir(parents=True,exist_ok=True,mode=0o700)
     descriptor=os.open(path,os.O_WRONLY|os.O_CREAT|os.O_EXCL,0o600)
-    with os.fdopen(descriptor,'w') as stream: json.dump(data,stream,indent=2)
+    try:
+        with os.fdopen(descriptor,'w') as stream:
+            json.dump(data,stream,indent=2);stream.flush();os.fsync(stream.fileno())
+    except Exception:
+        path.unlink(missing_ok=True)
+        raise
 
 def main():
     parser=argparse.ArgumentParser()
@@ -28,7 +33,7 @@ def main():
     if args.command in ('provision','binding-code'):
         if not re.fullmatch(r'[a-zA-Z0-9_-]{1,64}',args.device): parser.error('invalid device ID')
         if Path(args.output).exists(): parser.error('output already exists; choose a new private path')
-        if args.command=='provision': data=store.provision(args.device)
+        if args.command=='provision': store.provision(args.device,deliver=lambda data:private_file(args.output,data))
         else:
             code=secrets.token_urlsafe(24)
             token=secrets.token_urlsafe(32)
@@ -36,8 +41,9 @@ def main():
                 cursor=con.execute('UPDATE devices SET binding_digest=?,binding_expires=?,secret_digest=? WHERE id=? AND owner_id IS NULL',
                                    (digest(code),time.time()+86400,digest(token),args.device))
                 if cursor.rowcount!=1: parser.error('device missing or still owned')
-            data={'deviceId':args.device,'bindingCode':code,'deviceToken':token}
-        private_file(args.output,data); print('Private provisioning file created; expires in 24 hours.')
+                data={'deviceId':args.device,'bindingCode':code,'deviceToken':token}
+                private_file(args.output,data)
+        print('Private provisioning file created; expires in 24 hours.')
     elif args.command=='backup':
         target=Path(args.output);target.parent.mkdir(parents=True,exist_ok=True)
         descriptor=os.open(target,os.O_WRONLY|os.O_CREAT|os.O_EXCL,0o600);os.close(descriptor)

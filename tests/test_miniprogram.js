@@ -12,6 +12,8 @@ page.setData = value => Object.assign(page.data, value);
   assert.equal(page.data.markers.length, 1);
   assert.equal(page.data.count, 40);
   assert(page.data.status.includes('模拟'));
+  wx.navigateTo = options => assert.equal(options.url, '/pages/privacy/privacy');
+  page.showPrivacy();
   let requests = [];
   global.wx.request = options => requests.push(options);
   page.data.demo = false;

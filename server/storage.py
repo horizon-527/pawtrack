@@ -32,9 +32,10 @@ def digest(value):
 class Store:
     def __init__(self, path):
         self.path = str(path)
-        Path(path).parent.mkdir(parents=True, exist_ok=True)
+        Path(path).parent.mkdir(parents=True, exist_ok=True, mode=0o700)
         with self.connection() as con:
             con.executescript(SCHEMA)
+        Path(path).chmod(0o600)
     @contextmanager
     def connection(self):
         con = sqlite3.connect(self.path, timeout=10)
@@ -44,12 +45,15 @@ class Store:
         try:
             with con: yield con
         finally: con.close()
-    def provision(self, device_id, ttl=86400):
+    def provision(self, device_id, ttl=86400, deliver=None):
         secret, binding = secrets.token_urlsafe(32), secrets.token_urlsafe(24)
+        data = {'deviceId': device_id, 'deviceToken': secret, 'bindingCode': binding}
         with self.connection() as con:
             con.execute('INSERT INTO devices(id, secret_digest, binding_digest, binding_expires) VALUES(?,?,?,?)',
                         (device_id, digest(secret), digest(binding), time.time()+ttl))
-        return {'deviceId': device_id, 'deviceToken': secret, 'bindingCode': binding}
+            if deliver is not None:
+                deliver(data)
+        return data
     def login(self, openid):
         token = secrets.token_urlsafe(32)
         expires = time.time()+7*86400

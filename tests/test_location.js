@@ -1,4 +1,9 @@
 const assert = require('assert');
+const fs = require('fs');
+const vm = require('vm');
+const wechatModule = {exports: {}};
+vm.runInNewContext(fs.readFileSync(require.resolve('../miniprogram/vendor/eviltransform'), 'utf8'), {module: wechatModule});
+assert.equal(typeof wechatModule.exports.wgs2gcj, 'function', 'WeChat loader has module but no exports binding');
 const {mapPoint, segments} = require('../miniprogram/utils/location');
 // Upstream reference fixture, Shanghai. This is not a real-world accuracy test.
 const result = mapPoint({latitude:31.1774276, longitude:121.5272106, coordinateSystem:'wgs84'});

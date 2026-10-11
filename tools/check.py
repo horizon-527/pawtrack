@@ -5,7 +5,7 @@ import subprocess
 import sys
 root=Path(__file__).resolve().parents[1]
 subprocess.run([sys.executable,'-m','unittest','discover','-s','tests'],cwd=root,check=True)
-for file in ('test_location.js','test_miniprogram.js','test_v1_miniprogram.js'):
+for file in ('test_location.js','test_miniprogram.js','test_v1_miniprogram.js','test_session.js'):
     subprocess.run(['node','tests/'+file],cwd=root,check=True)
 for file in (root/'miniprogram').rglob('*.js'):
     subprocess.run(['node','--check',str(file)],cwd=root,check=True)

@@ -25,6 +25,10 @@ work/venv/bin/uvicorn server.production:create_app --factory --host 127.0.0.1 --
 不配置真实微信密钥时，登录返回“尚未配置”，不会伪造用户身份。接口测试使用隔离的微信响应替身，不代表真实微信认证通过。
 
 ## 文档入口
+- **[从采购到真实定位：逐步操作指南](docs/getting-started.md)**
+- [完整采购和组装](hardware/procurement-and-assembly.md)
+- [真机实测与验收表](docs/acceptance.md)
+- [常见问题排查](docs/troubleshooting.md)
 - [实施与验收计划](docs/plan.md)
 - [硬件采购路线](hardware/README.md)
 - [固件配置与烧录](firmware/espidf/README.md)
@@ -33,6 +37,10 @@ work/venv/bin/uvicorn server.production:create_app --factory --host 127.0.0.1 --
 - [测试记录与待办](docs/verification.md)
 - [上线门槛](docs/release.md)
 - [开源许可](THIRD_PARTY.md)
+
+## 最新完善
+支持继续添加另一只宠物，位置5秒轮询/轨迹30秒缓存刷新、手动刷新、历史轨迹终点、会话过期处理；已在微信开发者工具运行并修复坐标库兼容和地图标记渲染问题。
+提供独立真机项目配置工具、部署健康/TLS检查、每日自动备份与7天清理、离线恢复、私有TLS负例测试服务。正式微信登录、实体GNSS/4G与佩戴仍须按验收表测试。
 
 ## 原始本地原型
 `python3 server/app.py`（8787）与 `python3 tools/simulate.py` 为早期本机开发原型；仅监听本机，固定开发令牌，不可公网部署。它的数据库与 v1 独立。
