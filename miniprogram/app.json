@@ -1,0 +1,11 @@
+{
+  "pages": [
+    "pages/index/index"
+  ],
+  "window": {
+    "navigationBarTitleText": "PawTrack",
+    "navigationBarBackgroundColor": "#f6f8f5"
+  },
+  "permission": {},
+  "style": "v2"
+}

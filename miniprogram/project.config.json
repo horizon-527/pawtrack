@@ -1,0 +1,9 @@
+{
+  "appid": "touristappid",
+  "projectname": "pawtrack",
+  "compileType": "miniprogram",
+  "setting": {
+    "urlCheck": false
+  },
+  "description": "PawTrack 本地开发原型"
+}
