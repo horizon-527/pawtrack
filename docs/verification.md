@@ -17,4 +17,4 @@ Docker CLI已安装，但本机无运行中的Docker服务；已下载工作目�
 ## 重跑
 `work/venv/bin/python tools/check.py`
 固件：ESP-IDF环境中 `idf.py -C firmware/espidf build`。
-CI包含软件测试与ESP-IDF容器构建；尚未推送，因此没有远程CI成功记录。
+CI包含软件测试与ESP-IDF容器构建；代码已推送至 horizon-527/pawtrack；远程CI结果以仓库 Actions 页面为准，本机通过不代表远程通过。
