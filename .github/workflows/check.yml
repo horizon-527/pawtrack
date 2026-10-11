@@ -24,3 +24,33 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: . /opt/esp/idf/export.sh && cd firmware/espidf && idf.py set-target esp32s3 && idf.py build
+  deployment-image:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: docker build -f deploy/Dockerfile -t pawtrack-ci .
+      - name: Verify container startup and fail-closed login
+        run: |
+          docker run -d --name pawtrack-ci -p 127.0.0.1:8788:8788 pawtrack-ci
+          trap 'docker rm -f pawtrack-ci' EXIT
+          python3 - <<'PY'
+          import json, time
+          from urllib.request import Request, urlopen
+          from urllib.error import HTTPError, URLError
+          for attempt in range(30):
+              try:
+                  with urlopen('http://127.0.0.1:8788/health', timeout=2) as response:
+                      assert json.load(response)['ok']
+                  break
+              except URLError:
+                  time.sleep(1)
+          else:
+              raise RuntimeError('container health check failed')
+          request = Request('http://127.0.0.1:8788/v1/auth/wechat', data=b'{"code":"ci-test"}', headers={'Content-Type':'application/json'})
+          try:
+              urlopen(request)
+              raise RuntimeError('unconfigured login must not succeed')
+          except HTTPError as error:
+              assert error.code == 503
+          print('Container is healthy; unconfigured WeChat login fails closed')
+          PY
