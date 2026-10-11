@@ -3,4 +3,11 @@ work
 **/__pycache__
 **/*.sqlite3*
 .env*
+secrets/
+backups/
+data/
+firmware/espidf/build/
+firmware/espidf/sdkconfig
+firmware/espidf/sdkconfig.old
+**/project.private.config.json
 !requirements.lock.txt
