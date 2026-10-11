@@ -4,7 +4,7 @@
   "algorithm": "SHA256",
   "files": {
     "README.md": "8f067f3fb4ec3c838847195686c843c966b4cf0426b7c55830b94bfb06f9601a",
-    "acceptance.csv": "cf45f93f195aef1fc56b702d46de751a1d6cb30103d84ab457bf5cd49b8529ae",
+    "acceptance.csv": "0e3a8bc18478c231503fa26c51376ec6e75b7f3f27dffbe9bd57f1156a0fdf21",
     "cad/KiCad-LIBRARY-LICENSE.md": "285b027a721577d0bc0198f36e948c6c282ddaa4b58fef8ed826749576eb0aef",
     "cad/PawTrack.kicad_sym": "27419587ed74e5e2c882adec6afa269f6b1de1d4a2792a177ee771ef7e19bb61",
     "cad/PawTrack.pretty/Air780EGH_109.kicad_mod": "8fa98db0dbe90274b5409774410d32bbeb47b4cd478204e58abba966e4c0cea5",
