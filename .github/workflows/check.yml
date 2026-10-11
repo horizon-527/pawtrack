@@ -32,7 +32,7 @@ jobs:
       - name: Verify container startup and fail-closed login
         run: |
           docker run -d --name pawtrack-ci -p 127.0.0.1:8788:8788 pawtrack-ci
-          trap 'docker rm -f pawtrack-ci' EXIT
+          trap 'docker logs pawtrack-ci; docker rm -f pawtrack-ci' EXIT
           python3 - <<'PY'
           import json, time
           from urllib.request import Request, urlopen
@@ -42,7 +42,7 @@ jobs:
                   with urlopen('http://127.0.0.1:8788/health', timeout=2) as response:
                       assert json.load(response)['ok']
                   break
-              except URLError:
+              except (URLError, OSError):
                   time.sleep(1)
           else:
               raise RuntimeError('container health check failed')
