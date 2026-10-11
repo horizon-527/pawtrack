@@ -1,0 +1,72 @@
+Reference,Value,MPN,Footprint,Populate,Side,Notes
+U1,Air780EGH,Air780EGH,PawTrack:Air780EGH_109,1,F,Pin 2/103 document conflict; factory confirmation HOLD
+U2,BQ24074RGTR,BQ24074RGTR,Package_DFN_QFN:WQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm,1,F,
+U3,TPS63070RNMR,TPS63070RNMR,PawTrack:TPS63070_RNM0015A,1,F,
+L1,1uH 5.4A,XFL4020-102MEC,PawTrack:XFL4020,1,F,Isat>=5.4A; DCR<=15mohm; no unreviewed substitute
+J1,USB-C,TYPE-C-31-M-12,Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12,1,F,
+J2,Protected LiPo+NTC,B3B-PH-SM4-TB(LF)(SN),Connector_JST:JST_PH_B3B-PH-SM4-TB_1x03-1MP_P2.00mm_Vertical,1,F,"Pin1 BAT+, pin2 BAT-, pin3 NTC to BAT-; manufacturer must key-match harness"
+J3,LTE 50ohm,U.FL-R-SMT-1(10),Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical,1,F,
+J4,GNSS active,U.FL-R-SMT-1(10),Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical,1,F,
+J5,nanoSIM,NSIM-2-C,Connector_Card:nanoSIM_Hinged_CUI_NSIM-2-C,1,B,No hot insertion; factory verify exact connector stock drawing
+SW1,POWER KEY,SKQGAKE010,Button_Switch_SMD:SW_SPST_SKQG_WithoutStem,1,F,
+SW2,RESET,SKQGAKE010,Button_Switch_SMD:SW_SPST_SKQG_WithoutStem,1,F,
+C1,4.7uF,GRM188R61A475KE15D,Capacitor_SMD:C_0603_1608Metric,1,F,
+C2,4.7uF,GRM188R61A475KE15D,Capacitor_SMD:C_0603_1608Metric,1,F,
+C3,22uF,GRM21BR60J226ME39L,Capacitor_SMD:C_0805_2012Metric,1,F,
+C4,22uF,GRM21BR60J226ME39L,Capacitor_SMD:C_0805_2012Metric,1,F,
+C5,100nF,GRM188R71C104KA01D,Capacitor_SMD:C_0603_1608Metric,1,F,
+C6,100nF,GRM188R71C104KA01D,Capacitor_SMD:C_0603_1608Metric,1,F,
+C7,22uF,GRM21BR60J226ME39L,Capacitor_SMD:C_0805_2012Metric,1,F,
+C8,22uF,GRM21BR60J226ME39L,Capacitor_SMD:C_0805_2012Metric,1,F,
+C9,100nF,GRM188R71C104KA01D,Capacitor_SMD:C_0603_1608Metric,1,F,
+C10,1uF,GRM188R61A105KA61D,Capacitor_SMD:C_0603_1608Metric,1,F,
+C11,100nF,GRM188R71C104KA01D,Capacitor_SMD:C_0603_1608Metric,1,F,
+C12,100nF,GRM188R71C104KA01D,Capacitor_SMD:C_0603_1608Metric,1,F,
+C13,100nF,GRM188R71C104KA01D,Capacitor_SMD:C_0603_1608Metric,1,F,
+C14,100uF 6.3V,T520B107M006ATE070,Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B,1,F,Polymer ESR70mohm; polarity positive pad1
+R1,5.1k,RC0603FR-075K1L,Resistor_SMD:R_0603_1608Metric,1,F,
+R2,5.1k,RC0603FR-075K1L,Resistor_SMD:R_0603_1608Metric,1,F,
+R3,2.55k,RC0603FR-072K55L,Resistor_SMD:R_0603_1608Metric,1,F,
+R4,3.24k,RC0603FR-073K24L,Resistor_SMD:R_0603_1608Metric,1,F,
+R5,750k,RC0603FR-07750KL,Resistor_SMD:R_0603_1608Metric,1,F,
+R6,200k,RC0603FR-07200KL,Resistor_SMD:R_0603_1608Metric,1,F,
+R7,100k,RC0603FR-07100KL,Resistor_SMD:R_0603_1608Metric,1,F,
+R8,330k,RC0603FR-07330KL,Resistor_SMD:R_0603_1608Metric,1,F,
+R9,100k,RC0603FR-07100KL,Resistor_SMD:R_0603_1608Metric,1,F,
+R10,22,RC0603FR-0722RL,Resistor_SMD:R_0603_1608Metric,1,F,
+R11,22,RC0603FR-0722RL,Resistor_SMD:R_0603_1608Metric,1,F,
+R12,22,RC0603FR-0722RL,Resistor_SMD:R_0603_1608Metric,1,F,
+R13,0,RC0603JR-070RL,Resistor_SMD:R_0603_1608Metric,1,F,
+R14,0,RC0603JR-070RL,Resistor_SMD:R_0603_1608Metric,1,F,
+R15,10k,RC0603FR-0710KL,Resistor_SMD:R_0603_1608Metric,1,F,
+C15,33pF,GRM1885C1H330JA01D,Capacitor_SMD:C_0603_1608Metric,1,F,
+L2,47nH,0603HP-47NXJRW,Inductor_SMD:L_0603_1608Metric,1,F,
+C16,DNP tuning,DNP tuning,Capacitor_SMD:C_0603_1608Metric,0,F,RF engineer tune only; default NOT fitted
+C17,DNP tuning,DNP tuning,Capacitor_SMD:C_0603_1608Metric,0,F,RF engineer tune only; default NOT fitted
+C18,DNP tuning,DNP tuning,Capacitor_SMD:C_0603_1608Metric,0,F,RF engineer tune only; default NOT fitted
+C19,DNP tuning,DNP tuning,Capacitor_SMD:C_0603_1608Metric,0,F,RF engineer tune only; default NOT fitted
+D1,ESD,"PESD5V0S1UL,315",Diode_SMD:D_SOD-882,1,F,
+D2,ESD,"PESD5V0S1UL,315",Diode_SMD:D_SOD-882,1,F,
+D3,ESD,"PESD3V3S1UL,315",Diode_SMD:D_SOD-882,1,F,
+D4,ESD,"PESD3V3S1UL,315",Diode_SMD:D_SOD-882,1,F,
+D5,ESD,"PESD3V3S1UL,315",Diode_SMD:D_SOD-882,1,F,
+TP1,VDD_EXT,PCB pad,TestPoint:TestPoint_Pad_D1.0mm,0,F,DNP/no component; factory jig access
+TP2,USB_BOOT,PCB pad,TestPoint:TestPoint_Pad_D1.0mm,0,F,DNP/no component; factory jig access
+TP3,DBG_RX,PCB pad,TestPoint:TestPoint_Pad_D1.0mm,0,F,DNP/no component; factory jig access
+TP4,DBG_TX,PCB pad,TestPoint:TestPoint_Pad_D1.0mm,0,F,DNP/no component; factory jig access
+TP5,GND,PCB pad,TestPoint:TestPoint_Pad_D1.0mm,0,F,DNP/no component; factory jig access
+TP6,SYS,PCB pad,TestPoint:TestPoint_Pad_D1.0mm,0,F,DNP/no component; factory jig access
+TP7,V_MODEM,PCB pad,TestPoint:TestPoint_Pad_D1.0mm,0,F,DNP/no component; factory jig access
+TP8,REG_EN,PCB pad,TestPoint:TestPoint_Pad_D1.0mm,0,F,DNP/no component; factory jig access
+TP9,BAT,PCB pad,TestPoint:TestPoint_Pad_D1.0mm,0,F,DNP/no component; factory jig access
+H1,M2 clearance,PCB feature,MountingHole:MountingHole_2.2mm_M2,0,F,
+H2,M2 clearance,PCB feature,MountingHole:MountingHole_2.2mm_M2,0,F,
+H3,M2 clearance,PCB feature,MountingHole:MountingHole_2.2mm_M2,0,F,
+H4,M2 clearance,PCB feature,MountingHole:MountingHole_2.2mm_M2,0,F,
+Q1,2N7002,"2N7002,215",Package_TO_SOT_SMD:SOT-23,1,F,
+R16,100k,RC0603FR-07100KL,Resistor_SMD:R_0603_1608Metric,1,F,
+R17,100k,RC0603FR-07100KL,Resistor_SMD:R_0603_1608Metric,1,F,
+R18,1k,RC0603FR-071KL,Resistor_SMD:R_0603_1608Metric,1,F,
+R19,3.3M,RC0603FR-073M3L,Resistor_SMD:R_0603_1608Metric,1,F,
+R20,1M,RC0603FR-071ML,Resistor_SMD:R_0603_1608Metric,1,F,
+C20,100nF,GRM188R71C104KA01D,Capacitor_SMD:C_0603_1608Metric,1,F,

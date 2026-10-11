@@ -13,6 +13,12 @@ jobs:
           node-version: '22'
       - run: pip install -r requirements.lock.txt
       - run: python tools/check.py
+      - name: Custom tracker Lua protocol and real API flow
+        run: |
+          pip install lupa==2.8
+          python hardware/custom/evt-a1/firmware/test_protocol.py
+          python hardware/custom/evt-a1/firmware/test_backend_flow.py
+          python hardware/custom/evt-a1/scripts/verify.py --manifest
   firmware:
     runs-on: ubuntu-latest
     container: espressif/idf:v5.4.2

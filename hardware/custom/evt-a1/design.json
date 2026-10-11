@@ -1,0 +1,1876 @@
+{
+  "revision": "EVT-A1",
+  "release": "HOLD",
+  "board": {
+    "width_mm": 64,
+    "height_mm": 46,
+    "thickness_mm": 1,
+    "layers": 4
+  },
+  "module_pad_geometry": {
+    "1": [
+      -7.25,
+      -6.6,
+      1.3,
+      0.6
+    ],
+    "2": [
+      -7.25,
+      -5.5,
+      1.3,
+      0.6
+    ],
+    "3": [
+      -7.25,
+      -4.4,
+      1.3,
+      0.6
+    ],
+    "4": [
+      -7.25,
+      -3.3,
+      1.3,
+      0.6
+    ],
+    "5": [
+      -7.25,
+      -2.2,
+      1.3,
+      0.6
+    ],
+    "6": [
+      -7.25,
+      -1.1,
+      1.3,
+      0.6
+    ],
+    "7": [
+      -7.25,
+      0.0,
+      1.3,
+      0.6
+    ],
+    "8": [
+      -7.25,
+      1.1,
+      1.3,
+      0.6
+    ],
+    "9": [
+      -7.25,
+      2.2,
+      1.3,
+      0.6
+    ],
+    "10": [
+      -7.25,
+      3.3,
+      1.3,
+      0.6
+    ],
+    "11": [
+      -7.25,
+      4.4,
+      1.3,
+      0.6
+    ],
+    "12": [
+      -7.25,
+      5.5,
+      1.3,
+      0.6
+    ],
+    "13": [
+      -7.25,
+      6.6,
+      1.3,
+      0.6
+    ],
+    "14": [
+      -4.4,
+      8.2,
+      0.6,
+      1.3
+    ],
+    "15": [
+      -3.3,
+      8.2,
+      0.6,
+      1.3
+    ],
+    "16": [
+      -2.2,
+      8.2,
+      0.6,
+      1.3
+    ],
+    "17": [
+      -1.1,
+      8.2,
+      0.6,
+      1.3
+    ],
+    "18": [
+      0.0,
+      8.2,
+      0.6,
+      1.3
+    ],
+    "19": [
+      1.1,
+      8.2,
+      0.6,
+      1.3
+    ],
+    "20": [
+      2.2,
+      8.2,
+      0.6,
+      1.3
+    ],
+    "21": [
+      3.3,
+      8.2,
+      0.6,
+      1.3
+    ],
+    "22": [
+      4.4,
+      8.2,
+      0.6,
+      1.3
+    ],
+    "23": [
+      7.25,
+      6.6,
+      1.3,
+      0.6
+    ],
+    "24": [
+      7.25,
+      5.5,
+      1.3,
+      0.6
+    ],
+    "25": [
+      7.25,
+      4.4,
+      1.3,
+      0.6
+    ],
+    "26": [
+      7.25,
+      3.3,
+      1.3,
+      0.6
+    ],
+    "27": [
+      7.25,
+      2.2,
+      1.3,
+      0.6
+    ],
+    "28": [
+      7.25,
+      1.1,
+      1.3,
+      0.6
+    ],
+    "29": [
+      7.25,
+      0.0,
+      1.3,
+      0.6
+    ],
+    "30": [
+      7.25,
+      -1.1,
+      1.3,
+      0.6
+    ],
+    "31": [
+      7.25,
+      -2.2,
+      1.3,
+      0.6
+    ],
+    "32": [
+      7.25,
+      -3.3,
+      1.3,
+      0.6
+    ],
+    "33": [
+      7.25,
+      -4.4,
+      1.3,
+      0.6
+    ],
+    "34": [
+      7.25,
+      -5.5,
+      1.3,
+      0.6
+    ],
+    "35": [
+      7.25,
+      -6.6,
+      1.3,
+      0.6
+    ],
+    "36": [
+      4.4,
+      -8.2,
+      0.6,
+      1.3
+    ],
+    "37": [
+      3.3,
+      -8.2,
+      0.6,
+      1.3
+    ],
+    "38": [
+      2.2,
+      -8.2,
+      0.6,
+      1.3
+    ],
+    "39": [
+      1.1,
+      -8.2,
+      0.6,
+      1.3
+    ],
+    "40": [
+      0.0,
+      -8.2,
+      0.6,
+      1.3
+    ],
+    "41": [
+      -1.1,
+      -8.2,
+      0.6,
+      1.3
+    ],
+    "42": [
+      -2.2,
+      -8.2,
+      0.6,
+      1.3
+    ],
+    "43": [
+      -3.3,
+      -8.2,
+      0.6,
+      1.3
+    ],
+    "44": [
+      -4.4,
+      -8.2,
+      0.6,
+      1.3
+    ],
+    "45": [
+      -5.0,
+      -4.8,
+      1.0,
+      0.7
+    ],
+    "46": [
+      -5.0,
+      -3.6,
+      1.0,
+      0.7
+    ],
+    "47": [
+      -5.0,
+      -2.4,
+      1.0,
+      0.7
+    ],
+    "48": [
+      -5.0,
+      -1.2,
+      1.0,
+      0.7
+    ],
+    "49": [
+      -5.0,
+      0.0,
+      1.0,
+      0.7
+    ],
+    "50": [
+      -5.0,
+      1.2,
+      1.0,
+      0.7
+    ],
+    "51": [
+      -5.0,
+      2.4,
+      1.0,
+      0.7
+    ],
+    "52": [
+      -5.0,
+      3.6,
+      1.0,
+      0.7
+    ],
+    "53": [
+      -5.0,
+      4.8,
+      1.0,
+      0.7
+    ],
+    "54": [
+      -2.4,
+      5.95,
+      0.7,
+      1.0
+    ],
+    "55": [
+      -1.2,
+      5.95,
+      0.7,
+      1.0
+    ],
+    "56": [
+      0.0,
+      5.95,
+      0.7,
+      1.0
+    ],
+    "57": [
+      1.2,
+      5.95,
+      0.7,
+      1.0
+    ],
+    "58": [
+      2.4,
+      5.95,
+      0.7,
+      1.0
+    ],
+    "59": [
+      5.0,
+      4.8,
+      1.0,
+      0.7
+    ],
+    "60": [
+      5.0,
+      3.6,
+      1.0,
+      0.7
+    ],
+    "61": [
+      5.0,
+      2.4,
+      1.0,
+      0.7
+    ],
+    "62": [
+      5.0,
+      1.2,
+      1.0,
+      0.7
+    ],
+    "63": [
+      5.0,
+      0.0,
+      1.0,
+      0.7
+    ],
+    "64": [
+      5.0,
+      -1.2,
+      1.0,
+      0.7
+    ],
+    "65": [
+      5.0,
+      -2.4,
+      1.0,
+      0.7
+    ],
+    "66": [
+      5.0,
+      -3.6,
+      1.0,
+      0.7
+    ],
+    "67": [
+      5.0,
+      -4.8,
+      1.0,
+      0.7
+    ],
+    "68": [
+      2.4,
+      -5.95,
+      0.7,
+      1.0
+    ],
+    "69": [
+      1.2,
+      -5.95,
+      0.7,
+      1.0
+    ],
+    "70": [
+      0.0,
+      -5.95,
+      0.7,
+      1.0
+    ],
+    "71": [
+      -1.2,
+      -5.95,
+      0.7,
+      1.0
+    ],
+    "72": [
+      -2.4,
+      -5.95,
+      0.7,
+      1.0
+    ],
+    "73": [
+      -3.2,
+      -4.2,
+      1.0,
+      0.7
+    ],
+    "74": [
+      -3.2,
+      -3.0,
+      1.0,
+      0.7
+    ],
+    "75": [
+      -3.2,
+      -1.8,
+      1.0,
+      0.7
+    ],
+    "76": [
+      -3.2,
+      -0.6,
+      1.0,
+      0.7
+    ],
+    "77": [
+      -3.2,
+      0.6,
+      1.0,
+      0.7
+    ],
+    "78": [
+      -3.2,
+      1.8,
+      1.0,
+      0.7
+    ],
+    "79": [
+      -3.2,
+      3.0,
+      1.0,
+      0.7
+    ],
+    "80": [
+      -3.2,
+      4.2,
+      1.0,
+      0.7
+    ],
+    "81": [
+      3.2,
+      4.2,
+      1.0,
+      0.7
+    ],
+    "82": [
+      3.2,
+      3.0,
+      1.0,
+      0.7
+    ],
+    "83": [
+      3.2,
+      1.8,
+      1.0,
+      0.7
+    ],
+    "84": [
+      3.2,
+      0.6,
+      1.0,
+      0.7
+    ],
+    "85": [
+      3.2,
+      -0.6,
+      1.0,
+      0.7
+    ],
+    "86": [
+      3.2,
+      -1.8,
+      1.0,
+      0.7
+    ],
+    "87": [
+      3.2,
+      -3.0,
+      1.0,
+      0.7
+    ],
+    "88": [
+      3.2,
+      -4.2,
+      1.0,
+      0.7
+    ],
+    "89": [
+      -0.9,
+      -1.8,
+      1.0,
+      0.7
+    ],
+    "90": [
+      -0.9,
+      0.0,
+      1.0,
+      0.7
+    ],
+    "91": [
+      -0.9,
+      1.8,
+      1.0,
+      0.7
+    ],
+    "92": [
+      0.9,
+      1.8,
+      1.0,
+      0.7
+    ],
+    "93": [
+      0.9,
+      0.0,
+      1.0,
+      0.7
+    ],
+    "94": [
+      0.9,
+      -1.8,
+      1.0,
+      0.7
+    ],
+    "95": [
+      -5.5,
+      8.2,
+      0.6,
+      1.3
+    ],
+    "96": [
+      5.5,
+      8.2,
+      0.6,
+      1.3
+    ],
+    "97": [
+      5.5,
+      -8.2,
+      0.6,
+      1.3
+    ],
+    "98": [
+      -5.5,
+      -8.2,
+      0.6,
+      1.3
+    ],
+    "99": [
+      -5.0,
+      -6.0,
+      1.0,
+      0.7
+    ],
+    "100": [
+      -5.0,
+      6.0,
+      1.0,
+      0.7
+    ],
+    "101": [
+      -3.5,
+      5.95,
+      0.7,
+      1.0
+    ],
+    "102": [
+      3.5,
+      5.95,
+      0.7,
+      1.0
+    ],
+    "103": [
+      5.0,
+      6.0,
+      1.0,
+      0.7
+    ],
+    "104": [
+      5.0,
+      -6.0,
+      1.0,
+      0.7
+    ],
+    "105": [
+      3.6,
+      -5.95,
+      0.7,
+      1.0
+    ],
+    "106": [
+      -3.6,
+      -5.95,
+      0.7,
+      1.0
+    ],
+    "107": [
+      -1.2,
+      4.15,
+      0.7,
+      1.0
+    ],
+    "108": [
+      0.0,
+      4.15,
+      0.7,
+      1.0
+    ],
+    "109": [
+      1.2,
+      4.15,
+      0.7,
+      1.0
+    ]
+  },
+  "components": [
+    {
+      "ref": "U1",
+      "value": "Air780EGH",
+      "footprint": "PawTrack:Air780EGH_109",
+      "pins": {
+        "1": "GND",
+        "2": "GNSS_IN",
+        "7": "PWRKEY",
+        "9": "BAT_SENSE",
+        "10": "GND",
+        "11": "SIM_IO_M",
+        "12": "SIM_RST_M",
+        "13": "SIM_CLK_M",
+        "14": "SIM_VDD",
+        "15": "RESET_N",
+        "16": "CHG_CTRL",
+        "96": "TS_SENSE",
+        "24": "VDD_EXT",
+        "27": "GND",
+        "34": "GND",
+        "35": "LTE_IN",
+        "36": "GND",
+        "37": "GND",
+        "38": "DBG_RX",
+        "39": "DBG_TX",
+        "40": "GND",
+        "41": "GND",
+        "42": "V_MODEM",
+        "43": "V_MODEM",
+        "45": "GND",
+        "46": "GND",
+        "47": "GND",
+        "48": "GND",
+        "59": "USB_DP",
+        "60": "USB_DM",
+        "61": "VBUS",
+        "70": "GND",
+        "71": "GND",
+        "72": "GND",
+        "73": "GND",
+        "82": "USB_BOOT",
+        "88": "GND",
+        "89": "GND",
+        "90": "GND",
+        "91": "GND",
+        "92": "GND",
+        "93": "GND",
+        "94": "GND",
+        "95": "GND",
+        "98": "GNSS_VDD",
+        "103": "GND"
+      },
+      "x": 30,
+      "y": 15,
+      "rotation": 0,
+      "mpn": "Air780EGH",
+      "populate": true,
+      "note": "Pin 2/103 document conflict; factory confirmation HOLD",
+      "side": "F"
+    },
+    {
+      "ref": "U2",
+      "value": "BQ24074RGTR",
+      "footprint": "Package_DFN_QFN:WQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm",
+      "pins": {
+        "1": "NTC",
+        "2": "BAT",
+        "3": "BAT",
+        "4": "CHG_DISABLE",
+        "5": "GND",
+        "6": "VBUS",
+        "7": null,
+        "8": "GND",
+        "9": null,
+        "10": "SYS",
+        "11": "SYS",
+        "12": "ILIM",
+        "13": "VBUS",
+        "16": "ISET",
+        "17": "GND"
+      },
+      "x": 45,
+      "y": 35,
+      "rotation": 0,
+      "mpn": "BQ24074RGTR",
+      "populate": true,
+      "note": "",
+      "side": "F"
+    },
+    {
+      "ref": "U3",
+      "value": "TPS63070RNMR",
+      "footprint": "PawTrack:TPS63070_RNM0015A",
+      "pins": {
+        "1": "GND",
+        "2": null,
+        "3": "VAUX",
+        "4": "GND",
+        "5": "FB",
+        "7": "V_MODEM",
+        "8": "V_MODEM",
+        "9": "SW2",
+        "10": "GND",
+        "11": "SW1",
+        "12": "SYS",
+        "13": "SYS",
+        "14": "REG_EN",
+        "15": "GND"
+      },
+      "x": 17,
+      "y": 35,
+      "rotation": 0,
+      "mpn": "TPS63070RNMR",
+      "populate": true,
+      "note": "",
+      "side": "F"
+    },
+    {
+      "ref": "L1",
+      "value": "1uH 5.4A",
+      "footprint": "PawTrack:XFL4020",
+      "pins": {
+        "1": "SW1",
+        "2": "SW2"
+      },
+      "x": 21.5,
+      "y": 35,
+      "rotation": 270,
+      "mpn": "XFL4020-102MEC",
+      "populate": true,
+      "note": "Isat>=5.4A; DCR<=15mohm; no unreviewed substitute",
+      "side": "F"
+    },
+    {
+      "ref": "J1",
+      "value": "USB-C",
+      "footprint": "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12",
+      "pins": {
+        "A1": "GND",
+        "A4": "VBUS",
+        "A5": "CC1",
+        "A6": "USB_DP",
+        "A7": "USB_DM",
+        "A8": null,
+        "A9": "VBUS",
+        "A12": "GND",
+        "B1": "GND",
+        "B4": "VBUS",
+        "B5": "CC2",
+        "B6": "USB_DP",
+        "B7": "USB_DM",
+        "B8": null,
+        "B9": "VBUS",
+        "B12": "GND",
+        "SH": "GND"
+      },
+      "x": 59,
+      "y": 35,
+      "rotation": 90,
+      "mpn": "TYPE-C-31-M-12",
+      "populate": true,
+      "note": "",
+      "side": "F"
+    },
+    {
+      "ref": "J2",
+      "value": "Protected LiPo+NTC",
+      "footprint": "Connector_JST:JST_PH_B3B-PH-SM4-TB_1x03-1MP_P2.00mm_Vertical",
+      "pins": {
+        "1": "BAT",
+        "2": "GND",
+        "3": "NTC",
+        "MP": "GND"
+      },
+      "x": 7,
+      "y": 35,
+      "rotation": 0,
+      "mpn": "B3B-PH-SM4-TB(LF)(SN)",
+      "populate": true,
+      "note": "Pin1 BAT+, pin2 BAT-, pin3 NTC to BAT-; manufacturer must key-match harness",
+      "side": "F"
+    },
+    {
+      "ref": "J3",
+      "value": "LTE 50ohm",
+      "footprint": "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical",
+      "pins": {
+        "1": "LTE_FEED",
+        "2": "GND"
+      },
+      "x": 46,
+      "y": 8.4,
+      "rotation": 0,
+      "mpn": "U.FL-R-SMT-1(10)",
+      "populate": true,
+      "note": "",
+      "side": "F"
+    },
+    {
+      "ref": "J4",
+      "value": "GNSS active",
+      "footprint": "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical",
+      "pins": {
+        "1": "GNSS_FEED",
+        "2": "GND"
+      },
+      "x": 14,
+      "y": 9.5,
+      "rotation": 180,
+      "mpn": "U.FL-R-SMT-1(10)",
+      "populate": true,
+      "note": "",
+      "side": "F"
+    },
+    {
+      "ref": "J5",
+      "value": "nanoSIM",
+      "footprint": "Connector_Card:nanoSIM_Hinged_CUI_NSIM-2-C",
+      "pins": {
+        "1": "SIM_VDD",
+        "2": "SIM_RST",
+        "3": "SIM_CLK",
+        "5": "GND",
+        "6": null,
+        "7": "SIM_IO",
+        "SH": "GND",
+        "CD": null
+      },
+      "x": 47,
+      "y": 16,
+      "rotation": 0,
+      "mpn": "NSIM-2-C",
+      "populate": true,
+      "note": "No hot insertion; factory verify exact connector stock drawing",
+      "side": "B"
+    },
+    {
+      "ref": "SW1",
+      "value": "POWER KEY",
+      "footprint": "Button_Switch_SMD:SW_SPST_SKQG_WithoutStem",
+      "pins": {
+        "1": "PWRKEY",
+        "2": "GND"
+      },
+      "x": 9,
+      "y": 21,
+      "rotation": 0,
+      "mpn": "SKQGAKE010",
+      "populate": true,
+      "note": "",
+      "side": "F"
+    },
+    {
+      "ref": "SW2",
+      "value": "RESET",
+      "footprint": "Button_Switch_SMD:SW_SPST_SKQG_WithoutStem",
+      "pins": {
+        "1": "RESET_N",
+        "2": "GND"
+      },
+      "x": 9,
+      "y": 27,
+      "rotation": 0,
+      "mpn": "SKQGAKE010",
+      "populate": true,
+      "note": "",
+      "side": "F"
+    },
+    {
+      "ref": "C1",
+      "value": "4.7uF",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "VBUS",
+        "2": "GND"
+      },
+      "x": 48.5,
+      "y": 32,
+      "rotation": 90,
+      "mpn": "GRM188R61A475KE15D",
+      "populate": true,
+      "note": "",
+      "side": "F"
+    },
+    {
+      "ref": "C2",
+      "value": "4.7uF",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "BAT",
+        "2": "GND"
+      },
+      "x": 42,
+      "y": 32,
+      "rotation": 90,
+      "mpn": "GRM188R61A475KE15D",
+      "populate": true,
+      "note": "",
+      "side": "F"
+    },
+    {
+      "ref": "C3",
+      "value": "22uF",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": "SYS",
+        "2": "GND"
+      },
+      "x": 42,
+      "y": 38,
+      "rotation": 0,
+      "mpn": "GRM21BR60J226ME39L",
+      "populate": true,
+      "note": "",
+      "side": "F"
+    },
+    {
+      "ref": "C4",
+      "value": "22uF",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": "SYS",
+        "2": "GND"
+      },
+      "x": 14,
+      "y": 35,
+      "rotation": 90,
+      "mpn": "GRM21BR60J226ME39L",
+      "populate": true,
+      "note": "",
+      "side": "F"
+    },
+    {
+      "ref": "C5",
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "SYS",
+        "2": "GND"
+      },
+      "x": 11,
+      "y": 42,
+      "rotation": 0,
+      "mpn": "GRM188R71C104KA01D",
+      "populate": true,
+      "note": "",
+      "side": "F"
+    },
+    {
+      "ref": "C6",
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "VAUX",
+        "2": "GND"
+      },
+      "x": 15,
+      "y": 38,
+      "rotation": 0,
+      "mpn": "GRM188R71C104KA01D",
+      "populate": true,
+      "note": "",
+      "side": "F"
+    },
+    {
+      "ref": "C7",
+      "value": "22uF",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": "V_MODEM",
+        "2": "GND"
+      },
+      "x": 23.5,
+      "y": 31,
+      "rotation": 0,
+      "mpn": "GRM21BR60J226ME39L",
+      "populate": true,
+      "note": "",
+      "side": "F"
+    },
+    {
+      "ref": "C8",
+      "value": "22uF",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": "V_MODEM",
+        "2": "GND"
+      },
+      "x": 23.5,
+      "y": 39,
+      "rotation": 0,
+      "mpn": "GRM21BR60J226ME39L",
+      "populate": true,
+      "note": "",
+      "side": "F"
+    },
+    {
+      "ref": "C9",
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "V_MODEM",
+        "2": "GND"
+      },
+      "x": 25,
+      "y": 3,
+      "rotation": 0,
+      "mpn": "GRM188R71C104KA01D",
+      "populate": true,
+      "note": "",
+      "side": "F"
+    },
+    {
+      "ref": "C10",
+      "value": "1uF",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "V_MODEM",
+        "2": "GND"
+      },
+      "x": 28,
+      "y": 3,
+      "rotation": 0,
+      "mpn": "GRM188R61A105KA61D",
+      "populate": true,
+      "note": "",
+      "side": "F"
+    },
+    {
+      "ref": "C11",
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "GNSS_VDD",
+        "2": "GND"
+      },
+      "x": 11,
+      "y": 14,
+      "rotation": 0,
+      "mpn": "GRM188R71C104KA01D",
+      "populate": true,
+      "note": "",
+      "side": "F"
+    },
+    {
+      "ref": "C12",
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "SIM_VDD",
+        "2": "GND"
+      },
+      "x": 20,
+      "y": 26.5,
+      "rotation": 0,
+      "mpn": "GRM188R71C104KA01D",
+      "populate": true,
+      "note": "",
+      "side": "F"
+    },
+    {
+      "ref": "C13",
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "BAT_SENSE",
+        "2": "GND"
+      },
+      "x": 17,
+      "y": 21,
+      "rotation": 90,
+      "mpn": "GRM188R71C104KA01D",
+      "populate": true,
+      "note": "",
+      "side": "F"
+    },
+    {
+      "ref": "C14",
+      "value": "100uF 6.3V",
+      "footprint": "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B",
+      "pins": {
+        "1": "V_MODEM",
+        "2": "GND"
+      },
+      "x": 32,
+      "y": 3,
+      "rotation": 0,
+      "mpn": "T520B107M006ATE070",
+      "populate": true,
+      "note": "Polymer ESR70mohm; polarity positive pad1",
+      "side": "F"
+    },
+    {
+      "ref": "R1",
+      "value": "5.1k",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "CC1",
+        "2": "GND"
+      },
+      "x": 49,
+      "y": 25,
+      "rotation": 0,
+      "mpn": "RC0603FR-075K1L",
+      "populate": true,
+      "note": "",
+      "side": "F"
+    },
+    {
+      "ref": "R2",
+      "value": "5.1k",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "CC2",
+        "2": "GND"
+      },
+      "x": 49,
+      "y": 27,
+      "rotation": 0,
+      "mpn": "RC0603FR-075K1L",
+      "populate": true,
+      "note": "",
+      "side": "F"
+    },
+    {
+      "ref": "R3",
+      "value": "2.55k",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "ISET",
+        "2": "GND"
+      },
+      "x": 47.5,
+      "y": 38,
+      "rotation": 90,
+      "mpn": "RC0603FR-072K55L",
+      "populate": true,
+      "note": "",
+      "side": "F"
+    },
+    {
+      "ref": "R4",
+      "value": "3.24k",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "ILIM",
+        "2": "GND"
+      },
+      "x": 41,
+      "y": 35,
+      "rotation": 90,
+      "mpn": "RC0603FR-073K24L",
+      "populate": true,
+      "note": "",
+      "side": "F"
+    },
+    {
+      "ref": "R5",
+      "value": "750k",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "V_MODEM",
+        "2": "FB"
+      },
+      "x": 17,
+      "y": 40,
+      "rotation": 0,
+      "mpn": "RC0603FR-07750KL",
+      "populate": true,
+      "note": "",
+      "side": "F"
+    },
+    {
+      "ref": "R6",
+      "value": "200k",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "FB",
+        "2": "GND"
+      },
+      "x": 14,
+      "y": 40,
+      "rotation": 0,
+      "mpn": "RC0603FR-07200KL",
+      "populate": true,
+      "note": "",
+      "side": "F"
+    },
+    {
+      "ref": "R7",
+      "value": "100k",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "SYS",
+        "2": "REG_EN"
+      },
+      "x": 17,
+      "y": 30,
+      "rotation": 0,
+      "mpn": "RC0603FR-07100KL",
+      "populate": true,
+      "note": "",
+      "side": "F"
+    },
+    {
+      "ref": "R8",
+      "value": "330k",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "BAT",
+        "2": "BAT_SENSE"
+      },
+      "x": 20,
+      "y": 20,
+      "rotation": 90,
+      "mpn": "RC0603FR-07330KL",
+      "populate": true,
+      "note": "",
+      "side": "F"
+    },
+    {
+      "ref": "R9",
+      "value": "100k",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "BAT_SENSE",
+        "2": "GND"
+      },
+      "x": 20,
+      "y": 24,
+      "rotation": 90,
+      "mpn": "RC0603FR-07100KL",
+      "populate": true,
+      "note": "",
+      "side": "F"
+    },
+    {
+      "ref": "R10",
+      "value": "22",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "SIM_IO_M",
+        "2": "SIM_IO"
+      },
+      "x": 18,
+      "y": 13,
+      "rotation": 0,
+      "mpn": "RC0603FR-0722RL",
+      "populate": true,
+      "note": "",
+      "side": "F"
+    },
+    {
+      "ref": "R11",
+      "value": "22",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "SIM_RST_M",
+        "2": "SIM_RST"
+      },
+      "x": 18,
+      "y": 15,
+      "rotation": 0,
+      "mpn": "RC0603FR-0722RL",
+      "populate": true,
+      "note": "",
+      "side": "F"
+    },
+    {
+      "ref": "R12",
+      "value": "22",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "SIM_CLK_M",
+        "2": "SIM_CLK"
+      },
+      "x": 18,
+      "y": 17,
+      "rotation": 0,
+      "mpn": "RC0603FR-0722RL",
+      "populate": true,
+      "note": "",
+      "side": "F"
+    },
+    {
+      "ref": "R13",
+      "value": "0",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "LTE_IN",
+        "2": "LTE_FEED"
+      },
+      "x": 41,
+      "y": 8.4,
+      "rotation": 0,
+      "mpn": "RC0603JR-070RL",
+      "populate": true,
+      "note": "",
+      "side": "F"
+    },
+    {
+      "ref": "R14",
+      "value": "0",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "GNSS_VDD",
+        "2": "GNSS_BIAS"
+      },
+      "x": 14,
+      "y": 17,
+      "rotation": 0,
+      "mpn": "RC0603JR-070RL",
+      "populate": true,
+      "note": "",
+      "side": "F"
+    },
+    {
+      "ref": "R15",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "SIM_VDD",
+        "2": "SIM_IO"
+      },
+      "x": 18,
+      "y": 5.5,
+      "rotation": 0,
+      "mpn": "RC0603FR-0710KL",
+      "populate": true,
+      "note": "",
+      "side": "F"
+    },
+    {
+      "ref": "C15",
+      "value": "33pF",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "GNSS_IN",
+        "2": "GNSS_FEED"
+      },
+      "x": 19,
+      "y": 9.5,
+      "rotation": 180,
+      "mpn": "GRM1885C1H330JA01D",
+      "populate": true,
+      "note": "",
+      "side": "F"
+    },
+    {
+      "ref": "L2",
+      "value": "47nH",
+      "footprint": "Inductor_SMD:L_0603_1608Metric",
+      "pins": {
+        "1": "GNSS_BIAS",
+        "2": "GNSS_FEED"
+      },
+      "x": 14,
+      "y": 14,
+      "rotation": 90,
+      "mpn": "0603HP-47NXJRW",
+      "populate": true,
+      "note": "",
+      "side": "F"
+    },
+    {
+      "ref": "C16",
+      "value": "DNP tuning",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "LTE_IN",
+        "2": "GND"
+      },
+      "x": 39.5,
+      "y": 5,
+      "rotation": 90,
+      "mpn": "DNP tuning",
+      "populate": false,
+      "note": "RF engineer tune only; default NOT fitted",
+      "side": "F"
+    },
+    {
+      "ref": "C17",
+      "value": "DNP tuning",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "LTE_FEED",
+        "2": "GND"
+      },
+      "x": 43.5,
+      "y": 5,
+      "rotation": 90,
+      "mpn": "DNP tuning",
+      "populate": false,
+      "note": "RF engineer tune only; default NOT fitted",
+      "side": "F"
+    },
+    {
+      "ref": "C18",
+      "value": "DNP tuning",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "GNSS_IN",
+        "2": "GND"
+      },
+      "x": 20.5,
+      "y": 7,
+      "rotation": 90,
+      "mpn": "DNP tuning",
+      "populate": false,
+      "note": "RF engineer tune only; default NOT fitted",
+      "side": "F"
+    },
+    {
+      "ref": "C19",
+      "value": "DNP tuning",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "GNSS_FEED",
+        "2": "GND"
+      },
+      "x": 12,
+      "y": 5,
+      "rotation": 90,
+      "mpn": "DNP tuning",
+      "populate": false,
+      "note": "RF engineer tune only; default NOT fitted",
+      "side": "F"
+    },
+    {
+      "ref": "D1",
+      "value": "ESD",
+      "footprint": "Diode_SMD:D_SOD-882",
+      "pins": {
+        "1": "USB_DP",
+        "2": "GND"
+      },
+      "x": 51,
+      "y": 40,
+      "rotation": 0,
+      "mpn": "PESD5V0S1UL,315",
+      "populate": true,
+      "note": "",
+      "side": "F"
+    },
+    {
+      "ref": "D2",
+      "value": "ESD",
+      "footprint": "Diode_SMD:D_SOD-882",
+      "pins": {
+        "1": "USB_DM",
+        "2": "GND"
+      },
+      "x": 49,
+      "y": 42,
+      "rotation": 0,
+      "mpn": "PESD5V0S1UL,315",
+      "populate": true,
+      "note": "",
+      "side": "F"
+    },
+    {
+      "ref": "D3",
+      "value": "ESD",
+      "footprint": "Diode_SMD:D_SOD-882",
+      "pins": {
+        "1": "SIM_IO",
+        "2": "GND"
+      },
+      "x": 20,
+      "y": 29,
+      "rotation": 0,
+      "mpn": "PESD3V3S1UL,315",
+      "populate": true,
+      "note": "",
+      "side": "F"
+    },
+    {
+      "ref": "D4",
+      "value": "ESD",
+      "footprint": "Diode_SMD:D_SOD-882",
+      "pins": {
+        "1": "SIM_RST",
+        "2": "GND"
+      },
+      "x": 22,
+      "y": 29,
+      "rotation": 0,
+      "mpn": "PESD3V3S1UL,315",
+      "populate": true,
+      "note": "",
+      "side": "F"
+    },
+    {
+      "ref": "D5",
+      "value": "ESD",
+      "footprint": "Diode_SMD:D_SOD-882",
+      "pins": {
+        "1": "SIM_CLK",
+        "2": "GND"
+      },
+      "x": 24,
+      "y": 29,
+      "rotation": 0,
+      "mpn": "PESD3V3S1UL,315",
+      "populate": true,
+      "note": "",
+      "side": "F"
+    },
+    {
+      "ref": "TP1",
+      "value": "VDD_EXT",
+      "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+      "pins": {
+        "1": "VDD_EXT"
+      },
+      "x": 30,
+      "y": 27,
+      "rotation": 0,
+      "mpn": "PCB pad",
+      "populate": false,
+      "note": "DNP/no component; factory jig access",
+      "side": "F"
+    },
+    {
+      "ref": "TP2",
+      "value": "USB_BOOT",
+      "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+      "pins": {
+        "1": "USB_BOOT"
+      },
+      "x": 33,
+      "y": 29,
+      "rotation": 0,
+      "mpn": "PCB pad",
+      "populate": false,
+      "note": "DNP/no component; factory jig access",
+      "side": "F"
+    },
+    {
+      "ref": "TP3",
+      "value": "DBG_RX",
+      "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+      "pins": {
+        "1": "DBG_RX"
+      },
+      "x": 38,
+      "y": 29,
+      "rotation": 0,
+      "mpn": "PCB pad",
+      "populate": false,
+      "note": "DNP/no component; factory jig access",
+      "side": "F"
+    },
+    {
+      "ref": "TP4",
+      "value": "DBG_TX",
+      "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+      "pins": {
+        "1": "DBG_TX"
+      },
+      "x": 38,
+      "y": 31,
+      "rotation": 0,
+      "mpn": "PCB pad",
+      "populate": false,
+      "note": "DNP/no component; factory jig access",
+      "side": "F"
+    },
+    {
+      "ref": "TP5",
+      "value": "GND",
+      "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+      "pins": {
+        "1": "GND"
+      },
+      "x": 30,
+      "y": 41,
+      "rotation": 0,
+      "mpn": "PCB pad",
+      "populate": false,
+      "note": "DNP/no component; factory jig access",
+      "side": "F"
+    },
+    {
+      "ref": "TP6",
+      "value": "SYS",
+      "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+      "pins": {
+        "1": "SYS"
+      },
+      "x": 12,
+      "y": 44,
+      "rotation": 0,
+      "mpn": "PCB pad",
+      "populate": false,
+      "note": "DNP/no component; factory jig access",
+      "side": "F"
+    },
+    {
+      "ref": "TP7",
+      "value": "V_MODEM",
+      "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+      "pins": {
+        "1": "V_MODEM"
+      },
+      "x": 26,
+      "y": 41,
+      "rotation": 0,
+      "mpn": "PCB pad",
+      "populate": false,
+      "note": "DNP/no component; factory jig access",
+      "side": "F"
+    },
+    {
+      "ref": "TP8",
+      "value": "REG_EN",
+      "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+      "pins": {
+        "1": "REG_EN"
+      },
+      "x": 4,
+      "y": 15,
+      "rotation": 0,
+      "mpn": "PCB pad",
+      "populate": false,
+      "note": "DNP/no component; factory jig access",
+      "side": "F"
+    },
+    {
+      "ref": "TP9",
+      "value": "BAT",
+      "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+      "pins": {
+        "1": "BAT"
+      },
+      "x": 7,
+      "y": 41,
+      "rotation": 0,
+      "mpn": "PCB pad",
+      "populate": false,
+      "note": "DNP/no component; factory jig access",
+      "side": "F"
+    },
+    {
+      "ref": "H1",
+      "value": "M2 clearance",
+      "footprint": "MountingHole:MountingHole_2.2mm_M2",
+      "pins": {},
+      "x": 3,
+      "y": 3,
+      "rotation": 0,
+      "mpn": "PCB feature",
+      "populate": false,
+      "note": "",
+      "side": "F"
+    },
+    {
+      "ref": "H2",
+      "value": "M2 clearance",
+      "footprint": "MountingHole:MountingHole_2.2mm_M2",
+      "pins": {},
+      "x": 61,
+      "y": 3,
+      "rotation": 0,
+      "mpn": "PCB feature",
+      "populate": false,
+      "note": "",
+      "side": "F"
+    },
+    {
+      "ref": "H3",
+      "value": "M2 clearance",
+      "footprint": "MountingHole:MountingHole_2.2mm_M2",
+      "pins": {},
+      "x": 3,
+      "y": 43,
+      "rotation": 0,
+      "mpn": "PCB feature",
+      "populate": false,
+      "note": "",
+      "side": "F"
+    },
+    {
+      "ref": "H4",
+      "value": "M2 clearance",
+      "footprint": "MountingHole:MountingHole_2.2mm_M2",
+      "pins": {},
+      "x": 61,
+      "y": 43,
+      "rotation": 0,
+      "mpn": "PCB feature",
+      "populate": false,
+      "note": "",
+      "side": "F"
+    },
+    {
+      "ref": "Q1",
+      "value": "2N7002",
+      "footprint": "Package_TO_SOT_SMD:SOT-23",
+      "pins": {
+        "1": "CHG_GATE",
+        "2": "GND",
+        "3": "CHG_DISABLE"
+      },
+      "x": 52,
+      "y": 20,
+      "rotation": 0,
+      "mpn": "2N7002,215",
+      "populate": true,
+      "note": "",
+      "side": "F"
+    },
+    {
+      "ref": "R16",
+      "value": "100k",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "VBUS",
+        "2": "CHG_DISABLE"
+      },
+      "x": 48,
+      "y": 20,
+      "rotation": 0,
+      "mpn": "RC0603FR-07100KL",
+      "populate": true,
+      "note": "",
+      "side": "F"
+    },
+    {
+      "ref": "R17",
+      "value": "100k",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "CHG_GATE",
+        "2": "GND"
+      },
+      "x": 52,
+      "y": 23,
+      "rotation": 0,
+      "mpn": "RC0603FR-07100KL",
+      "populate": true,
+      "note": "",
+      "side": "F"
+    },
+    {
+      "ref": "R18",
+      "value": "1k",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "CHG_CTRL",
+        "2": "CHG_GATE"
+      },
+      "x": 49,
+      "y": 23,
+      "rotation": 0,
+      "mpn": "RC0603FR-071KL",
+      "populate": true,
+      "note": "",
+      "side": "F"
+    },
+    {
+      "ref": "R19",
+      "value": "3.3M",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "NTC",
+        "2": "TS_SENSE"
+      },
+      "x": 16,
+      "y": 27.5,
+      "rotation": 0,
+      "mpn": "RC0603FR-073M3L",
+      "populate": true,
+      "note": "",
+      "side": "F"
+    },
+    {
+      "ref": "R20",
+      "value": "1M",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "TS_SENSE",
+        "2": "GND"
+      },
+      "x": 10,
+      "y": 16.5,
+      "rotation": 0,
+      "mpn": "RC0603FR-071ML",
+      "populate": true,
+      "note": "",
+      "side": "F"
+    },
+    {
+      "ref": "C20",
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "TS_SENSE",
+        "2": "GND"
+      },
+      "x": 16,
+      "y": 23.5,
+      "rotation": 0,
+      "mpn": "GRM188R71C104KA01D",
+      "populate": true,
+      "note": "",
+      "side": "F"
+    }
+  ]
+}

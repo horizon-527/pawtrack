@@ -1,4 +1,6 @@
 # 硬件路线
+当前委托路线改为 [Air780EGH 定制工程样机、由国内厂商代采装配](custom/evt-a1/factory-handoff.md)。CAD、制造输出、外壳和样机验收资料见 [EVT-A1](custom/evt-a1/README.md)。该版尚未投板、实测或获准佩戴。下述微雪开发板内容保留为旧桌面验证路线，不再作为本次采购要求。
+
 [国内采购、到货检查、组装、CA与电池/外壳说明](procurement-and-assembly.md)
 推荐桌面原型候选：Waveshare ESP32-S3-SIM7670G-4G，官方介绍包含 GNSS 与 LTE Cat-1。
 资料：https://docs.waveshare.net/ESP32-S3-SIM7670G-4G/

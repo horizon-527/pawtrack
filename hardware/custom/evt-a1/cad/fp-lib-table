@@ -1,0 +1,1 @@
+(fp_lib_table (version 7) (lib (name "PawTrack") (type "KiCad") (uri "${KIPRJMOD}/PawTrack.pretty") (options "") (descr "EVT and KiCad derived footprints")))

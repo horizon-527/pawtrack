@@ -1,0 +1,8 @@
+# Preserve exact exported engineering/vendor bytes for the SHA256 delivery manifest.
+hardware/custom/evt-a1/** -text
+# Native CAD/router SVG/SES formatting and unchanged upstream Lua are retained.
+hardware/custom/evt-a1/**/*.svg -whitespace
+hardware/custom/evt-a1/**/*.ses -whitespace
+hardware/custom/evt-a1/**/*.dsn -whitespace
+hardware/custom/evt-a1/**/*.csv whitespace=cr-at-eol
+hardware/custom/evt-a1/firmware/vendor/exgnss.lua -whitespace

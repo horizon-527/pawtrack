@@ -14,3 +14,8 @@ backups/
 firmware/espidf/build/
 firmware/espidf/sdkconfig
 firmware/espidf/sdkconfig.old
+
+# Factory provisioning contains per-device credentials
+hardware/custom/**/firmware/config.lua
+*.kicad_prl
+*.lck

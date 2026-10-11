@@ -1,0 +1,94 @@
+{
+  "units": "mm",
+  "release": "ENGINEERING PROTOTYPE / NO IP RATING",
+  "outer_body_mm": [
+    74,
+    56,
+    27
+  ],
+  "overall_with_loops_mm": [
+    90,
+    56,
+    27
+  ],
+  "pcb_offset_mm": [
+    5,
+    5,
+    15
+  ],
+  "board_mm": [
+    64,
+    46,
+    1
+  ],
+  "battery_envelope_mm": [
+    42,
+    32,
+    7
+  ],
+  "battery_bounds_mm": [
+    [
+      14,
+      12,
+      2
+    ],
+    [
+      56,
+      44,
+      9
+    ]
+  ],
+  "sim_bottom_min_z_mm": 10.5,
+  "battery_to_sim_min_clearance_mm": 1.5,
+  "gnss_roof_zone_mm": [
+    [
+      10,
+      10,
+      21
+    ],
+    [
+      35,
+      35,
+      25
+    ]
+  ],
+  "materials": "PA12 prototype; screws M2; insert OD3.2mm L4mm subject to selected supplier; no sealing claim",
+  "parts": {
+    "base": {
+      "watertight": true,
+      "connected_solids": 1,
+      "volume_mm3": 18132.433214410576,
+      "triangles": 3044,
+      "bounds": [
+        [
+          -8.0,
+          0.0,
+          0.0
+        ],
+        [
+          82.0,
+          56.0,
+          18.0
+        ]
+      ]
+    },
+    "lid": {
+      "watertight": true,
+      "connected_solids": 1,
+      "volume_mm3": 11489.163880485656,
+      "triangles": 2656,
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          18.0
+        ],
+        [
+          74.0,
+          56.0,
+          27.0
+        ]
+      ]
+    }
+  }
+}

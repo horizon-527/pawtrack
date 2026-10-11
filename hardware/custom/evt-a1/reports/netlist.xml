@@ -1,0 +1,3465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/zhanghao/Desktop/code/个人项目/pawtrack/hardware/custom/evt-a1/cad/pawtrack.kicad_sch</source>
+    <date>2026-10-11T21:19:58</date>
+    <tool>Eeschema 10.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>PawTrack EVT-A1 - ENGINEERING REVIEW / NOT RELEASED</title>
+        <company/>
+        <rev>A1</rev>
+        <date/>
+        <source>pawtrack.kicad_sch</source>
+        <comment number="1" value="Generic pad-numbered review symbols; electrical role/physical tests pending"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>4.7uF</value>
+      <footprint>PawTrack:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">GRM188R61A475KE15D</field>
+        <field name="Footprint">PawTrack:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PawTrack" part="C1" description=""/>
+      <property name="MPN" value="GRM188R61A475KE15D"/>
+      <property name="Sheetname" value="pawtrack"/>
+      <property name="Sheetfile" value="pawtrack.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8e950126-91ac-5799-bc7c-beeb05b1f67d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C2">
+      <value>4.7uF</value>
+      <footprint>PawTrack:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">GRM188R61A475KE15D</field>
+        <field name="Footprint">PawTrack:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PawTrack" part="C2" description=""/>
+      <property name="MPN" value="GRM188R61A475KE15D"/>
+      <property name="Sheetname" value="pawtrack"/>
+      <property name="Sheetfile" value="pawtrack.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5dbbf118-932d-5ba7-b795-106608ffecdd</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C3">
+      <value>22uF</value>
+      <footprint>PawTrack:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">GRM21BR60J226ME39L</field>
+        <field name="Footprint">PawTrack:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PawTrack" part="C3" description=""/>
+      <property name="MPN" value="GRM21BR60J226ME39L"/>
+      <property name="Sheetname" value="pawtrack"/>
+      <property name="Sheetfile" value="pawtrack.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d6ebc3e7-69b0-51dc-9915-23aac6882611</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C4">
+      <value>22uF</value>
+      <footprint>PawTrack:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">GRM21BR60J226ME39L</field>
+        <field name="Footprint">PawTrack:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PawTrack" part="C4" description=""/>
+      <property name="MPN" value="GRM21BR60J226ME39L"/>
+      <property name="Sheetname" value="pawtrack"/>
+      <property name="Sheetfile" value="pawtrack.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>29da0704-724c-5866-95c3-44fa1594d466</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C5">
+      <value>100nF</value>
+      <footprint>PawTrack:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">GRM188R71C104KA01D</field>
+        <field name="Footprint">PawTrack:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PawTrack" part="C5" description=""/>
+      <property name="MPN" value="GRM188R71C104KA01D"/>
+      <property name="Sheetname" value="pawtrack"/>
+      <property name="Sheetfile" value="pawtrack.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>21f6e226-b5e3-54b4-abd2-531f4dbc297d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C6">
+      <value>100nF</value>
+      <footprint>PawTrack:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">GRM188R71C104KA01D</field>
+        <field name="Footprint">PawTrack:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PawTrack" part="C6" description=""/>
+      <property name="MPN" value="GRM188R71C104KA01D"/>
+      <property name="Sheetname" value="pawtrack"/>
+      <property name="Sheetfile" value="pawtrack.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e1ab4e88-339d-550c-91e7-286383762937</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C7">
+      <value>22uF</value>
+      <footprint>PawTrack:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">GRM21BR60J226ME39L</field>
+        <field name="Footprint">PawTrack:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PawTrack" part="C7" description=""/>
+      <property name="MPN" value="GRM21BR60J226ME39L"/>
+      <property name="Sheetname" value="pawtrack"/>
+      <property name="Sheetfile" value="pawtrack.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4ff52695-f607-51a9-ada4-e0c8068f7914</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C8">
+      <value>22uF</value>
+      <footprint>PawTrack:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">GRM21BR60J226ME39L</field>
+        <field name="Footprint">PawTrack:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PawTrack" part="C8" description=""/>
+      <property name="MPN" value="GRM21BR60J226ME39L"/>
+      <property name="Sheetname" value="pawtrack"/>
+      <property name="Sheetfile" value="pawtrack.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d0612199-7714-5631-8425-c32f28a8968b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C9">
+      <value>100nF</value>
+      <footprint>PawTrack:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">GRM188R71C104KA01D</field>
+        <field name="Footprint">PawTrack:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PawTrack" part="C9" description=""/>
+      <property name="MPN" value="GRM188R71C104KA01D"/>
+      <property name="Sheetname" value="pawtrack"/>
+      <property name="Sheetfile" value="pawtrack.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>169aab7b-7258-503e-8964-1bc1f72b7d74</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C10">
+      <value>1uF</value>
+      <footprint>PawTrack:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">GRM188R61A105KA61D</field>
+        <field name="Footprint">PawTrack:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PawTrack" part="C10" description=""/>
+      <property name="MPN" value="GRM188R61A105KA61D"/>
+      <property name="Sheetname" value="pawtrack"/>
+      <property name="Sheetfile" value="pawtrack.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4b0c3348-9aee-57cd-b85e-21536a204d05</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C11">
+      <value>100nF</value>
+      <footprint>PawTrack:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">GRM188R71C104KA01D</field>
+        <field name="Footprint">PawTrack:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PawTrack" part="C11" description=""/>
+      <property name="MPN" value="GRM188R71C104KA01D"/>
+      <property name="Sheetname" value="pawtrack"/>
+      <property name="Sheetfile" value="pawtrack.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e2f44e5e-e59b-569d-adb7-10a8f4bea313</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C12">
+      <value>100nF</value>
+      <footprint>PawTrack:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">GRM188R71C104KA01D</field>
+        <field name="Footprint">PawTrack:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PawTrack" part="C12" description=""/>
+      <property name="MPN" value="GRM188R71C104KA01D"/>
+      <property name="Sheetname" value="pawtrack"/>
+      <property name="Sheetfile" value="pawtrack.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>15708b09-0678-5b64-a408-489bdd5ae1b1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C13">
+      <value>100nF</value>
+      <footprint>PawTrack:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">GRM188R71C104KA01D</field>
+        <field name="Footprint">PawTrack:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PawTrack" part="C13" description=""/>
+      <property name="MPN" value="GRM188R71C104KA01D"/>
+      <property name="Sheetname" value="pawtrack"/>
+      <property name="Sheetfile" value="pawtrack.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>19304283-3d76-56c2-b3c2-04925fe013a1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C14">
+      <value>100uF 6.3V</value>
+      <footprint>PawTrack:CP_EIA-3528-21_Kemet-B</footprint>
+      <fields>
+        <field name="MPN">T520B107M006ATE070</field>
+        <field name="Footprint">PawTrack:CP_EIA-3528-21_Kemet-B</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PawTrack" part="C14" description=""/>
+      <property name="MPN" value="T520B107M006ATE070"/>
+      <property name="Sheetname" value="pawtrack"/>
+      <property name="Sheetfile" value="pawtrack.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5ff69b16-1cbe-53c0-920a-d15d2fd4ba90</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C15">
+      <value>33pF</value>
+      <footprint>PawTrack:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">GRM1885C1H330JA01D</field>
+        <field name="Footprint">PawTrack:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PawTrack" part="C15" description=""/>
+      <property name="MPN" value="GRM1885C1H330JA01D"/>
+      <property name="Sheetname" value="pawtrack"/>
+      <property name="Sheetfile" value="pawtrack.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5e9fc3c0-0dfc-5ff0-b1e0-ca884e7b0812</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C16">
+      <value>DNP tuning</value>
+      <footprint>PawTrack:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">DNP tuning</field>
+        <field name="Footprint">PawTrack:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PawTrack" part="C16" description=""/>
+      <property name="MPN" value="DNP tuning"/>
+      <property name="Sheetname" value="pawtrack"/>
+      <property name="Sheetfile" value="pawtrack.kicad_sch"/>
+      <property name="dnp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>63cd811c-084c-5dc5-ad1b-65b9aa27e0e8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C17">
+      <value>DNP tuning</value>
+      <footprint>PawTrack:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">DNP tuning</field>
+        <field name="Footprint">PawTrack:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PawTrack" part="C17" description=""/>
+      <property name="MPN" value="DNP tuning"/>
+      <property name="Sheetname" value="pawtrack"/>
+      <property name="Sheetfile" value="pawtrack.kicad_sch"/>
+      <property name="dnp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>63323f32-c45d-59cb-bed4-f2d7eeefcbd1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C18">
+      <value>DNP tuning</value>
+      <footprint>PawTrack:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">DNP tuning</field>
+        <field name="Footprint">PawTrack:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PawTrack" part="C18" description=""/>
+      <property name="MPN" value="DNP tuning"/>
+      <property name="Sheetname" value="pawtrack"/>
+      <property name="Sheetfile" value="pawtrack.kicad_sch"/>
+      <property name="dnp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eef7aea4-ae1a-52a8-b281-2da8c84c30e5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C19">
+      <value>DNP tuning</value>
+      <footprint>PawTrack:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">DNP tuning</field>
+        <field name="Footprint">PawTrack:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PawTrack" part="C19" description=""/>
+      <property name="MPN" value="DNP tuning"/>
+      <property name="Sheetname" value="pawtrack"/>
+      <property name="Sheetfile" value="pawtrack.kicad_sch"/>
+      <property name="dnp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d9a1a6d3-f945-5fbf-831e-f78187777637</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C20">
+      <value>100nF</value>
+      <footprint>PawTrack:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">GRM188R71C104KA01D</field>
+        <field name="Footprint">PawTrack:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PawTrack" part="C20" description=""/>
+      <property name="MPN" value="GRM188R71C104KA01D"/>
+      <property name="Sheetname" value="pawtrack"/>
+      <property name="Sheetfile" value="pawtrack.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1b3918b3-ef94-5f7b-ad4d-e1a262d3ee7b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D1">
+      <value>ESD</value>
+      <footprint>PawTrack:D_SOD-882</footprint>
+      <fields>
+        <field name="MPN">PESD5V0S1UL,315</field>
+        <field name="Footprint">PawTrack:D_SOD-882</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PawTrack" part="D1" description=""/>
+      <property name="MPN" value="PESD5V0S1UL,315"/>
+      <property name="Sheetname" value="pawtrack"/>
+      <property name="Sheetfile" value="pawtrack.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f1574377-7a86-56cc-9a9f-09fc78e587e5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D2">
+      <value>ESD</value>
+      <footprint>PawTrack:D_SOD-882</footprint>
+      <fields>
+        <field name="MPN">PESD5V0S1UL,315</field>
+        <field name="Footprint">PawTrack:D_SOD-882</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PawTrack" part="D2" description=""/>
+      <property name="MPN" value="PESD5V0S1UL,315"/>
+      <property name="Sheetname" value="pawtrack"/>
+      <property name="Sheetfile" value="pawtrack.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>afeb2a9d-9467-5c76-9dbe-6ec4251860d8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D3">
+      <value>ESD</value>
+      <footprint>PawTrack:D_SOD-882</footprint>
+      <fields>
+        <field name="MPN">PESD3V3S1UL,315</field>
+        <field name="Footprint">PawTrack:D_SOD-882</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PawTrack" part="D3" description=""/>
+      <property name="MPN" value="PESD3V3S1UL,315"/>
+      <property name="Sheetname" value="pawtrack"/>
+      <property name="Sheetfile" value="pawtrack.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>42b8e4d0-04fe-500c-83ee-d47e05261ae6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D4">
+      <value>ESD</value>
+      <footprint>PawTrack:D_SOD-882</footprint>
+      <fields>
+        <field name="MPN">PESD3V3S1UL,315</field>
+        <field name="Footprint">PawTrack:D_SOD-882</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PawTrack" part="D4" description=""/>
+      <property name="MPN" value="PESD3V3S1UL,315"/>
+      <property name="Sheetname" value="pawtrack"/>
+      <property name="Sheetfile" value="pawtrack.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1e9d01c5-5796-5fbe-b4f3-feaa6f901b38</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D5">
+      <value>ESD</value>
+      <footprint>PawTrack:D_SOD-882</footprint>
+      <fields>
+        <field name="MPN">PESD3V3S1UL,315</field>
+        <field name="Footprint">PawTrack:D_SOD-882</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PawTrack" part="D5" description=""/>
+      <property name="MPN" value="PESD3V3S1UL,315"/>
+      <property name="Sheetname" value="pawtrack"/>
+      <property name="Sheetfile" value="pawtrack.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>17bf363e-f62d-5bad-a150-5964221895f9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="H1">
+      <value>M2 clearance</value>
+      <footprint>PawTrack:MountingHole_2.2mm_M2</footprint>
+      <fields>
+        <field name="MPN">PCB feature</field>
+        <field name="Footprint">PawTrack:MountingHole_2.2mm_M2</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PawTrack" part="H1" description=""/>
+      <property name="MPN" value="PCB feature"/>
+      <property name="Sheetname" value="pawtrack"/>
+      <property name="Sheetfile" value="pawtrack.kicad_sch"/>
+      <property name="dnp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>190c6020-72ac-5d82-80c1-b41f353a2c16</tstamps>
+      <units>
+        <unit name="A">
+          <pins/>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="H2">
+      <value>M2 clearance</value>
+      <footprint>PawTrack:MountingHole_2.2mm_M2</footprint>
+      <fields>
+        <field name="MPN">PCB feature</field>
+        <field name="Footprint">PawTrack:MountingHole_2.2mm_M2</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PawTrack" part="H2" description=""/>
+      <property name="MPN" value="PCB feature"/>
+      <property name="Sheetname" value="pawtrack"/>
+      <property name="Sheetfile" value="pawtrack.kicad_sch"/>
+      <property name="dnp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1abb894b-2201-5cde-a035-d669f9ab4ca8</tstamps>
+      <units>
+        <unit name="A">
+          <pins/>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="H3">
+      <value>M2 clearance</value>
+      <footprint>PawTrack:MountingHole_2.2mm_M2</footprint>
+      <fields>
+        <field name="MPN">PCB feature</field>
+        <field name="Footprint">PawTrack:MountingHole_2.2mm_M2</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PawTrack" part="H3" description=""/>
+      <property name="MPN" value="PCB feature"/>
+      <property name="Sheetname" value="pawtrack"/>
+      <property name="Sheetfile" value="pawtrack.kicad_sch"/>
+      <property name="dnp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>95779d8c-cabf-526d-9ae5-69426df7c3d5</tstamps>
+      <units>
+        <unit name="A">
+          <pins/>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="H4">
+      <value>M2 clearance</value>
+      <footprint>PawTrack:MountingHole_2.2mm_M2</footprint>
+      <fields>
+        <field name="MPN">PCB feature</field>
+        <field name="Footprint">PawTrack:MountingHole_2.2mm_M2</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PawTrack" part="H4" description=""/>
+      <property name="MPN" value="PCB feature"/>
+      <property name="Sheetname" value="pawtrack"/>
+      <property name="Sheetfile" value="pawtrack.kicad_sch"/>
+      <property name="dnp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8b18da22-8d74-5a5f-b9af-49a47570388c</tstamps>
+      <units>
+        <unit name="A">
+          <pins/>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J1">
+      <value>USB-C</value>
+      <footprint>PawTrack:USB_C_Receptacle_HRO_TYPE-C-31-M-12</footprint>
+      <fields>
+        <field name="MPN">TYPE-C-31-M-12</field>
+        <field name="Footprint">PawTrack:USB_C_Receptacle_HRO_TYPE-C-31-M-12</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PawTrack" part="J1" description=""/>
+      <property name="MPN" value="TYPE-C-31-M-12"/>
+      <property name="Sheetname" value="pawtrack"/>
+      <property name="Sheetfile" value="pawtrack.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b0ae4338-3647-5313-a050-9735a85d9d41</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="A1"/>
+            <pin num="A4"/>
+            <pin num="A5"/>
+            <pin num="A6"/>
+            <pin num="A7"/>
+            <pin num="A8"/>
+            <pin num="A9"/>
+            <pin num="A12"/>
+            <pin num="B1"/>
+            <pin num="B4"/>
+            <pin num="B5"/>
+            <pin num="B6"/>
+            <pin num="B7"/>
+            <pin num="B8"/>
+            <pin num="B9"/>
+            <pin num="B12"/>
+            <pin num="SH"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J2">
+      <value>Protected LiPo+NTC</value>
+      <footprint>PawTrack:JST_PH_B3B-PH-SM4-TB_1x03-1MP_P2.00mm_Vertical</footprint>
+      <fields>
+        <field name="MPN">B3B-PH-SM4-TB(LF)(SN)</field>
+        <field name="Footprint">PawTrack:JST_PH_B3B-PH-SM4-TB_1x03-1MP_P2.00mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PawTrack" part="J2" description=""/>
+      <property name="MPN" value="B3B-PH-SM4-TB(LF)(SN)"/>
+      <property name="Sheetname" value="pawtrack"/>
+      <property name="Sheetfile" value="pawtrack.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a26b5345-6186-50cd-805e-2eab94bfdec7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="MP"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J3">
+      <value>LTE 50ohm</value>
+      <footprint>PawTrack:U.FL_Hirose_U.FL-R-SMT-1_Vertical</footprint>
+      <fields>
+        <field name="MPN">U.FL-R-SMT-1(10)</field>
+        <field name="Footprint">PawTrack:U.FL_Hirose_U.FL-R-SMT-1_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PawTrack" part="J3" description=""/>
+      <property name="MPN" value="U.FL-R-SMT-1(10)"/>
+      <property name="Sheetname" value="pawtrack"/>
+      <property name="Sheetfile" value="pawtrack.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b945b4c5-e0b9-5432-abb0-55e55a61eb52</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J4">
+      <value>GNSS active</value>
+      <footprint>PawTrack:U.FL_Hirose_U.FL-R-SMT-1_Vertical</footprint>
+      <fields>
+        <field name="MPN">U.FL-R-SMT-1(10)</field>
+        <field name="Footprint">PawTrack:U.FL_Hirose_U.FL-R-SMT-1_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PawTrack" part="J4" description=""/>
+      <property name="MPN" value="U.FL-R-SMT-1(10)"/>
+      <property name="Sheetname" value="pawtrack"/>
+      <property name="Sheetfile" value="pawtrack.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ccb56bd9-4cde-5a98-97e0-7d518a00c6f1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J5">
+      <value>nanoSIM</value>
+      <footprint>PawTrack:nanoSIM_Hinged_CUI_NSIM-2-C</footprint>
+      <fields>
+        <field name="MPN">NSIM-2-C</field>
+        <field name="Footprint">PawTrack:nanoSIM_Hinged_CUI_NSIM-2-C</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PawTrack" part="J5" description=""/>
+      <property name="MPN" value="NSIM-2-C"/>
+      <property name="Sheetname" value="pawtrack"/>
+      <property name="Sheetfile" value="pawtrack.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7b6c32fa-a170-57e9-9ff8-3ce9bff03a54</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="SH"/>
+            <pin num="CD"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="L1">
+      <value>1uH 5.4A</value>
+      <footprint>PawTrack:XFL4020</footprint>
+      <fields>
+        <field name="MPN">XFL4020-102MEC</field>
+        <field name="Footprint">PawTrack:XFL4020</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PawTrack" part="L1" description=""/>
+      <property name="MPN" value="XFL4020-102MEC"/>
+      <property name="Sheetname" value="pawtrack"/>
+      <property name="Sheetfile" value="pawtrack.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>71b11fb0-b726-5b12-b28d-d0f0785c6b3c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="L2">
+      <value>47nH</value>
+      <footprint>PawTrack:L_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">0603HP-47NXJRW</field>
+        <field name="Footprint">PawTrack:L_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PawTrack" part="L2" description=""/>
+      <property name="MPN" value="0603HP-47NXJRW"/>
+      <property name="Sheetname" value="pawtrack"/>
+      <property name="Sheetfile" value="pawtrack.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1f7fa3c5-cef1-518e-af13-4fe57f0e147c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Q1">
+      <value>2N7002</value>
+      <footprint>PawTrack:SOT-23</footprint>
+      <fields>
+        <field name="MPN">2N7002,215</field>
+        <field name="Footprint">PawTrack:SOT-23</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PawTrack" part="Q1" description=""/>
+      <property name="MPN" value="2N7002,215"/>
+      <property name="Sheetname" value="pawtrack"/>
+      <property name="Sheetfile" value="pawtrack.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a69e0b73-2de5-58c8-a9f3-29aadbf676ef</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R1">
+      <value>5.1k</value>
+      <footprint>PawTrack:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-075K1L</field>
+        <field name="Footprint">PawTrack:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PawTrack" part="R1" description=""/>
+      <property name="MPN" value="RC0603FR-075K1L"/>
+      <property name="Sheetname" value="pawtrack"/>
+      <property name="Sheetfile" value="pawtrack.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8dd8c626-881d-5225-91f3-e717d71e5753</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R2">
+      <value>5.1k</value>
+      <footprint>PawTrack:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-075K1L</field>
+        <field name="Footprint">PawTrack:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PawTrack" part="R2" description=""/>
+      <property name="MPN" value="RC0603FR-075K1L"/>
+      <property name="Sheetname" value="pawtrack"/>
+      <property name="Sheetfile" value="pawtrack.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cf803ee3-6b0a-5c62-a12e-beacdf9f6df7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R3">
+      <value>2.55k</value>
+      <footprint>PawTrack:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-072K55L</field>
+        <field name="Footprint">PawTrack:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PawTrack" part="R3" description=""/>
+      <property name="MPN" value="RC0603FR-072K55L"/>
+      <property name="Sheetname" value="pawtrack"/>
+      <property name="Sheetfile" value="pawtrack.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2679e272-aab8-51d7-a9a7-4239933f12db</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R4">
+      <value>3.24k</value>
+      <footprint>PawTrack:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-073K24L</field>
+        <field name="Footprint">PawTrack:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PawTrack" part="R4" description=""/>
+      <property name="MPN" value="RC0603FR-073K24L"/>
+      <property name="Sheetname" value="pawtrack"/>
+      <property name="Sheetfile" value="pawtrack.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>66fdbc49-8828-5e59-b272-d4722bff1d48</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R5">
+      <value>750k</value>
+      <footprint>PawTrack:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-07750KL</field>
+        <field name="Footprint">PawTrack:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PawTrack" part="R5" description=""/>
+      <property name="MPN" value="RC0603FR-07750KL"/>
+      <property name="Sheetname" value="pawtrack"/>
+      <property name="Sheetfile" value="pawtrack.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>54ced713-1d7d-5b9e-b711-5ebcae340072</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R6">
+      <value>200k</value>
+      <footprint>PawTrack:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-07200KL</field>
+        <field name="Footprint">PawTrack:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PawTrack" part="R6" description=""/>
+      <property name="MPN" value="RC0603FR-07200KL"/>
+      <property name="Sheetname" value="pawtrack"/>
+      <property name="Sheetfile" value="pawtrack.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6a6548d0-3673-5ea8-b8fd-7498439177a6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R7">
+      <value>100k</value>
+      <footprint>PawTrack:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-07100KL</field>
+        <field name="Footprint">PawTrack:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PawTrack" part="R7" description=""/>
+      <property name="MPN" value="RC0603FR-07100KL"/>
+      <property name="Sheetname" value="pawtrack"/>
+      <property name="Sheetfile" value="pawtrack.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2723d578-0f6b-50e7-8311-8a3615144217</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R8">
+      <value>330k</value>
+      <footprint>PawTrack:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-07330KL</field>
+        <field name="Footprint">PawTrack:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PawTrack" part="R8" description=""/>
+      <property name="MPN" value="RC0603FR-07330KL"/>
+      <property name="Sheetname" value="pawtrack"/>
+      <property name="Sheetfile" value="pawtrack.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f937ed78-2e96-5c5c-bb1d-9332dc463eec</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R9">
+      <value>100k</value>
+      <footprint>PawTrack:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-07100KL</field>
+        <field name="Footprint">PawTrack:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PawTrack" part="R9" description=""/>
+      <property name="MPN" value="RC0603FR-07100KL"/>
+      <property name="Sheetname" value="pawtrack"/>
+      <property name="Sheetfile" value="pawtrack.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b4411b9d-0b2e-5d9b-9221-16da48307e0e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R10">
+      <value>22</value>
+      <footprint>PawTrack:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0722RL</field>
+        <field name="Footprint">PawTrack:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PawTrack" part="R10" description=""/>
+      <property name="MPN" value="RC0603FR-0722RL"/>
+      <property name="Sheetname" value="pawtrack"/>
+      <property name="Sheetfile" value="pawtrack.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dbb95eb8-0f18-5c04-8700-e346c6b86f40</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R11">
+      <value>22</value>
+      <footprint>PawTrack:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0722RL</field>
+        <field name="Footprint">PawTrack:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PawTrack" part="R11" description=""/>
+      <property name="MPN" value="RC0603FR-0722RL"/>
+      <property name="Sheetname" value="pawtrack"/>
+      <property name="Sheetfile" value="pawtrack.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eceedc1b-d38e-54f9-91df-8f570fb60818</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R12">
+      <value>22</value>
+      <footprint>PawTrack:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0722RL</field>
+        <field name="Footprint">PawTrack:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PawTrack" part="R12" description=""/>
+      <property name="MPN" value="RC0603FR-0722RL"/>
+      <property name="Sheetname" value="pawtrack"/>
+      <property name="Sheetfile" value="pawtrack.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5ad6366e-374e-56cc-b440-fba5874dcf50</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R13">
+      <value>0</value>
+      <footprint>PawTrack:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603JR-070RL</field>
+        <field name="Footprint">PawTrack:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PawTrack" part="R13" description=""/>
+      <property name="MPN" value="RC0603JR-070RL"/>
+      <property name="Sheetname" value="pawtrack"/>
+      <property name="Sheetfile" value="pawtrack.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1df07e61-5582-5554-a524-bd0c93490ecd</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R14">
+      <value>0</value>
+      <footprint>PawTrack:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603JR-070RL</field>
+        <field name="Footprint">PawTrack:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PawTrack" part="R14" description=""/>
+      <property name="MPN" value="RC0603JR-070RL"/>
+      <property name="Sheetname" value="pawtrack"/>
+      <property name="Sheetfile" value="pawtrack.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3b2d6020-3e94-5259-81cc-0207dcf88460</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R15">
+      <value>10k</value>
+      <footprint>PawTrack:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="Footprint">PawTrack:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PawTrack" part="R15" description=""/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="Sheetname" value="pawtrack"/>
+      <property name="Sheetfile" value="pawtrack.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e6b1cdd4-84aa-59f8-9478-ca216175c283</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R16">
+      <value>100k</value>
+      <footprint>PawTrack:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-07100KL</field>
+        <field name="Footprint">PawTrack:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PawTrack" part="R16" description=""/>
+      <property name="MPN" value="RC0603FR-07100KL"/>
+      <property name="Sheetname" value="pawtrack"/>
+      <property name="Sheetfile" value="pawtrack.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f8897261-1f79-5169-8a72-94aa39d8ab35</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R17">
+      <value>100k</value>
+      <footprint>PawTrack:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-07100KL</field>
+        <field name="Footprint">PawTrack:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PawTrack" part="R17" description=""/>
+      <property name="MPN" value="RC0603FR-07100KL"/>
+      <property name="Sheetname" value="pawtrack"/>
+      <property name="Sheetfile" value="pawtrack.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6eddaba6-f0e3-57cb-8d4b-174ca6c1910d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R18">
+      <value>1k</value>
+      <footprint>PawTrack:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-071KL</field>
+        <field name="Footprint">PawTrack:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PawTrack" part="R18" description=""/>
+      <property name="MPN" value="RC0603FR-071KL"/>
+      <property name="Sheetname" value="pawtrack"/>
+      <property name="Sheetfile" value="pawtrack.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>767f4f09-7019-57c6-aaf9-1f4e825f3d40</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R19">
+      <value>3.3M</value>
+      <footprint>PawTrack:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-073M3L</field>
+        <field name="Footprint">PawTrack:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PawTrack" part="R19" description=""/>
+      <property name="MPN" value="RC0603FR-073M3L"/>
+      <property name="Sheetname" value="pawtrack"/>
+      <property name="Sheetfile" value="pawtrack.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6205d789-6397-5338-af84-3bb91caa360d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R20">
+      <value>1M</value>
+      <footprint>PawTrack:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-071ML</field>
+        <field name="Footprint">PawTrack:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PawTrack" part="R20" description=""/>
+      <property name="MPN" value="RC0603FR-071ML"/>
+      <property name="Sheetname" value="pawtrack"/>
+      <property name="Sheetfile" value="pawtrack.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5350bc7d-7a8d-5acd-afde-665e65527853</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW1">
+      <value>POWER KEY</value>
+      <footprint>PawTrack:SW_SPST_SKQG_WithoutStem</footprint>
+      <fields>
+        <field name="MPN">SKQGAKE010</field>
+        <field name="Footprint">PawTrack:SW_SPST_SKQG_WithoutStem</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PawTrack" part="SW1" description=""/>
+      <property name="MPN" value="SKQGAKE010"/>
+      <property name="Sheetname" value="pawtrack"/>
+      <property name="Sheetfile" value="pawtrack.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b065c1d2-6a1b-5d46-8633-4695e8e4564a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW2">
+      <value>RESET</value>
+      <footprint>PawTrack:SW_SPST_SKQG_WithoutStem</footprint>
+      <fields>
+        <field name="MPN">SKQGAKE010</field>
+        <field name="Footprint">PawTrack:SW_SPST_SKQG_WithoutStem</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PawTrack" part="SW2" description=""/>
+      <property name="MPN" value="SKQGAKE010"/>
+      <property name="Sheetname" value="pawtrack"/>
+      <property name="Sheetfile" value="pawtrack.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f1a2c0db-d95f-5290-bfe2-bc789a85e99f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP1">
+      <value>VDD_EXT</value>
+      <footprint>PawTrack:TestPoint_Pad_D1.0mm</footprint>
+      <fields>
+        <field name="MPN">PCB pad</field>
+        <field name="Footprint">PawTrack:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PawTrack" part="TP1" description=""/>
+      <property name="MPN" value="PCB pad"/>
+      <property name="Sheetname" value="pawtrack"/>
+      <property name="Sheetfile" value="pawtrack.kicad_sch"/>
+      <property name="dnp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>61978648-8e52-58a7-ac03-60106356186b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP2">
+      <value>USB_BOOT</value>
+      <footprint>PawTrack:TestPoint_Pad_D1.0mm</footprint>
+      <fields>
+        <field name="MPN">PCB pad</field>
+        <field name="Footprint">PawTrack:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PawTrack" part="TP2" description=""/>
+      <property name="MPN" value="PCB pad"/>
+      <property name="Sheetname" value="pawtrack"/>
+      <property name="Sheetfile" value="pawtrack.kicad_sch"/>
+      <property name="dnp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>943de14f-761f-5a56-bc7a-0301f5b3cad2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP3">
+      <value>DBG_RX</value>
+      <footprint>PawTrack:TestPoint_Pad_D1.0mm</footprint>
+      <fields>
+        <field name="MPN">PCB pad</field>
+        <field name="Footprint">PawTrack:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PawTrack" part="TP3" description=""/>
+      <property name="MPN" value="PCB pad"/>
+      <property name="Sheetname" value="pawtrack"/>
+      <property name="Sheetfile" value="pawtrack.kicad_sch"/>
+      <property name="dnp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bccb83e1-d788-5b81-8d0e-bbe662341067</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP4">
+      <value>DBG_TX</value>
+      <footprint>PawTrack:TestPoint_Pad_D1.0mm</footprint>
+      <fields>
+        <field name="MPN">PCB pad</field>
+        <field name="Footprint">PawTrack:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PawTrack" part="TP4" description=""/>
+      <property name="MPN" value="PCB pad"/>
+      <property name="Sheetname" value="pawtrack"/>
+      <property name="Sheetfile" value="pawtrack.kicad_sch"/>
+      <property name="dnp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c9facaeb-9a86-5860-bc1c-f40eae895c6c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP5">
+      <value>GND</value>
+      <footprint>PawTrack:TestPoint_Pad_D1.0mm</footprint>
+      <fields>
+        <field name="MPN">PCB pad</field>
+        <field name="Footprint">PawTrack:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PawTrack" part="TP5" description=""/>
+      <property name="MPN" value="PCB pad"/>
+      <property name="Sheetname" value="pawtrack"/>
+      <property name="Sheetfile" value="pawtrack.kicad_sch"/>
+      <property name="dnp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>238e36b6-4b4e-5788-a4ff-b22b619b2ed4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP6">
+      <value>SYS</value>
+      <footprint>PawTrack:TestPoint_Pad_D1.0mm</footprint>
+      <fields>
+        <field name="MPN">PCB pad</field>
+        <field name="Footprint">PawTrack:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PawTrack" part="TP6" description=""/>
+      <property name="MPN" value="PCB pad"/>
+      <property name="Sheetname" value="pawtrack"/>
+      <property name="Sheetfile" value="pawtrack.kicad_sch"/>
+      <property name="dnp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>31372452-b249-52f0-ad2a-021659ec2292</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP7">
+      <value>V_MODEM</value>
+      <footprint>PawTrack:TestPoint_Pad_D1.0mm</footprint>
+      <fields>
+        <field name="MPN">PCB pad</field>
+        <field name="Footprint">PawTrack:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PawTrack" part="TP7" description=""/>
+      <property name="MPN" value="PCB pad"/>
+      <property name="Sheetname" value="pawtrack"/>
+      <property name="Sheetfile" value="pawtrack.kicad_sch"/>
+      <property name="dnp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>38fa8211-87c3-5f39-8221-51e82d6ac2b6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP8">
+      <value>REG_EN</value>
+      <footprint>PawTrack:TestPoint_Pad_D1.0mm</footprint>
+      <fields>
+        <field name="MPN">PCB pad</field>
+        <field name="Footprint">PawTrack:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PawTrack" part="TP8" description=""/>
+      <property name="MPN" value="PCB pad"/>
+      <property name="Sheetname" value="pawtrack"/>
+      <property name="Sheetfile" value="pawtrack.kicad_sch"/>
+      <property name="dnp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8fb72ae1-e395-5ee4-8c13-3a494c54f12f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP9">
+      <value>BAT</value>
+      <footprint>PawTrack:TestPoint_Pad_D1.0mm</footprint>
+      <fields>
+        <field name="MPN">PCB pad</field>
+        <field name="Footprint">PawTrack:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PawTrack" part="TP9" description=""/>
+      <property name="MPN" value="PCB pad"/>
+      <property name="Sheetname" value="pawtrack"/>
+      <property name="Sheetfile" value="pawtrack.kicad_sch"/>
+      <property name="dnp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>465576b8-6282-5188-a537-b9af399e8eb2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U1">
+      <value>Air780EGH</value>
+      <footprint>PawTrack:Air780EGH_109</footprint>
+      <fields>
+        <field name="MPN">Air780EGH</field>
+        <field name="Footprint">PawTrack:Air780EGH_109</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PawTrack" part="U1" description=""/>
+      <property name="MPN" value="Air780EGH"/>
+      <property name="Sheetname" value="pawtrack"/>
+      <property name="Sheetfile" value="pawtrack.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>07f9e81f-b465-5ebe-a8eb-c31ff8077b3e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+            <pin num="15"/>
+            <pin num="16"/>
+            <pin num="17"/>
+            <pin num="18"/>
+            <pin num="19"/>
+            <pin num="20"/>
+            <pin num="21"/>
+            <pin num="22"/>
+            <pin num="23"/>
+            <pin num="24"/>
+            <pin num="25"/>
+            <pin num="26"/>
+            <pin num="27"/>
+            <pin num="28"/>
+            <pin num="29"/>
+            <pin num="30"/>
+            <pin num="31"/>
+            <pin num="32"/>
+            <pin num="33"/>
+            <pin num="34"/>
+            <pin num="35"/>
+            <pin num="36"/>
+            <pin num="37"/>
+            <pin num="38"/>
+            <pin num="39"/>
+            <pin num="40"/>
+            <pin num="41"/>
+            <pin num="42"/>
+            <pin num="43"/>
+            <pin num="44"/>
+            <pin num="45"/>
+            <pin num="46"/>
+            <pin num="47"/>
+            <pin num="48"/>
+            <pin num="49"/>
+            <pin num="50"/>
+            <pin num="51"/>
+            <pin num="52"/>
+            <pin num="53"/>
+            <pin num="54"/>
+            <pin num="55"/>
+            <pin num="56"/>
+            <pin num="57"/>
+            <pin num="58"/>
+            <pin num="59"/>
+            <pin num="60"/>
+            <pin num="61"/>
+            <pin num="62"/>
+            <pin num="63"/>
+            <pin num="64"/>
+            <pin num="65"/>
+            <pin num="66"/>
+            <pin num="67"/>
+            <pin num="68"/>
+            <pin num="69"/>
+            <pin num="70"/>
+            <pin num="71"/>
+            <pin num="72"/>
+            <pin num="73"/>
+            <pin num="74"/>
+            <pin num="75"/>
+            <pin num="76"/>
+            <pin num="77"/>
+            <pin num="78"/>
+            <pin num="79"/>
+            <pin num="80"/>
+            <pin num="81"/>
+            <pin num="82"/>
+            <pin num="83"/>
+            <pin num="84"/>
+            <pin num="85"/>
+            <pin num="86"/>
+            <pin num="87"/>
+            <pin num="88"/>
+            <pin num="89"/>
+            <pin num="90"/>
+            <pin num="91"/>
+            <pin num="92"/>
+            <pin num="93"/>
+            <pin num="94"/>
+            <pin num="95"/>
+            <pin num="96"/>
+            <pin num="97"/>
+            <pin num="98"/>
+            <pin num="99"/>
+            <pin num="100"/>
+            <pin num="101"/>
+            <pin num="102"/>
+            <pin num="103"/>
+            <pin num="104"/>
+            <pin num="105"/>
+            <pin num="106"/>
+            <pin num="107"/>
+            <pin num="108"/>
+            <pin num="109"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U2">
+      <value>BQ24074RGTR</value>
+      <footprint>PawTrack:WQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm</footprint>
+      <fields>
+        <field name="MPN">BQ24074RGTR</field>
+        <field name="Footprint">PawTrack:WQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PawTrack" part="U2" description=""/>
+      <property name="MPN" value="BQ24074RGTR"/>
+      <property name="Sheetname" value="pawtrack"/>
+      <property name="Sheetfile" value="pawtrack.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d981afec-2524-59a7-a01e-ecf56f8e5b9b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+            <pin num="15"/>
+            <pin num="16"/>
+            <pin num="17"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U3">
+      <value>TPS63070RNMR</value>
+      <footprint>PawTrack:TPS63070_RNM0015A</footprint>
+      <fields>
+        <field name="MPN">TPS63070RNMR</field>
+        <field name="Footprint">PawTrack:TPS63070_RNM0015A</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PawTrack" part="U3" description=""/>
+      <property name="MPN" value="TPS63070RNMR"/>
+      <property name="Sheetname" value="pawtrack"/>
+      <property name="Sheetfile" value="pawtrack.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>da0c82f9-d913-536a-9c97-e6433e006126</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+            <pin num="15"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="PawTrack" part="C1">
+      <fields>
+        <field name="Reference">C1</field>
+        <field name="Value">4.7uF</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PawTrack" part="C10">
+      <fields>
+        <field name="Reference">C10</field>
+        <field name="Value">1uF</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="V_MODEM" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PawTrack" part="C11">
+      <fields>
+        <field name="Reference">C11</field>
+        <field name="Value">100nF</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="GNSS_VDD" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PawTrack" part="C12">
+      <fields>
+        <field name="Reference">C12</field>
+        <field name="Value">100nF</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="SIM_VDD" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PawTrack" part="C13">
+      <fields>
+        <field name="Reference">C13</field>
+        <field name="Value">100nF</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="BAT_SENSE" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PawTrack" part="C14">
+      <fields>
+        <field name="Reference">C14</field>
+        <field name="Value">100uF 6.3V</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="V_MODEM" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PawTrack" part="C15">
+      <fields>
+        <field name="Reference">C15</field>
+        <field name="Value">33pF</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="GNSS_IN" type="passive"/>
+        <pin num="2" name="GNSS_FEED" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PawTrack" part="C16">
+      <fields>
+        <field name="Reference">C16</field>
+        <field name="Value">DNP tuning</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="LTE_IN" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PawTrack" part="C17">
+      <fields>
+        <field name="Reference">C17</field>
+        <field name="Value">DNP tuning</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="LTE_FEED" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PawTrack" part="C18">
+      <fields>
+        <field name="Reference">C18</field>
+        <field name="Value">DNP tuning</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="GNSS_IN" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PawTrack" part="C19">
+      <fields>
+        <field name="Reference">C19</field>
+        <field name="Value">DNP tuning</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="GNSS_FEED" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PawTrack" part="C2">
+      <fields>
+        <field name="Reference">C2</field>
+        <field name="Value">4.7uF</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="BAT" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PawTrack" part="C20">
+      <fields>
+        <field name="Reference">C20</field>
+        <field name="Value">100nF</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="TS_SENSE" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PawTrack" part="C3">
+      <fields>
+        <field name="Reference">C3</field>
+        <field name="Value">22uF</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="SYS" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PawTrack" part="C4">
+      <fields>
+        <field name="Reference">C4</field>
+        <field name="Value">22uF</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="SYS" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PawTrack" part="C5">
+      <fields>
+        <field name="Reference">C5</field>
+        <field name="Value">100nF</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="SYS" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PawTrack" part="C6">
+      <fields>
+        <field name="Reference">C6</field>
+        <field name="Value">100nF</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="VAUX" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PawTrack" part="C7">
+      <fields>
+        <field name="Reference">C7</field>
+        <field name="Value">22uF</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="V_MODEM" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PawTrack" part="C8">
+      <fields>
+        <field name="Reference">C8</field>
+        <field name="Value">22uF</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="V_MODEM" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PawTrack" part="C9">
+      <fields>
+        <field name="Reference">C9</field>
+        <field name="Value">100nF</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="V_MODEM" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PawTrack" part="D1">
+      <fields>
+        <field name="Reference">D1</field>
+        <field name="Value">ESD</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="USB_DP" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PawTrack" part="D2">
+      <fields>
+        <field name="Reference">D2</field>
+        <field name="Value">ESD</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="USB_DM" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PawTrack" part="D3">
+      <fields>
+        <field name="Reference">D3</field>
+        <field name="Value">ESD</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="SIM_IO" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PawTrack" part="D4">
+      <fields>
+        <field name="Reference">D4</field>
+        <field name="Value">ESD</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="SIM_RST" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PawTrack" part="D5">
+      <fields>
+        <field name="Reference">D5</field>
+        <field name="Value">ESD</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="SIM_CLK" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PawTrack" part="H1">
+      <fields>
+        <field name="Reference">H1</field>
+        <field name="Value">M2 clearance</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+    </libpart>
+    <libpart lib="PawTrack" part="H2">
+      <fields>
+        <field name="Reference">H2</field>
+        <field name="Value">M2 clearance</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+    </libpart>
+    <libpart lib="PawTrack" part="H3">
+      <fields>
+        <field name="Reference">H3</field>
+        <field name="Value">M2 clearance</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+    </libpart>
+    <libpart lib="PawTrack" part="H4">
+      <fields>
+        <field name="Reference">H4</field>
+        <field name="Value">M2 clearance</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+    </libpart>
+    <libpart lib="PawTrack" part="J1">
+      <fields>
+        <field name="Reference">J1</field>
+        <field name="Value">USB-C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="A1" name="GND" type="passive"/>
+        <pin num="A4" name="VBUS" type="passive"/>
+        <pin num="A5" name="CC1" type="passive"/>
+        <pin num="A6" name="USB_DP" type="passive"/>
+        <pin num="A7" name="USB_DM" type="passive"/>
+        <pin num="A8" name="NC" type="passive"/>
+        <pin num="A9" name="VBUS" type="passive"/>
+        <pin num="A12" name="GND" type="passive"/>
+        <pin num="B1" name="GND" type="passive"/>
+        <pin num="B4" name="VBUS" type="passive"/>
+        <pin num="B5" name="CC2" type="passive"/>
+        <pin num="B6" name="USB_DP" type="passive"/>
+        <pin num="B7" name="USB_DM" type="passive"/>
+        <pin num="B8" name="NC" type="passive"/>
+        <pin num="B9" name="VBUS" type="passive"/>
+        <pin num="B12" name="GND" type="passive"/>
+        <pin num="SH" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PawTrack" part="J2">
+      <fields>
+        <field name="Reference">J2</field>
+        <field name="Value">Protected LiPo+NTC</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="BAT" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="NTC" type="passive"/>
+        <pin num="MP" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PawTrack" part="J3">
+      <fields>
+        <field name="Reference">J3</field>
+        <field name="Value">LTE 50ohm</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="LTE_FEED" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PawTrack" part="J4">
+      <fields>
+        <field name="Reference">J4</field>
+        <field name="Value">GNSS active</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="GNSS_FEED" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PawTrack" part="J5">
+      <fields>
+        <field name="Reference">J5</field>
+        <field name="Value">nanoSIM</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="SIM_VDD" type="passive"/>
+        <pin num="2" name="SIM_RST" type="passive"/>
+        <pin num="3" name="SIM_CLK" type="passive"/>
+        <pin num="5" name="GND" type="passive"/>
+        <pin num="6" name="NC" type="passive"/>
+        <pin num="7" name="SIM_IO" type="passive"/>
+        <pin num="CD" name="NC" type="passive"/>
+        <pin num="SH" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PawTrack" part="L1">
+      <fields>
+        <field name="Reference">L1</field>
+        <field name="Value">1uH 5.4A</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="SW1" type="passive"/>
+        <pin num="2" name="SW2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PawTrack" part="L2">
+      <fields>
+        <field name="Reference">L2</field>
+        <field name="Value">47nH</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="GNSS_BIAS" type="passive"/>
+        <pin num="2" name="GNSS_FEED" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PawTrack" part="Q1">
+      <fields>
+        <field name="Reference">Q1</field>
+        <field name="Value">2N7002</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="CHG_GATE" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="CHG_DISABLE" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PawTrack" part="R1">
+      <fields>
+        <field name="Reference">R1</field>
+        <field name="Value">5.1k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="CC1" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PawTrack" part="R10">
+      <fields>
+        <field name="Reference">R10</field>
+        <field name="Value">22</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="SIM_IO_M" type="passive"/>
+        <pin num="2" name="SIM_IO" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PawTrack" part="R11">
+      <fields>
+        <field name="Reference">R11</field>
+        <field name="Value">22</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="SIM_RST_M" type="passive"/>
+        <pin num="2" name="SIM_RST" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PawTrack" part="R12">
+      <fields>
+        <field name="Reference">R12</field>
+        <field name="Value">22</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="SIM_CLK_M" type="passive"/>
+        <pin num="2" name="SIM_CLK" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PawTrack" part="R13">
+      <fields>
+        <field name="Reference">R13</field>
+        <field name="Value">0</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="LTE_IN" type="passive"/>
+        <pin num="2" name="LTE_FEED" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PawTrack" part="R14">
+      <fields>
+        <field name="Reference">R14</field>
+        <field name="Value">0</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="GNSS_VDD" type="passive"/>
+        <pin num="2" name="GNSS_BIAS" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PawTrack" part="R15">
+      <fields>
+        <field name="Reference">R15</field>
+        <field name="Value">10k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="SIM_VDD" type="passive"/>
+        <pin num="2" name="SIM_IO" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PawTrack" part="R16">
+      <fields>
+        <field name="Reference">R16</field>
+        <field name="Value">100k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="passive"/>
+        <pin num="2" name="CHG_DISABLE" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PawTrack" part="R17">
+      <fields>
+        <field name="Reference">R17</field>
+        <field name="Value">100k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="CHG_GATE" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PawTrack" part="R18">
+      <fields>
+        <field name="Reference">R18</field>
+        <field name="Value">1k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="CHG_CTRL" type="passive"/>
+        <pin num="2" name="CHG_GATE" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PawTrack" part="R19">
+      <fields>
+        <field name="Reference">R19</field>
+        <field name="Value">3.3M</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="NTC" type="passive"/>
+        <pin num="2" name="TS_SENSE" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PawTrack" part="R2">
+      <fields>
+        <field name="Reference">R2</field>
+        <field name="Value">5.1k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="CC2" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PawTrack" part="R20">
+      <fields>
+        <field name="Reference">R20</field>
+        <field name="Value">1M</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="TS_SENSE" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PawTrack" part="R3">
+      <fields>
+        <field name="Reference">R3</field>
+        <field name="Value">2.55k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="ISET" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PawTrack" part="R4">
+      <fields>
+        <field name="Reference">R4</field>
+        <field name="Value">3.24k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="ILIM" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PawTrack" part="R5">
+      <fields>
+        <field name="Reference">R5</field>
+        <field name="Value">750k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="V_MODEM" type="passive"/>
+        <pin num="2" name="FB" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PawTrack" part="R6">
+      <fields>
+        <field name="Reference">R6</field>
+        <field name="Value">200k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="FB" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PawTrack" part="R7">
+      <fields>
+        <field name="Reference">R7</field>
+        <field name="Value">100k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="SYS" type="passive"/>
+        <pin num="2" name="REG_EN" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PawTrack" part="R8">
+      <fields>
+        <field name="Reference">R8</field>
+        <field name="Value">330k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="BAT" type="passive"/>
+        <pin num="2" name="BAT_SENSE" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PawTrack" part="R9">
+      <fields>
+        <field name="Reference">R9</field>
+        <field name="Value">100k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="BAT_SENSE" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PawTrack" part="SW1">
+      <fields>
+        <field name="Reference">SW1</field>
+        <field name="Value">POWER KEY</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="PWRKEY" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PawTrack" part="SW2">
+      <fields>
+        <field name="Reference">SW2</field>
+        <field name="Value">RESET</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="RESET_N" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PawTrack" part="TP1">
+      <fields>
+        <field name="Reference">TP1</field>
+        <field name="Value">VDD_EXT</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD_EXT" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PawTrack" part="TP2">
+      <fields>
+        <field name="Reference">TP2</field>
+        <field name="Value">USB_BOOT</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="USB_BOOT" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PawTrack" part="TP3">
+      <fields>
+        <field name="Reference">TP3</field>
+        <field name="Value">DBG_RX</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DBG_RX" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PawTrack" part="TP4">
+      <fields>
+        <field name="Reference">TP4</field>
+        <field name="Value">DBG_TX</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DBG_TX" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PawTrack" part="TP5">
+      <fields>
+        <field name="Reference">TP5</field>
+        <field name="Value">GND</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PawTrack" part="TP6">
+      <fields>
+        <field name="Reference">TP6</field>
+        <field name="Value">SYS</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="SYS" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PawTrack" part="TP7">
+      <fields>
+        <field name="Reference">TP7</field>
+        <field name="Value">V_MODEM</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="V_MODEM" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PawTrack" part="TP8">
+      <fields>
+        <field name="Reference">TP8</field>
+        <field name="Value">REG_EN</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="REG_EN" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PawTrack" part="TP9">
+      <fields>
+        <field name="Reference">TP9</field>
+        <field name="Value">BAT</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="BAT" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PawTrack" part="U1">
+      <fields>
+        <field name="Reference">U1</field>
+        <field name="Value">Air780EGH</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="GNSS_IN" type="input"/>
+        <pin num="3" name="NC" type="passive"/>
+        <pin num="4" name="NC" type="passive"/>
+        <pin num="5" name="NC" type="passive"/>
+        <pin num="6" name="NC" type="passive"/>
+        <pin num="7" name="PWRKEY" type="input"/>
+        <pin num="8" name="NC" type="passive"/>
+        <pin num="9" name="BAT_SENSE" type="input"/>
+        <pin num="10" name="GND" type="power_in"/>
+        <pin num="11" name="SIM_IO_M" type="bidirectional"/>
+        <pin num="12" name="SIM_RST_M" type="output"/>
+        <pin num="13" name="SIM_CLK_M" type="output"/>
+        <pin num="14" name="SIM_VDD" type="power_out"/>
+        <pin num="15" name="RESET_N" type="input"/>
+        <pin num="16" name="CHG_CTRL" type="output"/>
+        <pin num="17" name="NC" type="passive"/>
+        <pin num="18" name="NC" type="passive"/>
+        <pin num="19" name="NC" type="passive"/>
+        <pin num="20" name="NC" type="passive"/>
+        <pin num="21" name="NC" type="passive"/>
+        <pin num="22" name="NC" type="passive"/>
+        <pin num="23" name="NC" type="passive"/>
+        <pin num="24" name="VDD_EXT" type="power_out"/>
+        <pin num="25" name="NC" type="passive"/>
+        <pin num="26" name="NC" type="passive"/>
+        <pin num="27" name="GND" type="power_in"/>
+        <pin num="28" name="NC" type="passive"/>
+        <pin num="29" name="NC" type="passive"/>
+        <pin num="30" name="NC" type="passive"/>
+        <pin num="31" name="NC" type="passive"/>
+        <pin num="32" name="NC" type="passive"/>
+        <pin num="33" name="NC" type="passive"/>
+        <pin num="34" name="GND" type="power_in"/>
+        <pin num="35" name="LTE_IN" type="bidirectional"/>
+        <pin num="36" name="GND" type="power_in"/>
+        <pin num="37" name="GND" type="power_in"/>
+        <pin num="38" name="DBG_RX" type="input"/>
+        <pin num="39" name="DBG_TX" type="output"/>
+        <pin num="40" name="GND" type="power_in"/>
+        <pin num="41" name="GND" type="power_in"/>
+        <pin num="42" name="V_MODEM" type="power_in"/>
+        <pin num="43" name="V_MODEM" type="power_in"/>
+        <pin num="44" name="NC" type="passive"/>
+        <pin num="45" name="GND" type="power_in"/>
+        <pin num="46" name="GND" type="power_in"/>
+        <pin num="47" name="GND" type="power_in"/>
+        <pin num="48" name="GND" type="power_in"/>
+        <pin num="49" name="NC" type="passive"/>
+        <pin num="50" name="NC" type="passive"/>
+        <pin num="51" name="NC" type="passive"/>
+        <pin num="52" name="NC" type="passive"/>
+        <pin num="53" name="NC" type="passive"/>
+        <pin num="54" name="NC" type="passive"/>
+        <pin num="55" name="NC" type="passive"/>
+        <pin num="56" name="NC" type="passive"/>
+        <pin num="57" name="NC" type="passive"/>
+        <pin num="58" name="NC" type="passive"/>
+        <pin num="59" name="USB_DP" type="bidirectional"/>
+        <pin num="60" name="USB_DM" type="bidirectional"/>
+        <pin num="61" name="VBUS" type="power_in"/>
+        <pin num="62" name="NC" type="passive"/>
+        <pin num="63" name="NC" type="passive"/>
+        <pin num="64" name="NC" type="passive"/>
+        <pin num="65" name="NC" type="passive"/>
+        <pin num="66" name="NC" type="passive"/>
+        <pin num="67" name="NC" type="passive"/>
+        <pin num="68" name="NC" type="passive"/>
+        <pin num="69" name="NC" type="passive"/>
+        <pin num="70" name="GND" type="power_in"/>
+        <pin num="71" name="GND" type="power_in"/>
+        <pin num="72" name="GND" type="power_in"/>
+        <pin num="73" name="GND" type="power_in"/>
+        <pin num="74" name="NC" type="passive"/>
+        <pin num="75" name="NC" type="passive"/>
+        <pin num="76" name="NC" type="passive"/>
+        <pin num="77" name="NC" type="passive"/>
+        <pin num="78" name="NC" type="passive"/>
+        <pin num="79" name="NC" type="passive"/>
+        <pin num="80" name="NC" type="passive"/>
+        <pin num="81" name="NC" type="passive"/>
+        <pin num="82" name="USB_BOOT" type="input"/>
+        <pin num="83" name="NC" type="passive"/>
+        <pin num="84" name="NC" type="passive"/>
+        <pin num="85" name="NC" type="passive"/>
+        <pin num="86" name="NC" type="passive"/>
+        <pin num="87" name="NC" type="passive"/>
+        <pin num="88" name="GND" type="power_in"/>
+        <pin num="89" name="GND" type="power_in"/>
+        <pin num="90" name="GND" type="power_in"/>
+        <pin num="91" name="GND" type="power_in"/>
+        <pin num="92" name="GND" type="power_in"/>
+        <pin num="93" name="GND" type="power_in"/>
+        <pin num="94" name="GND" type="power_in"/>
+        <pin num="95" name="GND" type="power_in"/>
+        <pin num="96" name="TS_SENSE" type="input"/>
+        <pin num="97" name="NC" type="passive"/>
+        <pin num="98" name="GNSS_VDD" type="power_out"/>
+        <pin num="99" name="NC" type="passive"/>
+        <pin num="100" name="NC" type="passive"/>
+        <pin num="101" name="NC" type="passive"/>
+        <pin num="102" name="NC" type="passive"/>
+        <pin num="103" name="GND" type="power_in"/>
+        <pin num="104" name="NC" type="passive"/>
+        <pin num="105" name="NC" type="passive"/>
+        <pin num="106" name="NC" type="passive"/>
+        <pin num="107" name="NC" type="passive"/>
+        <pin num="108" name="NC" type="passive"/>
+        <pin num="109" name="NC" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PawTrack" part="U2">
+      <fields>
+        <field name="Reference">U2</field>
+        <field name="Value">BQ24074RGTR</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="NTC" type="input"/>
+        <pin num="2" name="BAT" type="passive"/>
+        <pin num="3" name="BAT" type="passive"/>
+        <pin num="4" name="CHG_DISABLE" type="input"/>
+        <pin num="5" name="GND" type="input"/>
+        <pin num="6" name="VBUS" type="input"/>
+        <pin num="7" name="NC" type="passive"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="NC" type="passive"/>
+        <pin num="10" name="SYS" type="power_out"/>
+        <pin num="11" name="SYS" type="passive"/>
+        <pin num="12" name="ILIM" type="input"/>
+        <pin num="13" name="VBUS" type="power_in"/>
+        <pin num="14" name="NC" type="passive"/>
+        <pin num="15" name="NC" type="passive"/>
+        <pin num="16" name="ISET" type="input"/>
+        <pin num="17" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="PawTrack" part="U3">
+      <fields>
+        <field name="Reference">U3</field>
+        <field name="Value">TPS63070RNMR</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="input"/>
+        <pin num="2" name="NC" type="passive"/>
+        <pin num="3" name="VAUX" type="passive"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="FB" type="input"/>
+        <pin num="6" name="NC" type="passive"/>
+        <pin num="7" name="V_MODEM" type="power_out"/>
+        <pin num="8" name="V_MODEM" type="passive"/>
+        <pin num="9" name="SW2" type="passive"/>
+        <pin num="10" name="GND" type="power_in"/>
+        <pin num="11" name="SW1" type="passive"/>
+        <pin num="12" name="SYS" type="power_in"/>
+        <pin num="13" name="SYS" type="passive"/>
+        <pin num="14" name="REG_EN" type="input"/>
+        <pin num="15" name="GND" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="PawTrack">
+      <uri>${KIPRJMOD}/PawTrack.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="BAT" class="Default">
+      <node ref="C2" pin="1" pinfunction="BAT_1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="BAT_1" pintype="passive"/>
+      <node ref="R8" pin="1" pinfunction="BAT_1" pintype="passive"/>
+      <node ref="TP9" pin="1" pinfunction="BAT_1" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="BAT_2" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="BAT_3" pintype="passive"/>
+    </net>
+    <net code="2" name="BAT_SENSE" class="Default">
+      <node ref="C13" pin="1" pinfunction="BAT_SENSE_1" pintype="passive"/>
+      <node ref="R8" pin="2" pinfunction="BAT_SENSE_2" pintype="passive"/>
+      <node ref="R9" pin="1" pinfunction="BAT_SENSE_1" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="BAT_SENSE_9" pintype="input"/>
+    </net>
+    <net code="3" name="CC1" class="Default">
+      <node ref="J1" pin="A5" pinfunction="CC1_A5" pintype="passive"/>
+      <node ref="R1" pin="1" pinfunction="CC1_1" pintype="passive"/>
+    </net>
+    <net code="4" name="CC2" class="Default">
+      <node ref="J1" pin="B5" pinfunction="CC2_B5" pintype="passive"/>
+      <node ref="R2" pin="1" pinfunction="CC2_1" pintype="passive"/>
+    </net>
+    <net code="5" name="CHG_CTRL" class="Default">
+      <node ref="R18" pin="1" pinfunction="CHG_CTRL_1" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="CHG_CTRL_16" pintype="output"/>
+    </net>
+    <net code="6" name="CHG_DISABLE" class="Default">
+      <node ref="Q1" pin="3" pinfunction="CHG_DISABLE_3" pintype="passive"/>
+      <node ref="R16" pin="2" pinfunction="CHG_DISABLE_2" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="CHG_DISABLE_4" pintype="input"/>
+    </net>
+    <net code="7" name="CHG_GATE" class="Default">
+      <node ref="Q1" pin="1" pinfunction="CHG_GATE_1" pintype="passive"/>
+      <node ref="R17" pin="1" pinfunction="CHG_GATE_1" pintype="passive"/>
+      <node ref="R18" pin="2" pinfunction="CHG_GATE_2" pintype="passive"/>
+    </net>
+    <net code="8" name="DBG_RX" class="Default">
+      <node ref="TP3" pin="1" pinfunction="DBG_RX_1" pintype="passive"/>
+      <node ref="U1" pin="38" pinfunction="DBG_RX_38" pintype="input"/>
+    </net>
+    <net code="9" name="DBG_TX" class="Default">
+      <node ref="TP4" pin="1" pinfunction="DBG_TX_1" pintype="passive"/>
+      <node ref="U1" pin="39" pinfunction="DBG_TX_39" pintype="output"/>
+    </net>
+    <net code="10" name="FB" class="Default">
+      <node ref="R5" pin="2" pinfunction="FB_2" pintype="passive"/>
+      <node ref="R6" pin="1" pinfunction="FB_1" pintype="passive"/>
+      <node ref="U3" pin="5" pinfunction="FB_5" pintype="input"/>
+    </net>
+    <net code="11" name="GND" class="Default">
+      <node ref="C1" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="C10" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="C11" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="C12" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="C13" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="C14" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="C16" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="C17" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="C18" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="C19" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="C2" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="C20" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="C3" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="C4" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="C5" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="C6" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="C7" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="C8" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="C9" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="D3" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="D4" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="D5" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="J1" pin="A1" pinfunction="GND_A1" pintype="passive"/>
+      <node ref="J1" pin="A12" pinfunction="GND_A12" pintype="passive"/>
+      <node ref="J1" pin="B1" pinfunction="GND_B1" pintype="passive"/>
+      <node ref="J1" pin="B12" pinfunction="GND_B12" pintype="passive"/>
+      <node ref="J1" pin="SH" pinfunction="GND_SH" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="J2" pin="MP" pinfunction="GND_MP" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="J5" pin="5" pinfunction="GND_5" pintype="passive"/>
+      <node ref="J5" pin="SH" pinfunction="GND_SH" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="R1" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="R17" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="R2" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="R20" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="R3" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="R4" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="R6" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="R9" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="TP5" pin="1" pinfunction="GND_1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="GND_1" pintype="power_in"/>
+      <node ref="U1" pin="10" pinfunction="GND_10" pintype="power_in"/>
+      <node ref="U1" pin="103" pinfunction="GND_103" pintype="power_in"/>
+      <node ref="U1" pin="27" pinfunction="GND_27" pintype="power_in"/>
+      <node ref="U1" pin="34" pinfunction="GND_34" pintype="power_in"/>
+      <node ref="U1" pin="36" pinfunction="GND_36" pintype="power_in"/>
+      <node ref="U1" pin="37" pinfunction="GND_37" pintype="power_in"/>
+      <node ref="U1" pin="40" pinfunction="GND_40" pintype="power_in"/>
+      <node ref="U1" pin="41" pinfunction="GND_41" pintype="power_in"/>
+      <node ref="U1" pin="45" pinfunction="GND_45" pintype="power_in"/>
+      <node ref="U1" pin="46" pinfunction="GND_46" pintype="power_in"/>
+      <node ref="U1" pin="47" pinfunction="GND_47" pintype="power_in"/>
+      <node ref="U1" pin="48" pinfunction="GND_48" pintype="power_in"/>
+      <node ref="U1" pin="70" pinfunction="GND_70" pintype="power_in"/>
+      <node ref="U1" pin="71" pinfunction="GND_71" pintype="power_in"/>
+      <node ref="U1" pin="72" pinfunction="GND_72" pintype="power_in"/>
+      <node ref="U1" pin="73" pinfunction="GND_73" pintype="power_in"/>
+      <node ref="U1" pin="88" pinfunction="GND_88" pintype="power_in"/>
+      <node ref="U1" pin="89" pinfunction="GND_89" pintype="power_in"/>
+      <node ref="U1" pin="90" pinfunction="GND_90" pintype="power_in"/>
+      <node ref="U1" pin="91" pinfunction="GND_91" pintype="power_in"/>
+      <node ref="U1" pin="92" pinfunction="GND_92" pintype="power_in"/>
+      <node ref="U1" pin="93" pinfunction="GND_93" pintype="power_in"/>
+      <node ref="U1" pin="94" pinfunction="GND_94" pintype="power_in"/>
+      <node ref="U1" pin="95" pinfunction="GND_95" pintype="power_in"/>
+      <node ref="U2" pin="17" pinfunction="GND_17" pintype="power_in"/>
+      <node ref="U2" pin="5" pinfunction="GND_5" pintype="input"/>
+      <node ref="U2" pin="8" pinfunction="GND_8" pintype="power_in"/>
+      <node ref="U3" pin="1" pinfunction="GND_1" pintype="input"/>
+      <node ref="U3" pin="10" pinfunction="GND_10" pintype="power_in"/>
+      <node ref="U3" pin="15" pinfunction="GND_15" pintype="input"/>
+      <node ref="U3" pin="4" pinfunction="GND_4" pintype="power_in"/>
+    </net>
+    <net code="12" name="GNSS_BIAS" class="Default">
+      <node ref="L2" pin="1" pinfunction="GNSS_BIAS_1" pintype="passive"/>
+      <node ref="R14" pin="2" pinfunction="GNSS_BIAS_2" pintype="passive"/>
+    </net>
+    <net code="13" name="GNSS_FEED" class="Default">
+      <node ref="C15" pin="2" pinfunction="GNSS_FEED_2" pintype="passive"/>
+      <node ref="C19" pin="1" pinfunction="GNSS_FEED_1" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="GNSS_FEED_1" pintype="passive"/>
+      <node ref="L2" pin="2" pinfunction="GNSS_FEED_2" pintype="passive"/>
+    </net>
+    <net code="14" name="GNSS_IN" class="Default">
+      <node ref="C15" pin="1" pinfunction="GNSS_IN_1" pintype="passive"/>
+      <node ref="C18" pin="1" pinfunction="GNSS_IN_1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="GNSS_IN_2" pintype="input"/>
+    </net>
+    <net code="15" name="GNSS_VDD" class="Default">
+      <node ref="C11" pin="1" pinfunction="GNSS_VDD_1" pintype="passive"/>
+      <node ref="R14" pin="1" pinfunction="GNSS_VDD_1" pintype="passive"/>
+      <node ref="U1" pin="98" pinfunction="GNSS_VDD_98" pintype="power_out"/>
+    </net>
+    <net code="16" name="ILIM" class="Default">
+      <node ref="R4" pin="1" pinfunction="ILIM_1" pintype="passive"/>
+      <node ref="U2" pin="12" pinfunction="ILIM_12" pintype="input"/>
+    </net>
+    <net code="17" name="ISET" class="Default">
+      <node ref="R3" pin="1" pinfunction="ISET_1" pintype="passive"/>
+      <node ref="U2" pin="16" pinfunction="ISET_16" pintype="input"/>
+    </net>
+    <net code="18" name="LTE_FEED" class="Default">
+      <node ref="C17" pin="1" pinfunction="LTE_FEED_1" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="LTE_FEED_1" pintype="passive"/>
+      <node ref="R13" pin="2" pinfunction="LTE_FEED_2" pintype="passive"/>
+    </net>
+    <net code="19" name="LTE_IN" class="Default">
+      <node ref="C16" pin="1" pinfunction="LTE_IN_1" pintype="passive"/>
+      <node ref="R13" pin="1" pinfunction="LTE_IN_1" pintype="passive"/>
+      <node ref="U1" pin="35" pinfunction="LTE_IN_35" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="NTC" class="Default">
+      <node ref="J2" pin="3" pinfunction="NTC_3" pintype="passive"/>
+      <node ref="R19" pin="1" pinfunction="NTC_1" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="NTC_1" pintype="input"/>
+    </net>
+    <net code="21" name="PWRKEY" class="Default">
+      <node ref="SW1" pin="1" pinfunction="PWRKEY_1" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="PWRKEY_7" pintype="input"/>
+    </net>
+    <net code="22" name="REG_EN" class="Default">
+      <node ref="R7" pin="2" pinfunction="REG_EN_2" pintype="passive"/>
+      <node ref="TP8" pin="1" pinfunction="REG_EN_1" pintype="passive"/>
+      <node ref="U3" pin="14" pinfunction="REG_EN_14" pintype="input"/>
+    </net>
+    <net code="23" name="RESET_N" class="Default">
+      <node ref="SW2" pin="1" pinfunction="RESET_N_1" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="RESET_N_15" pintype="input"/>
+    </net>
+    <net code="24" name="SIM_CLK" class="Default">
+      <node ref="D5" pin="1" pinfunction="SIM_CLK_1" pintype="passive"/>
+      <node ref="J5" pin="3" pinfunction="SIM_CLK_3" pintype="passive"/>
+      <node ref="R12" pin="2" pinfunction="SIM_CLK_2" pintype="passive"/>
+    </net>
+    <net code="25" name="SIM_CLK_M" class="Default">
+      <node ref="R12" pin="1" pinfunction="SIM_CLK_M_1" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="SIM_CLK_M_13" pintype="output"/>
+    </net>
+    <net code="26" name="SIM_IO" class="Default">
+      <node ref="D3" pin="1" pinfunction="SIM_IO_1" pintype="passive"/>
+      <node ref="J5" pin="7" pinfunction="SIM_IO_7" pintype="passive"/>
+      <node ref="R10" pin="2" pinfunction="SIM_IO_2" pintype="passive"/>
+      <node ref="R15" pin="2" pinfunction="SIM_IO_2" pintype="passive"/>
+    </net>
+    <net code="27" name="SIM_IO_M" class="Default">
+      <node ref="R10" pin="1" pinfunction="SIM_IO_M_1" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="SIM_IO_M_11" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="SIM_RST" class="Default">
+      <node ref="D4" pin="1" pinfunction="SIM_RST_1" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="SIM_RST_2" pintype="passive"/>
+      <node ref="R11" pin="2" pinfunction="SIM_RST_2" pintype="passive"/>
+    </net>
+    <net code="29" name="SIM_RST_M" class="Default">
+      <node ref="R11" pin="1" pinfunction="SIM_RST_M_1" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="SIM_RST_M_12" pintype="output"/>
+    </net>
+    <net code="30" name="SIM_VDD" class="Default">
+      <node ref="C12" pin="1" pinfunction="SIM_VDD_1" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="SIM_VDD_1" pintype="passive"/>
+      <node ref="R15" pin="1" pinfunction="SIM_VDD_1" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="SIM_VDD_14" pintype="power_out"/>
+    </net>
+    <net code="31" name="SW1" class="Default">
+      <node ref="L1" pin="1" pinfunction="SW1_1" pintype="passive"/>
+      <node ref="U3" pin="11" pinfunction="SW1_11" pintype="passive"/>
+    </net>
+    <net code="32" name="SW2" class="Default">
+      <node ref="L1" pin="2" pinfunction="SW2_2" pintype="passive"/>
+      <node ref="U3" pin="9" pinfunction="SW2_9" pintype="passive"/>
+    </net>
+    <net code="33" name="SYS" class="Default">
+      <node ref="C3" pin="1" pinfunction="SYS_1" pintype="passive"/>
+      <node ref="C4" pin="1" pinfunction="SYS_1" pintype="passive"/>
+      <node ref="C5" pin="1" pinfunction="SYS_1" pintype="passive"/>
+      <node ref="R7" pin="1" pinfunction="SYS_1" pintype="passive"/>
+      <node ref="TP6" pin="1" pinfunction="SYS_1" pintype="passive"/>
+      <node ref="U2" pin="10" pinfunction="SYS_10" pintype="power_out"/>
+      <node ref="U2" pin="11" pinfunction="SYS_11" pintype="passive"/>
+      <node ref="U3" pin="12" pinfunction="SYS_12" pintype="power_in"/>
+      <node ref="U3" pin="13" pinfunction="SYS_13" pintype="passive"/>
+    </net>
+    <net code="34" name="TS_SENSE" class="Default">
+      <node ref="C20" pin="1" pinfunction="TS_SENSE_1" pintype="passive"/>
+      <node ref="R19" pin="2" pinfunction="TS_SENSE_2" pintype="passive"/>
+      <node ref="R20" pin="1" pinfunction="TS_SENSE_1" pintype="passive"/>
+      <node ref="U1" pin="96" pinfunction="TS_SENSE_96" pintype="input"/>
+    </net>
+    <net code="35" name="USB_BOOT" class="Default">
+      <node ref="TP2" pin="1" pinfunction="USB_BOOT_1" pintype="passive"/>
+      <node ref="U1" pin="82" pinfunction="USB_BOOT_82" pintype="input"/>
+    </net>
+    <net code="36" name="USB_DM" class="Default">
+      <node ref="D2" pin="1" pinfunction="USB_DM_1" pintype="passive"/>
+      <node ref="J1" pin="A7" pinfunction="USB_DM_A7" pintype="passive"/>
+      <node ref="J1" pin="B7" pinfunction="USB_DM_B7" pintype="passive"/>
+      <node ref="U1" pin="60" pinfunction="USB_DM_60" pintype="bidirectional"/>
+    </net>
+    <net code="37" name="USB_DP" class="Default">
+      <node ref="D1" pin="1" pinfunction="USB_DP_1" pintype="passive"/>
+      <node ref="J1" pin="A6" pinfunction="USB_DP_A6" pintype="passive"/>
+      <node ref="J1" pin="B6" pinfunction="USB_DP_B6" pintype="passive"/>
+      <node ref="U1" pin="59" pinfunction="USB_DP_59" pintype="bidirectional"/>
+    </net>
+    <net code="38" name="VAUX" class="Default">
+      <node ref="C6" pin="1" pinfunction="VAUX_1" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="VAUX_3" pintype="passive"/>
+    </net>
+    <net code="39" name="VBUS" class="Default">
+      <node ref="C1" pin="1" pinfunction="VBUS_1" pintype="passive"/>
+      <node ref="J1" pin="A4" pinfunction="VBUS_A4" pintype="passive"/>
+      <node ref="J1" pin="A9" pinfunction="VBUS_A9" pintype="passive"/>
+      <node ref="J1" pin="B4" pinfunction="VBUS_B4" pintype="passive"/>
+      <node ref="J1" pin="B9" pinfunction="VBUS_B9" pintype="passive"/>
+      <node ref="R16" pin="1" pinfunction="VBUS_1" pintype="passive"/>
+      <node ref="U1" pin="61" pinfunction="VBUS_61" pintype="power_in"/>
+      <node ref="U2" pin="13" pinfunction="VBUS_13" pintype="power_in"/>
+      <node ref="U2" pin="6" pinfunction="VBUS_6" pintype="input"/>
+    </net>
+    <net code="40" name="VDD_EXT" class="Default">
+      <node ref="TP1" pin="1" pinfunction="VDD_EXT_1" pintype="passive"/>
+      <node ref="U1" pin="24" pinfunction="VDD_EXT_24" pintype="power_out"/>
+    </net>
+    <net code="41" name="V_MODEM" class="Default">
+      <node ref="C10" pin="1" pinfunction="V_MODEM_1" pintype="passive"/>
+      <node ref="C14" pin="1" pinfunction="V_MODEM_1" pintype="passive"/>
+      <node ref="C7" pin="1" pinfunction="V_MODEM_1" pintype="passive"/>
+      <node ref="C8" pin="1" pinfunction="V_MODEM_1" pintype="passive"/>
+      <node ref="C9" pin="1" pinfunction="V_MODEM_1" pintype="passive"/>
+      <node ref="R5" pin="1" pinfunction="V_MODEM_1" pintype="passive"/>
+      <node ref="TP7" pin="1" pinfunction="V_MODEM_1" pintype="passive"/>
+      <node ref="U1" pin="42" pinfunction="V_MODEM_42" pintype="power_in"/>
+      <node ref="U1" pin="43" pinfunction="V_MODEM_43" pintype="power_in"/>
+      <node ref="U3" pin="7" pinfunction="V_MODEM_7" pintype="power_out"/>
+      <node ref="U3" pin="8" pinfunction="V_MODEM_8" pintype="passive"/>
+    </net>
+    <net code="42" name="unconnected-(J1-NC-PadA8)" class="Default">
+      <node ref="J1" pin="A8" pinfunction="NC_A8" pintype="passive+no_connect"/>
+    </net>
+    <net code="43" name="unconnected-(J1-NC-PadB8)" class="Default">
+      <node ref="J1" pin="B8" pinfunction="NC_B8" pintype="passive+no_connect"/>
+    </net>
+    <net code="44" name="unconnected-(J5-NC-Pad6)" class="Default">
+      <node ref="J5" pin="6" pinfunction="NC_6" pintype="passive+no_connect"/>
+    </net>
+    <net code="45" name="unconnected-(J5-NC-PadCD)" class="Default">
+      <node ref="J5" pin="CD" pinfunction="NC_CD" pintype="passive+no_connect"/>
+    </net>
+    <net code="46" name="unconnected-(U1-NC-Pad3)" class="Default">
+      <node ref="U1" pin="3" pinfunction="NC_3" pintype="passive+no_connect"/>
+    </net>
+    <net code="47" name="unconnected-(U1-NC-Pad4)" class="Default">
+      <node ref="U1" pin="4" pinfunction="NC_4" pintype="passive+no_connect"/>
+    </net>
+    <net code="48" name="unconnected-(U1-NC-Pad5)" class="Default">
+      <node ref="U1" pin="5" pinfunction="NC_5" pintype="passive+no_connect"/>
+    </net>
+    <net code="49" name="unconnected-(U1-NC-Pad6)" class="Default">
+      <node ref="U1" pin="6" pinfunction="NC_6" pintype="passive+no_connect"/>
+    </net>
+    <net code="50" name="unconnected-(U1-NC-Pad8)" class="Default">
+      <node ref="U1" pin="8" pinfunction="NC_8" pintype="passive+no_connect"/>
+    </net>
+    <net code="51" name="unconnected-(U1-NC-Pad17)" class="Default">
+      <node ref="U1" pin="17" pinfunction="NC_17" pintype="passive+no_connect"/>
+    </net>
+    <net code="52" name="unconnected-(U1-NC-Pad18)" class="Default">
+      <node ref="U1" pin="18" pinfunction="NC_18" pintype="passive+no_connect"/>
+    </net>
+    <net code="53" name="unconnected-(U1-NC-Pad19)" class="Default">
+      <node ref="U1" pin="19" pinfunction="NC_19" pintype="passive+no_connect"/>
+    </net>
+    <net code="54" name="unconnected-(U1-NC-Pad20)" class="Default">
+      <node ref="U1" pin="20" pinfunction="NC_20" pintype="passive+no_connect"/>
+    </net>
+    <net code="55" name="unconnected-(U1-NC-Pad21)" class="Default">
+      <node ref="U1" pin="21" pinfunction="NC_21" pintype="passive+no_connect"/>
+    </net>
+    <net code="56" name="unconnected-(U1-NC-Pad22)" class="Default">
+      <node ref="U1" pin="22" pinfunction="NC_22" pintype="passive+no_connect"/>
+    </net>
+    <net code="57" name="unconnected-(U1-NC-Pad23)" class="Default">
+      <node ref="U1" pin="23" pinfunction="NC_23" pintype="passive+no_connect"/>
+    </net>
+    <net code="58" name="unconnected-(U1-NC-Pad25)" class="Default">
+      <node ref="U1" pin="25" pinfunction="NC_25" pintype="passive+no_connect"/>
+    </net>
+    <net code="59" name="unconnected-(U1-NC-Pad26)" class="Default">
+      <node ref="U1" pin="26" pinfunction="NC_26" pintype="passive+no_connect"/>
+    </net>
+    <net code="60" name="unconnected-(U1-NC-Pad28)" class="Default">
+      <node ref="U1" pin="28" pinfunction="NC_28" pintype="passive+no_connect"/>
+    </net>
+    <net code="61" name="unconnected-(U1-NC-Pad29)" class="Default">
+      <node ref="U1" pin="29" pinfunction="NC_29" pintype="passive+no_connect"/>
+    </net>
+    <net code="62" name="unconnected-(U1-NC-Pad30)" class="Default">
+      <node ref="U1" pin="30" pinfunction="NC_30" pintype="passive+no_connect"/>
+    </net>
+    <net code="63" name="unconnected-(U1-NC-Pad31)" class="Default">
+      <node ref="U1" pin="31" pinfunction="NC_31" pintype="passive+no_connect"/>
+    </net>
+    <net code="64" name="unconnected-(U1-NC-Pad32)" class="Default">
+      <node ref="U1" pin="32" pinfunction="NC_32" pintype="passive+no_connect"/>
+    </net>
+    <net code="65" name="unconnected-(U1-NC-Pad33)" class="Default">
+      <node ref="U1" pin="33" pinfunction="NC_33" pintype="passive+no_connect"/>
+    </net>
+    <net code="66" name="unconnected-(U1-NC-Pad44)" class="Default">
+      <node ref="U1" pin="44" pinfunction="NC_44" pintype="passive+no_connect"/>
+    </net>
+    <net code="67" name="unconnected-(U1-NC-Pad49)" class="Default">
+      <node ref="U1" pin="49" pinfunction="NC_49" pintype="passive+no_connect"/>
+    </net>
+    <net code="68" name="unconnected-(U1-NC-Pad50)" class="Default">
+      <node ref="U1" pin="50" pinfunction="NC_50" pintype="passive+no_connect"/>
+    </net>
+    <net code="69" name="unconnected-(U1-NC-Pad51)" class="Default">
+      <node ref="U1" pin="51" pinfunction="NC_51" pintype="passive+no_connect"/>
+    </net>
+    <net code="70" name="unconnected-(U1-NC-Pad52)" class="Default">
+      <node ref="U1" pin="52" pinfunction="NC_52" pintype="passive+no_connect"/>
+    </net>
+    <net code="71" name="unconnected-(U1-NC-Pad53)" class="Default">
+      <node ref="U1" pin="53" pinfunction="NC_53" pintype="passive+no_connect"/>
+    </net>
+    <net code="72" name="unconnected-(U1-NC-Pad54)" class="Default">
+      <node ref="U1" pin="54" pinfunction="NC_54" pintype="passive+no_connect"/>
+    </net>
+    <net code="73" name="unconnected-(U1-NC-Pad55)" class="Default">
+      <node ref="U1" pin="55" pinfunction="NC_55" pintype="passive+no_connect"/>
+    </net>
+    <net code="74" name="unconnected-(U1-NC-Pad56)" class="Default">
+      <node ref="U1" pin="56" pinfunction="NC_56" pintype="passive+no_connect"/>
+    </net>
+    <net code="75" name="unconnected-(U1-NC-Pad57)" class="Default">
+      <node ref="U1" pin="57" pinfunction="NC_57" pintype="passive+no_connect"/>
+    </net>
+    <net code="76" name="unconnected-(U1-NC-Pad58)" class="Default">
+      <node ref="U1" pin="58" pinfunction="NC_58" pintype="passive+no_connect"/>
+    </net>
+    <net code="77" name="unconnected-(U1-NC-Pad62)" class="Default">
+      <node ref="U1" pin="62" pinfunction="NC_62" pintype="passive+no_connect"/>
+    </net>
+    <net code="78" name="unconnected-(U1-NC-Pad63)" class="Default">
+      <node ref="U1" pin="63" pinfunction="NC_63" pintype="passive+no_connect"/>
+    </net>
+    <net code="79" name="unconnected-(U1-NC-Pad64)" class="Default">
+      <node ref="U1" pin="64" pinfunction="NC_64" pintype="passive+no_connect"/>
+    </net>
+    <net code="80" name="unconnected-(U1-NC-Pad65)" class="Default">
+      <node ref="U1" pin="65" pinfunction="NC_65" pintype="passive+no_connect"/>
+    </net>
+    <net code="81" name="unconnected-(U1-NC-Pad66)" class="Default">
+      <node ref="U1" pin="66" pinfunction="NC_66" pintype="passive+no_connect"/>
+    </net>
+    <net code="82" name="unconnected-(U1-NC-Pad67)" class="Default">
+      <node ref="U1" pin="67" pinfunction="NC_67" pintype="passive+no_connect"/>
+    </net>
+    <net code="83" name="unconnected-(U1-NC-Pad68)" class="Default">
+      <node ref="U1" pin="68" pinfunction="NC_68" pintype="passive+no_connect"/>
+    </net>
+    <net code="84" name="unconnected-(U1-NC-Pad69)" class="Default">
+      <node ref="U1" pin="69" pinfunction="NC_69" pintype="passive+no_connect"/>
+    </net>
+    <net code="85" name="unconnected-(U1-NC-Pad74)" class="Default">
+      <node ref="U1" pin="74" pinfunction="NC_74" pintype="passive+no_connect"/>
+    </net>
+    <net code="86" name="unconnected-(U1-NC-Pad75)" class="Default">
+      <node ref="U1" pin="75" pinfunction="NC_75" pintype="passive+no_connect"/>
+    </net>
+    <net code="87" name="unconnected-(U1-NC-Pad76)" class="Default">
+      <node ref="U1" pin="76" pinfunction="NC_76" pintype="passive+no_connect"/>
+    </net>
+    <net code="88" name="unconnected-(U1-NC-Pad77)" class="Default">
+      <node ref="U1" pin="77" pinfunction="NC_77" pintype="passive+no_connect"/>
+    </net>
+    <net code="89" name="unconnected-(U1-NC-Pad78)" class="Default">
+      <node ref="U1" pin="78" pinfunction="NC_78" pintype="passive+no_connect"/>
+    </net>
+    <net code="90" name="unconnected-(U1-NC-Pad79)" class="Default">
+      <node ref="U1" pin="79" pinfunction="NC_79" pintype="passive+no_connect"/>
+    </net>
+    <net code="91" name="unconnected-(U1-NC-Pad80)" class="Default">
+      <node ref="U1" pin="80" pinfunction="NC_80" pintype="passive+no_connect"/>
+    </net>
+    <net code="92" name="unconnected-(U1-NC-Pad81)" class="Default">
+      <node ref="U1" pin="81" pinfunction="NC_81" pintype="passive+no_connect"/>
+    </net>
+    <net code="93" name="unconnected-(U1-NC-Pad83)" class="Default">
+      <node ref="U1" pin="83" pinfunction="NC_83" pintype="passive+no_connect"/>
+    </net>
+    <net code="94" name="unconnected-(U1-NC-Pad84)" class="Default">
+      <node ref="U1" pin="84" pinfunction="NC_84" pintype="passive+no_connect"/>
+    </net>
+    <net code="95" name="unconnected-(U1-NC-Pad85)" class="Default">
+      <node ref="U1" pin="85" pinfunction="NC_85" pintype="passive+no_connect"/>
+    </net>
+    <net code="96" name="unconnected-(U1-NC-Pad86)" class="Default">
+      <node ref="U1" pin="86" pinfunction="NC_86" pintype="passive+no_connect"/>
+    </net>
+    <net code="97" name="unconnected-(U1-NC-Pad87)" class="Default">
+      <node ref="U1" pin="87" pinfunction="NC_87" pintype="passive+no_connect"/>
+    </net>
+    <net code="98" name="unconnected-(U1-NC-Pad97)" class="Default">
+      <node ref="U1" pin="97" pinfunction="NC_97" pintype="passive+no_connect"/>
+    </net>
+    <net code="99" name="unconnected-(U1-NC-Pad99)" class="Default">
+      <node ref="U1" pin="99" pinfunction="NC_99" pintype="passive+no_connect"/>
+    </net>
+    <net code="100" name="unconnected-(U1-NC-Pad100)" class="Default">
+      <node ref="U1" pin="100" pinfunction="NC_100" pintype="passive+no_connect"/>
+    </net>
+    <net code="101" name="unconnected-(U1-NC-Pad101)" class="Default">
+      <node ref="U1" pin="101" pinfunction="NC_101" pintype="passive+no_connect"/>
+    </net>
+    <net code="102" name="unconnected-(U1-NC-Pad102)" class="Default">
+      <node ref="U1" pin="102" pinfunction="NC_102" pintype="passive+no_connect"/>
+    </net>
+    <net code="103" name="unconnected-(U1-NC-Pad104)" class="Default">
+      <node ref="U1" pin="104" pinfunction="NC_104" pintype="passive+no_connect"/>
+    </net>
+    <net code="104" name="unconnected-(U1-NC-Pad105)" class="Default">
+      <node ref="U1" pin="105" pinfunction="NC_105" pintype="passive+no_connect"/>
+    </net>
+    <net code="105" name="unconnected-(U1-NC-Pad106)" class="Default">
+      <node ref="U1" pin="106" pinfunction="NC_106" pintype="passive+no_connect"/>
+    </net>
+    <net code="106" name="unconnected-(U1-NC-Pad107)" class="Default">
+      <node ref="U1" pin="107" pinfunction="NC_107" pintype="passive+no_connect"/>
+    </net>
+    <net code="107" name="unconnected-(U1-NC-Pad108)" class="Default">
+      <node ref="U1" pin="108" pinfunction="NC_108" pintype="passive+no_connect"/>
+    </net>
+    <net code="108" name="unconnected-(U1-NC-Pad109)" class="Default">
+      <node ref="U1" pin="109" pinfunction="NC_109" pintype="passive+no_connect"/>
+    </net>
+    <net code="109" name="unconnected-(U2-NC-Pad7)" class="Default">
+      <node ref="U2" pin="7" pinfunction="NC_7" pintype="passive+no_connect"/>
+    </net>
+    <net code="110" name="unconnected-(U2-NC-Pad9)" class="Default">
+      <node ref="U2" pin="9" pinfunction="NC_9" pintype="passive+no_connect"/>
+    </net>
+    <net code="111" name="unconnected-(U2-NC-Pad14)" class="Default">
+      <node ref="U2" pin="14" pinfunction="NC_14" pintype="passive+no_connect"/>
+    </net>
+    <net code="112" name="unconnected-(U2-NC-Pad15)" class="Default">
+      <node ref="U2" pin="15" pinfunction="NC_15" pintype="passive+no_connect"/>
+    </net>
+    <net code="113" name="unconnected-(U3-NC-Pad2)" class="Default">
+      <node ref="U3" pin="2" pinfunction="NC_2" pintype="passive+no_connect"/>
+    </net>
+    <net code="114" name="unconnected-(U3-NC-Pad6)" class="Default">
+      <node ref="U3" pin="6" pinfunction="NC_6" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>

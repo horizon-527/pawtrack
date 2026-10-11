@@ -1,0 +1,41 @@
+{
+  "retrieved": "2026-10-11",
+  "sources": [
+    {
+      "name": "Air780EGH hardware V2.2",
+      "url": "https://docs.openluat.com/air780egh/product/shouce/",
+      "sha256": "33ac4a0a644ca70d2adee6288e9f3f0f1c7f27d6c1506052d936a3720a330812"
+    },
+    {
+      "name": "Air780EGH reference 20260914",
+      "url": "https://docs.openluat.com/air780egh/product/",
+      "sha256": "1d75c8dac492c4f4b9d7626143ba142f1b868b4c793aff92969e4fbec9a6404c"
+    },
+    {
+      "name": "Air780EGH footprint 20251216",
+      "url": "https://docs.openluat.com/air780egh/product/",
+      "sha256": "0e42803c0fe4574a39e719f4338ff6bcc529a716a52479d3809d418156599a2a"
+    },
+    {
+      "name": "BQ24074 datasheet",
+      "url": "https://www.ti.com/lit/ds/symlink/bq24074.pdf",
+      "sha256": "4fe4e4f9855501f83b400c6932e3098439e51c50539e40dc45b44a8d509e8db1"
+    },
+    {
+      "name": "TPS63070 datasheet",
+      "url": "https://www.ti.com/lit/ds/symlink/tps63070.pdf",
+      "sha256": "a88ef66f3493156ff6e7da0849de0e0e1068647f2553d08c1844d4a90c5c65ef"
+    },
+    {
+      "name": "exgnss pinned MIT source",
+      "url": "https://github.com/openLuat/LuatOS/blob/a8783cb623edfe336850e35bb94b35e74e389184/script/libs/exgnss.lua",
+      "sha256": "20f1a4a5cb320956f15dfbcd0b98d78e10c4f870e65cc398a003d8abc5d9bcfd"
+    },
+    {
+      "name": "Coilcraft 0603HP 47nH land pattern and RF characteristics",
+      "url": "https://www.coilcraft.com/getmedia/624a615f-2f4d-4200-95a6-61764a49bbc8/0603hp.pdf",
+      "sha256": "d8bbe394d16c640df3586c9f6f27160b71bd96591862843efacffee85355f0d4"
+    }
+  ],
+  "pin_mapping_precedence": "reference schematic 20260914; pins2/103 conflict is unresolved until manufacturer approval"
+}

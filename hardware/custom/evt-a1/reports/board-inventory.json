@@ -1,0 +1,1227 @@
+{
+  "source_sha256": "935c39c967975b0b3855f05e2332d285ca03f39be1ea02f5e5b06a9c196e099d",
+  "copper_layers": 4,
+  "thickness_mm": 1.0,
+  "tracks": 563,
+  "vias": 168,
+  "components": [
+    {
+      "ref": "TP4",
+      "value": "DBG_TX",
+      "mpn": "PCB pad",
+      "footprint": "TestPoint_Pad_D1.0mm",
+      "x": 38.0,
+      "y": 31.0,
+      "rotation": 0.0,
+      "side": "F",
+      "populate": false,
+      "pins": {
+        "1": "DBG_TX"
+      }
+    },
+    {
+      "ref": "R17",
+      "value": "100k",
+      "mpn": "RC0603FR-07100KL",
+      "footprint": "R_0603_1608Metric",
+      "x": 52.0,
+      "y": 23.0,
+      "rotation": 0.0,
+      "side": "F",
+      "populate": true,
+      "pins": {
+        "1": "CHG_GATE",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "R13",
+      "value": "0",
+      "mpn": "RC0603JR-070RL",
+      "footprint": "R_0603_1608Metric",
+      "x": 41.0,
+      "y": 8.4,
+      "rotation": 0.0,
+      "side": "F",
+      "populate": true,
+      "pins": {
+        "1": "LTE_IN",
+        "2": "LTE_FEED"
+      }
+    },
+    {
+      "ref": "R16",
+      "value": "100k",
+      "mpn": "RC0603FR-07100KL",
+      "footprint": "R_0603_1608Metric",
+      "x": 48.0,
+      "y": 20.0,
+      "rotation": 0.0,
+      "side": "F",
+      "populate": true,
+      "pins": {
+        "1": "VBUS",
+        "2": "CHG_DISABLE"
+      }
+    },
+    {
+      "ref": "R8",
+      "value": "330k",
+      "mpn": "RC0603FR-07330KL",
+      "footprint": "R_0603_1608Metric",
+      "x": 20.0,
+      "y": 20.0,
+      "rotation": 90.0,
+      "side": "F",
+      "populate": true,
+      "pins": {
+        "1": "BAT",
+        "2": "BAT_SENSE"
+      }
+    },
+    {
+      "ref": "TP1",
+      "value": "VDD_EXT",
+      "mpn": "PCB pad",
+      "footprint": "TestPoint_Pad_D1.0mm",
+      "x": 30.0,
+      "y": 27.0,
+      "rotation": 0.0,
+      "side": "F",
+      "populate": false,
+      "pins": {
+        "1": "VDD_EXT"
+      }
+    },
+    {
+      "ref": "L1",
+      "value": "1uH 5.4A",
+      "mpn": "XFL4020-102MEC",
+      "footprint": "XFL4020",
+      "x": 21.5,
+      "y": 35.0,
+      "rotation": -90.0,
+      "side": "F",
+      "populate": true,
+      "pins": {
+        "1": "SW1",
+        "2": "SW2"
+      }
+    },
+    {
+      "ref": "C15",
+      "value": "33pF",
+      "mpn": "GRM1885C1H330JA01D",
+      "footprint": "C_0603_1608Metric",
+      "x": 19.0,
+      "y": 9.5,
+      "rotation": 180.0,
+      "side": "F",
+      "populate": true,
+      "pins": {
+        "1": "GNSS_IN",
+        "2": "GNSS_FEED"
+      }
+    },
+    {
+      "ref": "C11",
+      "value": "100nF",
+      "mpn": "GRM188R71C104KA01D",
+      "footprint": "C_0603_1608Metric",
+      "x": 11.0,
+      "y": 14.0,
+      "rotation": 0.0,
+      "side": "F",
+      "populate": true,
+      "pins": {
+        "1": "GNSS_VDD",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "U1",
+      "value": "Air780EGH",
+      "mpn": "Air780EGH",
+      "footprint": "Air780EGH_109",
+      "x": 30.0,
+      "y": 15.0,
+      "rotation": 0.0,
+      "side": "F",
+      "populate": true,
+      "pins": {
+        "1": "GND",
+        "2": "GNSS_IN",
+        "3": null,
+        "4": null,
+        "5": null,
+        "6": null,
+        "7": "PWRKEY",
+        "8": null,
+        "9": "BAT_SENSE",
+        "10": "GND",
+        "11": "SIM_IO_M",
+        "12": "SIM_RST_M",
+        "13": "SIM_CLK_M",
+        "14": "SIM_VDD",
+        "15": "RESET_N",
+        "16": "CHG_CTRL",
+        "17": null,
+        "18": null,
+        "19": null,
+        "20": null,
+        "21": null,
+        "22": null,
+        "23": null,
+        "24": "VDD_EXT",
+        "25": null,
+        "26": null,
+        "27": "GND",
+        "28": null,
+        "29": null,
+        "30": null,
+        "31": null,
+        "32": null,
+        "33": null,
+        "34": "GND",
+        "35": "LTE_IN",
+        "36": "GND",
+        "37": "GND",
+        "38": "DBG_RX",
+        "39": "DBG_TX",
+        "40": "GND",
+        "41": "GND",
+        "42": "V_MODEM",
+        "43": "V_MODEM",
+        "44": null,
+        "45": "GND",
+        "46": "GND",
+        "47": "GND",
+        "48": "GND",
+        "49": null,
+        "50": null,
+        "51": null,
+        "52": null,
+        "53": null,
+        "54": null,
+        "55": null,
+        "56": null,
+        "57": null,
+        "58": null,
+        "59": "USB_DP",
+        "60": "USB_DM",
+        "61": "VBUS",
+        "62": null,
+        "63": null,
+        "64": null,
+        "65": null,
+        "66": null,
+        "67": null,
+        "68": null,
+        "69": null,
+        "70": "GND",
+        "71": "GND",
+        "72": "GND",
+        "73": "GND",
+        "74": null,
+        "75": null,
+        "76": null,
+        "77": null,
+        "78": null,
+        "79": null,
+        "80": null,
+        "81": null,
+        "82": "USB_BOOT",
+        "83": null,
+        "84": null,
+        "85": null,
+        "86": null,
+        "87": null,
+        "88": "GND",
+        "89": "GND",
+        "90": "GND",
+        "91": "GND",
+        "92": "GND",
+        "93": "GND",
+        "94": "GND",
+        "95": "GND",
+        "96": "TS_SENSE",
+        "97": null,
+        "98": "GNSS_VDD",
+        "99": null,
+        "100": null,
+        "101": null,
+        "102": null,
+        "103": "GND",
+        "104": null,
+        "105": null,
+        "106": null,
+        "107": null,
+        "108": null,
+        "109": null
+      }
+    },
+    {
+      "ref": "R1",
+      "value": "5.1k",
+      "mpn": "RC0603FR-075K1L",
+      "footprint": "R_0603_1608Metric",
+      "x": 49.0,
+      "y": 25.0,
+      "rotation": 0.0,
+      "side": "F",
+      "populate": true,
+      "pins": {
+        "1": "CC1",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "R6",
+      "value": "200k",
+      "mpn": "RC0603FR-07200KL",
+      "footprint": "R_0603_1608Metric",
+      "x": 14.0,
+      "y": 40.0,
+      "rotation": 0.0,
+      "side": "F",
+      "populate": true,
+      "pins": {
+        "1": "FB",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "R9",
+      "value": "100k",
+      "mpn": "RC0603FR-07100KL",
+      "footprint": "R_0603_1608Metric",
+      "x": 20.0,
+      "y": 24.0,
+      "rotation": 90.0,
+      "side": "F",
+      "populate": true,
+      "pins": {
+        "1": "BAT_SENSE",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "R4",
+      "value": "3.24k",
+      "mpn": "RC0603FR-073K24L",
+      "footprint": "R_0603_1608Metric",
+      "x": 41.0,
+      "y": 35.0,
+      "rotation": 90.0,
+      "side": "F",
+      "populate": true,
+      "pins": {
+        "1": "ILIM",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "C13",
+      "value": "100nF",
+      "mpn": "GRM188R71C104KA01D",
+      "footprint": "C_0603_1608Metric",
+      "x": 17.0,
+      "y": 21.0,
+      "rotation": 90.0,
+      "side": "F",
+      "populate": true,
+      "pins": {
+        "1": "BAT_SENSE",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "R5",
+      "value": "750k",
+      "mpn": "RC0603FR-07750KL",
+      "footprint": "R_0603_1608Metric",
+      "x": 17.0,
+      "y": 40.0,
+      "rotation": 0.0,
+      "side": "F",
+      "populate": true,
+      "pins": {
+        "1": "V_MODEM",
+        "2": "FB"
+      }
+    },
+    {
+      "ref": "C10",
+      "value": "1uF",
+      "mpn": "GRM188R61A105KA61D",
+      "footprint": "C_0603_1608Metric",
+      "x": 28.0,
+      "y": 3.0,
+      "rotation": 0.0,
+      "side": "F",
+      "populate": true,
+      "pins": {
+        "1": "V_MODEM",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "H2",
+      "value": "M2 clearance",
+      "mpn": "PCB feature",
+      "footprint": "MountingHole_2.2mm_M2",
+      "x": 61.0,
+      "y": 3.0,
+      "rotation": 0.0,
+      "side": "F",
+      "populate": false,
+      "pins": {
+        "": null
+      }
+    },
+    {
+      "ref": "R19",
+      "value": "3.3M",
+      "mpn": "RC0603FR-073M3L",
+      "footprint": "R_0603_1608Metric",
+      "x": 16.0,
+      "y": 27.5,
+      "rotation": 0.0,
+      "side": "F",
+      "populate": true,
+      "pins": {
+        "1": "NTC",
+        "2": "TS_SENSE"
+      }
+    },
+    {
+      "ref": "L2",
+      "value": "47nH",
+      "mpn": "0603HP-47NXJRW",
+      "footprint": "L_0603_1608Metric",
+      "x": 14.0,
+      "y": 14.0,
+      "rotation": 90.0,
+      "side": "F",
+      "populate": true,
+      "pins": {
+        "1": "GNSS_BIAS",
+        "2": "GNSS_FEED"
+      }
+    },
+    {
+      "ref": "C2",
+      "value": "4.7uF",
+      "mpn": "GRM188R61A475KE15D",
+      "footprint": "C_0603_1608Metric",
+      "x": 42.0,
+      "y": 32.0,
+      "rotation": 90.0,
+      "side": "F",
+      "populate": true,
+      "pins": {
+        "1": "BAT",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "J3",
+      "value": "LTE 50ohm",
+      "mpn": "U.FL-R-SMT-1(10)",
+      "footprint": "U.FL_Hirose_U.FL-R-SMT-1_Vertical",
+      "x": 46.0,
+      "y": 8.4,
+      "rotation": 0.0,
+      "side": "F",
+      "populate": true,
+      "pins": {
+        "1": "LTE_FEED",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "C6",
+      "value": "100nF",
+      "mpn": "GRM188R71C104KA01D",
+      "footprint": "C_0603_1608Metric",
+      "x": 15.0,
+      "y": 38.0,
+      "rotation": 0.0,
+      "side": "F",
+      "populate": true,
+      "pins": {
+        "1": "VAUX",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "C4",
+      "value": "22uF",
+      "mpn": "GRM21BR60J226ME39L",
+      "footprint": "C_0805_2012Metric",
+      "x": 14.0,
+      "y": 35.0,
+      "rotation": 90.0,
+      "side": "F",
+      "populate": true,
+      "pins": {
+        "1": "SYS",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "J1",
+      "value": "USB-C",
+      "mpn": "TYPE-C-31-M-12",
+      "footprint": "USB_C_Receptacle_HRO_TYPE-C-31-M-12",
+      "x": 59.0,
+      "y": 35.0,
+      "rotation": 90.0,
+      "side": "F",
+      "populate": true,
+      "pins": {
+        "": null,
+        "A1": "GND",
+        "A4": "VBUS",
+        "A5": "CC1",
+        "A6": "USB_DP",
+        "A7": "USB_DM",
+        "A8": null,
+        "A9": "VBUS",
+        "A12": "GND",
+        "B1": "GND",
+        "B4": "VBUS",
+        "B5": "CC2",
+        "B6": "USB_DP",
+        "B7": "USB_DM",
+        "B8": null,
+        "B9": "VBUS",
+        "B12": "GND",
+        "SH": "GND"
+      }
+    },
+    {
+      "ref": "R15",
+      "value": "10k",
+      "mpn": "RC0603FR-0710KL",
+      "footprint": "R_0603_1608Metric",
+      "x": 18.0,
+      "y": 5.5,
+      "rotation": 0.0,
+      "side": "F",
+      "populate": true,
+      "pins": {
+        "1": "SIM_VDD",
+        "2": "SIM_IO"
+      }
+    },
+    {
+      "ref": "H4",
+      "value": "M2 clearance",
+      "mpn": "PCB feature",
+      "footprint": "MountingHole_2.2mm_M2",
+      "x": 61.0,
+      "y": 43.0,
+      "rotation": 0.0,
+      "side": "F",
+      "populate": false,
+      "pins": {
+        "": null
+      }
+    },
+    {
+      "ref": "TP9",
+      "value": "BAT",
+      "mpn": "PCB pad",
+      "footprint": "TestPoint_Pad_D1.0mm",
+      "x": 7.0,
+      "y": 41.0,
+      "rotation": 0.0,
+      "side": "F",
+      "populate": false,
+      "pins": {
+        "1": "BAT"
+      }
+    },
+    {
+      "ref": "H3",
+      "value": "M2 clearance",
+      "mpn": "PCB feature",
+      "footprint": "MountingHole_2.2mm_M2",
+      "x": 3.0,
+      "y": 43.0,
+      "rotation": 0.0,
+      "side": "F",
+      "populate": false,
+      "pins": {
+        "": null
+      }
+    },
+    {
+      "ref": "R11",
+      "value": "22",
+      "mpn": "RC0603FR-0722RL",
+      "footprint": "R_0603_1608Metric",
+      "x": 18.0,
+      "y": 15.0,
+      "rotation": 0.0,
+      "side": "F",
+      "populate": true,
+      "pins": {
+        "1": "SIM_RST_M",
+        "2": "SIM_RST"
+      }
+    },
+    {
+      "ref": "C17",
+      "value": "DNP tuning",
+      "mpn": "DNP tuning",
+      "footprint": "C_0603_1608Metric",
+      "x": 43.5,
+      "y": 5.0,
+      "rotation": 90.0,
+      "side": "F",
+      "populate": false,
+      "pins": {
+        "1": "LTE_FEED",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "R7",
+      "value": "100k",
+      "mpn": "RC0603FR-07100KL",
+      "footprint": "R_0603_1608Metric",
+      "x": 17.0,
+      "y": 30.0,
+      "rotation": 0.0,
+      "side": "F",
+      "populate": true,
+      "pins": {
+        "1": "SYS",
+        "2": "REG_EN"
+      }
+    },
+    {
+      "ref": "C20",
+      "value": "100nF",
+      "mpn": "GRM188R71C104KA01D",
+      "footprint": "C_0603_1608Metric",
+      "x": 16.0,
+      "y": 23.5,
+      "rotation": 0.0,
+      "side": "F",
+      "populate": true,
+      "pins": {
+        "1": "TS_SENSE",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "R20",
+      "value": "1M",
+      "mpn": "RC0603FR-071ML",
+      "footprint": "R_0603_1608Metric",
+      "x": 10.0,
+      "y": 16.5,
+      "rotation": 0.0,
+      "side": "F",
+      "populate": true,
+      "pins": {
+        "1": "TS_SENSE",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "U3",
+      "value": "TPS63070RNMR",
+      "mpn": "TPS63070RNMR",
+      "footprint": "TPS63070_RNM0015A",
+      "x": 17.0,
+      "y": 35.0,
+      "rotation": 0.0,
+      "side": "F",
+      "populate": true,
+      "pins": {
+        "1": "GND",
+        "2": null,
+        "3": "VAUX",
+        "4": "GND",
+        "5": "FB",
+        "6": null,
+        "7": "V_MODEM",
+        "8": "V_MODEM",
+        "9": "SW2",
+        "10": "GND",
+        "11": "SW1",
+        "12": "SYS",
+        "13": "SYS",
+        "14": "REG_EN",
+        "15": "GND"
+      }
+    },
+    {
+      "ref": "C16",
+      "value": "DNP tuning",
+      "mpn": "DNP tuning",
+      "footprint": "C_0603_1608Metric",
+      "x": 39.5,
+      "y": 5.0,
+      "rotation": 90.0,
+      "side": "F",
+      "populate": false,
+      "pins": {
+        "1": "LTE_IN",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "SW1",
+      "value": "POWER KEY",
+      "mpn": "SKQGAKE010",
+      "footprint": "SW_SPST_SKQG_WithoutStem",
+      "x": 9.0,
+      "y": 21.0,
+      "rotation": 0.0,
+      "side": "F",
+      "populate": true,
+      "pins": {
+        "1": "PWRKEY",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "C5",
+      "value": "100nF",
+      "mpn": "GRM188R71C104KA01D",
+      "footprint": "C_0603_1608Metric",
+      "x": 11.0,
+      "y": 42.0,
+      "rotation": 0.0,
+      "side": "F",
+      "populate": true,
+      "pins": {
+        "1": "SYS",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "D1",
+      "value": "ESD",
+      "mpn": "PESD5V0S1UL,315",
+      "footprint": "D_SOD-882",
+      "x": 51.0,
+      "y": 40.0,
+      "rotation": 0.0,
+      "side": "F",
+      "populate": true,
+      "pins": {
+        "": null,
+        "1": "USB_DP",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "H1",
+      "value": "M2 clearance",
+      "mpn": "PCB feature",
+      "footprint": "MountingHole_2.2mm_M2",
+      "x": 3.0,
+      "y": 3.0,
+      "rotation": 0.0,
+      "side": "F",
+      "populate": false,
+      "pins": {
+        "": null
+      }
+    },
+    {
+      "ref": "C18",
+      "value": "DNP tuning",
+      "mpn": "DNP tuning",
+      "footprint": "C_0603_1608Metric",
+      "x": 20.5,
+      "y": 7.0,
+      "rotation": 90.0,
+      "side": "F",
+      "populate": false,
+      "pins": {
+        "1": "GNSS_IN",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "D4",
+      "value": "ESD",
+      "mpn": "PESD3V3S1UL,315",
+      "footprint": "D_SOD-882",
+      "x": 22.0,
+      "y": 29.0,
+      "rotation": 0.0,
+      "side": "F",
+      "populate": true,
+      "pins": {
+        "": null,
+        "1": "SIM_RST",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "TP8",
+      "value": "REG_EN",
+      "mpn": "PCB pad",
+      "footprint": "TestPoint_Pad_D1.0mm",
+      "x": 4.0,
+      "y": 15.0,
+      "rotation": 0.0,
+      "side": "F",
+      "populate": false,
+      "pins": {
+        "1": "REG_EN"
+      }
+    },
+    {
+      "ref": "C9",
+      "value": "100nF",
+      "mpn": "GRM188R71C104KA01D",
+      "footprint": "C_0603_1608Metric",
+      "x": 25.0,
+      "y": 3.0,
+      "rotation": 0.0,
+      "side": "F",
+      "populate": true,
+      "pins": {
+        "1": "V_MODEM",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "D5",
+      "value": "ESD",
+      "mpn": "PESD3V3S1UL,315",
+      "footprint": "D_SOD-882",
+      "x": 24.0,
+      "y": 29.0,
+      "rotation": 0.0,
+      "side": "F",
+      "populate": true,
+      "pins": {
+        "": null,
+        "1": "SIM_CLK",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "Q1",
+      "value": "2N7002",
+      "mpn": "2N7002,215",
+      "footprint": "SOT-23",
+      "x": 52.0,
+      "y": 20.0,
+      "rotation": 0.0,
+      "side": "F",
+      "populate": true,
+      "pins": {
+        "1": "CHG_GATE",
+        "2": "GND",
+        "3": "CHG_DISABLE"
+      }
+    },
+    {
+      "ref": "C3",
+      "value": "22uF",
+      "mpn": "GRM21BR60J226ME39L",
+      "footprint": "C_0805_2012Metric",
+      "x": 42.0,
+      "y": 38.0,
+      "rotation": 0.0,
+      "side": "F",
+      "populate": true,
+      "pins": {
+        "1": "SYS",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "R18",
+      "value": "1k",
+      "mpn": "RC0603FR-071KL",
+      "footprint": "R_0603_1608Metric",
+      "x": 49.0,
+      "y": 23.0,
+      "rotation": 0.0,
+      "side": "F",
+      "populate": true,
+      "pins": {
+        "1": "CHG_CTRL",
+        "2": "CHG_GATE"
+      }
+    },
+    {
+      "ref": "D2",
+      "value": "ESD",
+      "mpn": "PESD5V0S1UL,315",
+      "footprint": "D_SOD-882",
+      "x": 49.0,
+      "y": 42.0,
+      "rotation": 0.0,
+      "side": "F",
+      "populate": true,
+      "pins": {
+        "": null,
+        "1": "USB_DM",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "C1",
+      "value": "4.7uF",
+      "mpn": "GRM188R61A475KE15D",
+      "footprint": "C_0603_1608Metric",
+      "x": 48.5,
+      "y": 32.0,
+      "rotation": 90.0,
+      "side": "F",
+      "populate": true,
+      "pins": {
+        "1": "VBUS",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "C8",
+      "value": "22uF",
+      "mpn": "GRM21BR60J226ME39L",
+      "footprint": "C_0805_2012Metric",
+      "x": 23.5,
+      "y": 39.0,
+      "rotation": 0.0,
+      "side": "F",
+      "populate": true,
+      "pins": {
+        "1": "V_MODEM",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "TP2",
+      "value": "USB_BOOT",
+      "mpn": "PCB pad",
+      "footprint": "TestPoint_Pad_D1.0mm",
+      "x": 33.0,
+      "y": 29.0,
+      "rotation": 0.0,
+      "side": "F",
+      "populate": false,
+      "pins": {
+        "1": "USB_BOOT"
+      }
+    },
+    {
+      "ref": "R10",
+      "value": "22",
+      "mpn": "RC0603FR-0722RL",
+      "footprint": "R_0603_1608Metric",
+      "x": 18.0,
+      "y": 13.0,
+      "rotation": 0.0,
+      "side": "F",
+      "populate": true,
+      "pins": {
+        "1": "SIM_IO_M",
+        "2": "SIM_IO"
+      }
+    },
+    {
+      "ref": "D3",
+      "value": "ESD",
+      "mpn": "PESD3V3S1UL,315",
+      "footprint": "D_SOD-882",
+      "x": 20.0,
+      "y": 29.0,
+      "rotation": 0.0,
+      "side": "F",
+      "populate": true,
+      "pins": {
+        "": null,
+        "1": "SIM_IO",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "C7",
+      "value": "22uF",
+      "mpn": "GRM21BR60J226ME39L",
+      "footprint": "C_0805_2012Metric",
+      "x": 23.5,
+      "y": 31.0,
+      "rotation": 0.0,
+      "side": "F",
+      "populate": true,
+      "pins": {
+        "1": "V_MODEM",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "R2",
+      "value": "5.1k",
+      "mpn": "RC0603FR-075K1L",
+      "footprint": "R_0603_1608Metric",
+      "x": 49.0,
+      "y": 27.0,
+      "rotation": 0.0,
+      "side": "F",
+      "populate": true,
+      "pins": {
+        "1": "CC2",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "TP3",
+      "value": "DBG_RX",
+      "mpn": "PCB pad",
+      "footprint": "TestPoint_Pad_D1.0mm",
+      "x": 38.0,
+      "y": 29.0,
+      "rotation": 0.0,
+      "side": "F",
+      "populate": false,
+      "pins": {
+        "1": "DBG_RX"
+      }
+    },
+    {
+      "ref": "J2",
+      "value": "Protected LiPo+NTC",
+      "mpn": "B3B-PH-SM4-TB(LF)(SN)",
+      "footprint": "JST_PH_B3B-PH-SM4-TB_1x03-1MP_P2.00mm_Vertical",
+      "x": 7.0,
+      "y": 35.0,
+      "rotation": 0.0,
+      "side": "F",
+      "populate": true,
+      "pins": {
+        "1": "BAT",
+        "2": "GND",
+        "3": "NTC",
+        "MP": "GND"
+      }
+    },
+    {
+      "ref": "R12",
+      "value": "22",
+      "mpn": "RC0603FR-0722RL",
+      "footprint": "R_0603_1608Metric",
+      "x": 18.0,
+      "y": 17.0,
+      "rotation": 0.0,
+      "side": "F",
+      "populate": true,
+      "pins": {
+        "1": "SIM_CLK_M",
+        "2": "SIM_CLK"
+      }
+    },
+    {
+      "ref": "R14",
+      "value": "0",
+      "mpn": "RC0603JR-070RL",
+      "footprint": "R_0603_1608Metric",
+      "x": 14.0,
+      "y": 17.0,
+      "rotation": 0.0,
+      "side": "F",
+      "populate": true,
+      "pins": {
+        "1": "GNSS_VDD",
+        "2": "GNSS_BIAS"
+      }
+    },
+    {
+      "ref": "C19",
+      "value": "DNP tuning",
+      "mpn": "DNP tuning",
+      "footprint": "C_0603_1608Metric",
+      "x": 12.0,
+      "y": 5.0,
+      "rotation": 90.0,
+      "side": "F",
+      "populate": false,
+      "pins": {
+        "1": "GNSS_FEED",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "TP6",
+      "value": "SYS",
+      "mpn": "PCB pad",
+      "footprint": "TestPoint_Pad_D1.0mm",
+      "x": 12.0,
+      "y": 44.0,
+      "rotation": 0.0,
+      "side": "F",
+      "populate": false,
+      "pins": {
+        "1": "SYS"
+      }
+    },
+    {
+      "ref": "SW2",
+      "value": "RESET",
+      "mpn": "SKQGAKE010",
+      "footprint": "SW_SPST_SKQG_WithoutStem",
+      "x": 9.0,
+      "y": 27.0,
+      "rotation": 0.0,
+      "side": "F",
+      "populate": true,
+      "pins": {
+        "1": "RESET_N",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "J4",
+      "value": "GNSS active",
+      "mpn": "U.FL-R-SMT-1(10)",
+      "footprint": "U.FL_Hirose_U.FL-R-SMT-1_Vertical",
+      "x": 14.0,
+      "y": 9.5,
+      "rotation": 180.0,
+      "side": "F",
+      "populate": true,
+      "pins": {
+        "1": "GNSS_FEED",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "C14",
+      "value": "100uF 6.3V",
+      "mpn": "T520B107M006ATE070",
+      "footprint": "CP_EIA-3528-21_Kemet-B",
+      "x": 32.0,
+      "y": 3.0,
+      "rotation": 0.0,
+      "side": "F",
+      "populate": true,
+      "pins": {
+        "1": "V_MODEM",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "R3",
+      "value": "2.55k",
+      "mpn": "RC0603FR-072K55L",
+      "footprint": "R_0603_1608Metric",
+      "x": 47.5,
+      "y": 38.0,
+      "rotation": 90.0,
+      "side": "F",
+      "populate": true,
+      "pins": {
+        "1": "ISET",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "C12",
+      "value": "100nF",
+      "mpn": "GRM188R71C104KA01D",
+      "footprint": "C_0603_1608Metric",
+      "x": 20.0,
+      "y": 26.5,
+      "rotation": 0.0,
+      "side": "F",
+      "populate": true,
+      "pins": {
+        "1": "SIM_VDD",
+        "2": "GND"
+      }
+    },
+    {
+      "ref": "TP5",
+      "value": "GND",
+      "mpn": "PCB pad",
+      "footprint": "TestPoint_Pad_D1.0mm",
+      "x": 30.0,
+      "y": 41.0,
+      "rotation": 0.0,
+      "side": "F",
+      "populate": false,
+      "pins": {
+        "1": "GND"
+      }
+    },
+    {
+      "ref": "TP7",
+      "value": "V_MODEM",
+      "mpn": "PCB pad",
+      "footprint": "TestPoint_Pad_D1.0mm",
+      "x": 26.0,
+      "y": 41.0,
+      "rotation": 0.0,
+      "side": "F",
+      "populate": false,
+      "pins": {
+        "1": "V_MODEM"
+      }
+    },
+    {
+      "ref": "U2",
+      "value": "BQ24074RGTR",
+      "mpn": "BQ24074RGTR",
+      "footprint": "WQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm",
+      "x": 45.0,
+      "y": 35.0,
+      "rotation": 0.0,
+      "side": "F",
+      "populate": true,
+      "pins": {
+        "": null,
+        "1": "NTC",
+        "2": "BAT",
+        "3": "BAT",
+        "4": "CHG_DISABLE",
+        "5": "GND",
+        "6": "VBUS",
+        "7": null,
+        "8": "GND",
+        "9": null,
+        "10": "SYS",
+        "11": "SYS",
+        "12": "ILIM",
+        "13": "VBUS",
+        "14": null,
+        "15": null,
+        "16": "ISET",
+        "17": "GND"
+      }
+    },
+    {
+      "ref": "J5",
+      "value": "nanoSIM",
+      "mpn": "NSIM-2-C",
+      "footprint": "nanoSIM_Hinged_CUI_NSIM-2-C",
+      "x": 47.0,
+      "y": 16.0,
+      "rotation": 180.0,
+      "side": "B",
+      "populate": true,
+      "pins": {
+        "1": "SIM_VDD",
+        "2": "SIM_RST",
+        "3": "SIM_CLK",
+        "5": "GND",
+        "6": null,
+        "7": "SIM_IO",
+        "CD": null,
+        "SH": "GND"
+      }
+    }
+  ]
+}
