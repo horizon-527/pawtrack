@@ -41,7 +41,7 @@
     "enclosure/lid-print.stl": "d82345f0c6cd616fe3d6bfb3e4d9e34d2c5ada5f38b4e09a965bb2c8226e6bd8",
     "enclosure/mechanical-check.json": "82f54603ef43134478d710aed5bd4d81752d29e5cd553cf9050a512c70d8072c",
     "enclosure/preview.py": "b793de524be6b08f40b0563d7056a1bcfbebab7b80bdedc88427a704ace7cc11",
-    "factory-handoff.md": "b336b680b110a5c73f14aa8c3c6ee83fae61a237fe1ad47c4af650f03bf2bf54",
+    "factory-handoff.md": "68a27038352137a7e265c6e3ba2cc92f7d994a024e89afc4b162effa2b82f0e5",
     "firmware/README.md": "0837c3cd3d5d9743e59251ba58c68efc01a99f29e653e7fe08e547e370decdc8",
     "firmware/config.example.lua": "d4f365a665b3b391fcff395cbdb4ace39b6bb0197857ea4cf344ecb318ec1e09",
     "firmware/factory_diag.lua": "49b0ffc3832620b98de1fd1cc9c9cb0bd0b2ba7e774d46d5a9afba9bab336d77",
