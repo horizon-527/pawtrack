@@ -11,7 +11,16 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+      - run: pip install -r requirements.lock.txt
       - run: python -m unittest discover -s tests
       - run: node --check miniprogram/pages/index/index.js
       - run: node tests/test_location.js
       - run: node tests/test_miniprogram.js
+      - run: node tests/test_v1_miniprogram.js
+      - run: gcc -Wall -Wextra -Werror -Ifirmware/espidf/main firmware/espidf/main/tracker_core.c tests/test_tracker_core.c -lm -o /tmp/test_tracker_core && /tmp/test_tracker_core
+  firmware:
+    runs-on: ubuntu-latest
+    container: espressif/idf:v5.4.2
+    steps:
+      - uses: actions/checkout@v4
+      - run: . /opt/esp/idf/export.sh && cd firmware/espidf && idf.py set-target esp32s3 && idf.py build

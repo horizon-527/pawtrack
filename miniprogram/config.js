@@ -1,2 +1,7 @@
-// Local prototype only. This viewer token must be replaced by a user session before release.
-module.exports = {apiBase: 'http://127.0.0.1:8787', viewerToken: 'local-viewer', refreshMs: 5000};
+module.exports = {
+  apiBase: 'http://127.0.0.1:8788',
+  refreshMs: 5000,
+  // v1 is the authenticated app. prototype is only for the earlier localhost demo service.
+  apiMode: 'v1',
+  viewerToken: 'local-viewer'
+};

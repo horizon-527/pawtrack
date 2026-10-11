@@ -1,0 +1,10 @@
+{$PAWTRACK_DOMAIN} {
+    request_body {
+        max_size 8KB
+    }
+    header {
+        X-Content-Type-Options nosniff
+        Referrer-Policy no-referrer
+    }
+    reverse_proxy api:8788
+}

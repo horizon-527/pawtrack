@@ -1,5 +1,6 @@
 const assert = require('assert');
 let page;
+require('../miniprogram/config').apiMode = 'prototype';
 global.Page = definition => { page = definition; };
 global.wx = {request: () => { throw new Error('unexpected network call'); }};
 require('../miniprogram/pages/index/index');

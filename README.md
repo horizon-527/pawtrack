@@ -1,23 +1,42 @@
 # PawTrack
-宠物独立联网定位器与微信小程序。当前为本地开发原型，未连接实体硬件、未部署、未进行微信真机验收。
 
-## 本地体验
-1. `python3 server/app.py` 启动仅监听本机的开发服务。
-2. `python3 tools/simulate.py` 持续上传模拟轨迹。
-3. 微信开发者工具导入 `miniprogram/`，使用自己的测试 AppID；本地调试关闭合法域名校验。打开小程序首页，默认模拟模式可直接看演示，关闭模拟开关后连接本地服务。
-4. `node tests/test_location.js` 验证地图转换与轨迹缺口。
-5. `python3 -m unittest discover -s tests` 验证接口。
+宠物独立联网定位器 + 微信小程序。目标：项圈设备获取 GNSS 位置，通过 4G 回传，主人在微信中查看位置和运动轨迹。
 
-本地 API 的开发令牌是 `local-viewer` / `local-device`，只用于本地。禁止直接对公网开放此服务。手机真机无法使用电脑的 127.0.0.1。
+**当前状态：软件与可编译硬件原型已建立；尚未完成实体板定位、真实微信登录、公网部署及佩戴验收。**
 
-## 文档
-- [产品与实施计划](docs/plan.md)
-- [硬件采购与测试](hardware/README.md)
-- [接口协议](docs/protocol.md)
-- [正式上线清单](docs/release.md)
+## 已实现
+- 微信小程序地图、实时刷新、按日期查询轨迹、坐标转换、轨迹缺口分段。
+- 微信登录接口、设备绑定、用户设备隔离、在线/定位过期状态、寻找模式请求与设备确认。
+- FastAPI + SQLite 服务，独立设备密钥、一次性绑定码、会话过期/撤销、限流、数据删除与30天保留。
+- ESP-IDF v5.4.2 固件：SIM7670G AT通信、GNSS读取、HTTPS上传、NVS缓存、模式心跳；ESP32-S3构建通过。
+- 设备模拟器、GNSS日志回放、设备初始化、备份恢复工具、Docker/Caddy配置、CI。
 
-当前完成：本地数据接收、SQLite 存储、最新位置、最近 24 小时轨迹、小程序原型、模拟设备、自动化测试。
-待完成：真实设备固件、实测续航、微信登录与绑定、线上部署、坐标转换实地验收、项圈结构与真机验收。
+## 先体验小程序
+微信开发者工具导入 `miniprogram/`。默认使用游客 AppID 和模拟路线，明确标记演示数据。演示无需真实硬件、服务器或微信登录。
+正式接入必须替换 AppID 和 HTTPS 服务地址；项目未使用其他项目的 AppID 或密钥。
 
-## 本轮增强
-支持 bootId 与序号联合去重、冲突重传拒绝、WGS84 地图转换、轨迹缺口断线、持久化模拟器断网重传。配置小程序服务地址见 `miniprogram/config.js`；服务令牌可通过 PAWTRACK_DEVICE_TOKEN / PAWTRACK_VIEWER_TOKEN 环境变量设置。
+## 本地运行与验证
+```sh
+python3 -m venv work/venv
+work/venv/bin/pip install -r requirements.lock.txt
+work/venv/bin/python tools/check.py
+work/venv/bin/uvicorn server.production:create_app --factory --host 127.0.0.1 --port 8788 --no-access-log
+```
+不配置真实微信密钥时，登录返回“尚未配置”，不会伪造用户身份。接口测试使用隔离的微信响应替身，不代表真实微信认证通过。
+
+## 文档入口
+- [实施与验收计划](docs/plan.md)
+- [硬件采购路线](hardware/README.md)
+- [固件配置与烧录](firmware/espidf/README.md)
+- [服务部署和备份](deploy/README.md)
+- [API v1](docs/api-v1.md)
+- [测试记录与待办](docs/verification.md)
+- [上线门槛](docs/release.md)
+- [开源许可](THIRD_PARTY.md)
+
+## 原始本地原型
+`python3 server/app.py`（8787）与 `python3 tools/simulate.py` 为早期本机开发原型；仅监听本机，固定开发令牌，不可公网部署。它的数据库与 v1 独立。
+小程序 `config.js` 可切换 apiMode=prototype 且 apiBase 改为8787进行旧版联调；正式流程保持v1。
+
+## 完成产品仍需的外部条件
+实体开发板与SIM；小程序AppID/Secret；可部署的服务器/域名；实际定位、TLS证书验证、功耗及佩戴测试。开发板用于桌面验证，不能直接作为宠物项圈成品。

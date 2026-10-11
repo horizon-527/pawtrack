@@ -1,0 +1,20 @@
+menu "PawTrack hardware configuration"
+config PAWTRACK_API_BASE
+    string "HTTPS API base URL without trailing slash"
+    default "https://configure-before-flashing.invalid"
+config PAWTRACK_DEVICE_TOKEN
+    string "Unique provisioned device token (never share or commit sdkconfig)"
+    default ""
+config PAWTRACK_APN
+    string "Operator APN"
+    default ""
+config PAWTRACK_CA_FILE
+    string "Trusted CA filename already installed in modem"
+    default "pawtrack-ca.pem"
+config PAWTRACK_RX_PIN
+    int "ESP UART receive pin"
+    default 17
+config PAWTRACK_TX_PIN
+    int "ESP UART transmit pin"
+    default 18
+endmenu

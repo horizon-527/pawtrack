@@ -1,1 +1,20 @@
-<view class="page"><view class="title">PawTrack · 宠物定位</view><view class="row"><text>模拟数据演示</text><switch checked="{{demo}}" bindchange="toggleDemo" /></view><view class="notice">{{status}}</view><map latitude="{{latitude}}" longitude="{{longitude}}" scale="16" markers="{{markers}}" polyline="{{polyline}}" style="width:100%;height:58vh"/><view class="card"><view>电量：{{battery}}%</view><view>位置采集：{{updated}}</view><view>最近 24 小时：{{count}} 个轨迹点</view></view><button bindtap="refresh">刷新位置</button></view>
+<view class="page">
+  <view class="title">PawTrack</view><view class="subtitle">陪伴每一次出发</view>
+  <view class="row"><text>体验演示</text><switch checked="{{demo}}" bindchange="toggleDemo" color="#245a3c" /></view>
+  <view wx:if="{{demo}}" class="notice">当前为模拟路线，未连接宠物设备</view>
+  <view wx:if="{{!demo && !loggedIn}}" class="card">
+    <view>登录后查看你的宠物位置</view><view class="small">设备会上传位置和轨迹。请先阅读隐私说明。</view>
+    <button bindtap="showPrivacy" class="secondary">查看隐私说明</button>
+    <button bindtap="login" loading="{{busy}}" disabled="{{busy}}">微信登录</button>
+  </view>
+  <view wx:if="{{!demo && loggedIn}}">
+    <picker wx:if="{{devices.length}}" range="{{devices}}" range-key="name" value="{{deviceIndex}}" bindchange="selectDevice"><view class="card row"><text>{{petName}}</text><text>切换宠物 ›</text></view></picker>
+    <view class="card" wx:if="{{!devices.length}}"><view>添加宠物定位器</view><input placeholder="宠物名字" value="{{bindingName}}" bindinput="nameInput" maxlength="30"/><input placeholder="设备绑定码" value="{{bindingCode}}" bindinput="bindingInput" maxlength="128"/><button bindtap="bindDevice" loading="{{busy}}" disabled="{{busy}}">绑定设备</button></view>
+  </view>
+  <view class="notice">{{status}}</view>
+  <map latitude="{{latitude}}" longitude="{{longitude}}" scale="16" markers="{{markers}}" polyline="{{polyline}}" style="width:100%;height:48vh"/>
+  <view class="card"><view class="row"><text>{{petName}}</text><text wx:if="{{!demo}}">{{online ? '设备在线' : '设备离线'}}</text></view><view>电量：{{battery}}%</view><view>位置采集：{{updated}}</view><view>轨迹：{{count}} 个位置点</view><picker wx:if="{{!demo}}" mode="date" value="{{date}}" end="{{maxDate}}" bindchange="selectDate"><view class="date">查看 {{date}} 的轨迹 ›</view></picker></view>
+  <view wx:if="{{!demo && loggedIn && deviceId}}" class="card"><view>{{modeText}}</view><view class="small">寻找模式目标每 10 秒上报，实际延迟取决于设备、定位和网络。</view><button data-mode="finding" bindtap="setMode" disabled="{{busy}}">开启寻找模式</button><button class="secondary" data-mode="normal" bindtap="setMode" disabled="{{busy}}">恢复普通模式</button></view>
+  <button bindtap="refresh">刷新位置</button>
+  <view class="footer"><text bindtap="showPrivacy">隐私说明</text><text wx:if="{{loggedIn}}" bindtap="logout">退出登录</text><text wx:if="{{loggedIn}}" bindtap="deleteAccount">删除账户</text></view>
+</view>

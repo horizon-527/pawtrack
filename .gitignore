@@ -6,3 +6,11 @@ __pycache__/
 !.env.example
 project.private.config.json
 work/
+
+*.sqlite3-*
+data/
+secrets/
+backups/
+firmware/espidf/build/
+firmware/espidf/sdkconfig
+firmware/espidf/sdkconfig.old

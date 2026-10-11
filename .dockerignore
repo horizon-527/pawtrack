@@ -1,0 +1,6 @@
+.git
+work
+**/__pycache__
+**/*.sqlite3*
+.env*
+!requirements.lock.txt
