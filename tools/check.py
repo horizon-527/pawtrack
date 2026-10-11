@@ -15,5 +15,8 @@ if compiler is None: raise SystemExit('C compiler required for firmware core ver
 subprocess.run([compiler,'-Wall','-Wextra','-Werror','-Ifirmware/espidf/main','firmware/espidf/main/tracker_core.c',
                 'tests/test_tracker_core.c','-lm','-o','work/test_tracker_core'],cwd=root,check=True)
 subprocess.run([str(root/'work/test_tracker_core')],check=True)
-subprocess.run(['git','diff','--check'],cwd=root,check=True)
+if shutil.which('git'):
+    checkout=subprocess.run(['git','rev-parse','--show-toplevel'],cwd=root,capture_output=True,text=True)
+    if checkout.returncode==0 and Path(checkout.stdout.strip()).resolve()==root:
+        subprocess.run(['git','diff','--check'],cwd=root,check=True)
 print('All local checks passed. Entity hardware, WeChat auth and public deployment still need external verification.')
