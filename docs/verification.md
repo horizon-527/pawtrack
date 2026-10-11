@@ -26,6 +26,6 @@ CI包含软件测试、ESP-IDF构建、部署镜像/备份恢复/网关配置；
 ## 远程验证结果
 运行代码提交 `0af5625bb8f1107e5ad72d5386d72081fe3afeb0` 的软件测试、ESP32-S3固件构建和部署容器检查全部成功：
 [GitHub Actions完整结果](https://github.com/horizon-527/pawtrack/actions/runs/38113926025)。
-生产镜像SQLite为3.53.0，编译前验证官方sqlite3.c的SHA3；CI实际验证其版本、非root服务启动、在线备份与只读恢复。Compose与Caddy配置检查成功。之后只补充交付验证文档，运行代码未改动。
+生产镜像SQLite为3.53.0，编译前验证官方sqlite3.c的SHA3；CI实际验证其版本、非root服务启动、在线备份与只读恢复。Compose与Caddy配置检查成功。运行代码未改动；后续交付、采购与验证文档更新不改变上述测试对应的代码。
 
 精准电量、休眠续航、量产PCB/外壳、防水与宠物佩戴未完成，不能称为商业项圈已交付。实际步骤和通过标准见[43项验收表](acceptance.md)。

@@ -20,7 +20,7 @@ work/venv/bin/python tools/check.py
 
 ## 2. 采购并准备账号
 
-按 [采购与组装](../hardware/procurement-and-assembly.md) 买一块完整 V2 开发板、匹配天线、数据 USB 线、稳定 USB 电源、经确认兼容的数据 SIM。不要买成裸 SIM7670G 模块，也不必购买单独 GNSS 板、ESP32 或摄像头。
+按 [国内采购与组装](../hardware/procurement-and-assembly.md) 从微雪国内官方渠道买一套完整 V2 开发板和匹配天线，补齐数据 USB 线、稳定 USB 电源、测试用移动电源及经确认兼容的实名数据 SIM。不要买成裸 SIM7670G 模块，也不必购买单独 GNSS 板、ESP32 或摄像头。
 
 同时准备微信小程序账号和一台公网服务器：
 

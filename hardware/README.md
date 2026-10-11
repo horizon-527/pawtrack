@@ -1,8 +1,8 @@
 # 硬件路线
-[完整采购、到货检查、组装、CA与电池/外壳说明](procurement-and-assembly.md)
+[国内采购、到货检查、组装、CA与电池/外壳说明](procurement-and-assembly.md)
 推荐桌面原型候选：Waveshare ESP32-S3-SIM7670G-4G，官方介绍包含 GNSS 与 LTE Cat-1。
 资料：https://docs.waveshare.net/ESP32-S3-SIM7670G-4G/
-商品：https://www.waveshare.com/product/iot-communication/esp32-s3-sim7670g-4g.htm
+国内采购：微雪中文资料所指向的天猫旗舰店 https://weixuesm.tmall.com/ ，或国内商城 https://www.waveshare.net/ 。搜完整型号，套装与版本下单前核对。
 
 这是一块用于开发和验证的板子，不是已可佩戴的成品项圈。购买前必须按当前版本确认：模块频段与国内运营商适配、GNSS 是否实际装配、天线是否包含、供电要求、板尺寸及电池接口。资料充分不代表已实测适配。
 
